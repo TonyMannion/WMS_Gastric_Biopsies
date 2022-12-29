@@ -1,0 +1,6 @@
+#diamond v2.0.11.149
+#NCBI nr database as of Aug  7  2021
+diamond blastp -d nr.dmnd -q merged_protein.fasta -o merged_diamond_best_hit_out.txt -f 6 qseqid qlen sseqid slen qseq sseq evalue bitscore pident qcovhsp salltitles -k 1
+
+#interproscan-5.52-86.0
+./interproscan.sh -i /home/dcm/merged_protein.fasta -dp -b /home/dcm/merged_protein_interproscan_out -f tsv -cpu 90 -pa -goterms -iprlookup
