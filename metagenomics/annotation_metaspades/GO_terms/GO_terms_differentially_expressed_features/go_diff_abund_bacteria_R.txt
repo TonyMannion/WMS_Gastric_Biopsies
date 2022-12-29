@@ -1,0 +1,91 @@
+library('BiocManager')
+library("ggpubr")
+library("limma")
+library("vegan")
+library(tidyverse)
+library(phyloseq); packageVersion("phyloseq")
+library(microbiome)
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+dir.create("go_table")
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########raw reads##########
+
+#' script to convert the output of a metaphlan_taxonomic_table_joined.tsv object to a otu_table + tax_table object
+#' 
+#' 
+#' @param phyloseq object 
+#' @param 
+#' @export
+#' @examples
+#' mtph_tbru_phy <- metaphlanToPhyloseq(tax = mtph_tbru, split = "|")
+metaphlanToPhyloseq <- function(
+  tax,
+  metadat=NULL,
+  simplenames=TRUE,
+  roundtointeger=FALSE,
+  split="|"){
+  ## tax is a matrix or data.frame with the table of taxonomic abundances, rows are taxa, columns are samples
+  ## metadat is an optional data.frame of specimen metadata, rows are samples, columns are variables
+  ## if simplenames=TRUE, use only the most detailed level of taxa names in the final object
+  ## if roundtointeger=TRUE, values will be rounded to the nearest integer
+  xnames = rownames(tax)
+  shortnames = gsub(paste0(".+\\", split), "", xnames)
+  if(simplenames){
+    rownames(tax) = shortnames
+  }
+  if(roundtointeger){
+    tax = round(tax * 1e4)
+  }
+  x2 = strsplit(xnames, split=split, fixed=TRUE)
+  taxmat = matrix(NA, ncol=max(sapply(x2, length)), nrow=length(x2))
+  colnames(taxmat) = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")[1:ncol(taxmat)]
+  rownames(taxmat) = rownames(tax)
+  for (i in 1:nrow(taxmat)){
+    taxmat[i, 1:length(x2[[i]])] <- x2[[i]]
+  }
+  taxmat = gsub("[a-z]__", "", taxmat)
+  taxmat = phyloseq::tax_table(taxmat)
+  otutab = phyloseq::otu_table(tax, taxa_are_rows=TRUE)
+  if(is.null(metadat)){
+    res = phyloseq::phyloseq(taxmat, otutab)
+  }else{
+    res = phyloseq::phyloseq(taxmat, otutab, phyloseq::sample_data(metadat))
+  }
+  return(res)
+}
+#end of script
+
+
+#load mpa data and metadata tables
+mphlanin <- read.csv("go_table.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+phyloseqin= metaphlanToPhyloseq(mphlanin, metadat = metadata)
+
+
+phyloseqin <- microbiome::transform(phyloseqin, "compositional")
+goodTaxa = c("xanthine phosphoribosyltransferase activity (GO:0000310)","ossification (GO:0001503)","selenocysteine incorporation (GO:0001514)","5-deoxynucleotidase activity (GO:0002953)","chromatin binding (GO:0003682)","1,4-alpha-glucan branching enzyme activity (GO:0003844)","3-deoxy-7-phosphoheptulonate synthase activity (GO:0003849)","3-beta-hydroxy-delta5-steroid dehydrogenase activity (GO:0003854)","acetyl-CoA carboxylase activity (GO:0003989)","argininosuccinate lyase activity (GO:0004056)","catalase activity (GO:0004096)","L-seryl-tRNASec selenium transferase activity (GO:0004125)","ATP-dependent peptidase activity (GO:0004176)","metalloendopeptidase activity (GO:0004222)","glucose-6-phosphate isomerase activity (GO:0004347)","glutamate-cysteine ligase activity (GO:0004357)","mannose-6-phosphate isomerase activity (GO:0004476)","methylmalonate-semialdehyde dehydrogenase (acylating) activity (GO:0004491)","oxoglutarate dehydrogenase (succinyl-transferring) activity (GO:0004591)","phosphoenolpyruvate carboxykinase (GTP) activity (GO:0004613)","phosphoglycerate kinase activity (GO:0004618)","phosphoribosylformylglycinamidine synthase activity (GO:0004642)","pyruvate dehydrogenase (acetyl-transferring) activity (GO:0004739)","alanine-tRNA ligase activity (GO:0004813)","arginine-tRNA ligase activity (GO:0004814)","threonine-tRNA ligase activity (GO:0004829)","iron ion binding (GO:0005506)","extracellular region (GO:0005576)","glucose metabolic process (GO:0006006)","acetyl-CoA biosynthetic process from pyruvate (GO:0006086)","dGTP catabolic process (GO:0006203)","de novo pyrimidine nucleobase biosynthetic process (GO:0006207)","UMP biosynthetic process (GO:0006222)","plasmid maintenance (GO:0006276)","mismatch repair (GO:0006298)","DNA methylation (GO:0006306)","chromatin organization (GO:0006325)","tRNA modification (GO:0006400)","mRNA catabolic process (GO:0006402)","alanyl-tRNA aminoacylation (GO:0006419)","arginyl-tRNA aminoacylation (GO:0006420)","threonyl-tRNA aminoacylation (GO:0006435)","protein folding (GO:0006457)","proline catabolic process (GO:0006562)","lipid metabolic process (GO:0006629)","steroid biosynthetic process (GO:0006694)","glutathione biosynthetic process (GO:0006750)","cobalt ion transport (GO:0006824)","cellular response to DNA damage stimulus (GO:0006974)","response to oxidative stress (GO:0006979)","plasma membrane organization (GO:0007009)","N-acetyltransferase activity (GO:0008080)","N-methyltransferase activity (GO:0008170)","ferrous iron binding (GO:0008198)","dipeptidyl-peptidase activity (GO:0008239)","isoprenoid biosynthetic process (GO:0008299)","N-acetylglucosamine-6-phosphate deacetylase activity (GO:0008448)","penicillin binding (GO:0008658)","DNA-3-methyladenine glycosylase activity (GO:0008725)","UDP-N-acetylglucosamine 2-epimerase activity (GO:0008761)","[protein-PII] uridylyltransferase activity (GO:0008773)","carbamate kinase activity (GO:0008804)","cob(I)yrinic acid a,c-diamide adenosyltransferase activity (GO:0008817)","cobalamin 5-phosphate synthase activity (GO:0008818)","dGTPase activity (GO:0008832)","diaminohydroxyphosphoribosylaminopyrimidine deaminase activity (GO:0008835)","formate dehydrogenase (NAD+) activity (GO:0008863)","glucose-1-phosphate adenylyltransferase activity (GO:0008878)","glucose-1-phosphate thymidylyltransferase activity (GO:0008879)","glycolate oxidase activity (GO:0008891)","1,4-dihydroxy-2-naphthoyl-CoA synthase activity (GO:0008935)","nitrate reductase activity (GO:0008940)","thiamine-phosphate kinase activity (GO:0009030)","urease activity (GO:0009039)","xylose isomerase activity (GO:0009045)","aromatic amino acid family biosynthetic process (GO:0009073)","lysine biosynthetic process via diaminopimelate (GO:0009089)","lipopolysaccharide biosynthetic process (GO:0009103)","nucleotide catabolic process (GO:0009166)","protein lipoylation (GO:0009249)","acetyl-CoA carboxylase complex (GO:0009317)","nitrate reductase complex (GO:0009325)","glycolate oxidase complex (GO:0009339)","cytochrome bo3 ubiquinol oxidase activity (GO:0009486)","pyrophosphate hydrolysis-driven proton transmembrane transporter activity (GO:0009678)","FMN binding (GO:0010181)","protein transport (GO:0015031)","disulfide oxidoreductase activity (GO:0015036)","cobalt ion transmembrane transporter activity (GO:0015087)","magnesium ion transmembrane transporter activity (GO:0015095)","nitrate transmembrane transporter activity (GO:0015112)","lactate transmembrane transporter activity (GO:0015129)","magnesium ion transport (GO:0015693)","lactate transport (GO:0015727)","electron transport coupled proton transport (GO:0015990)","membrane (GO:0016020)","terpenoid biosynthetic process (GO:0016114)","nickel cation binding (GO:0016151)","urocanate hydratase activity (GO:0016153)","iron-sulfur cluster assembly (GO:0016226)","kinase activity (GO:0016301)","acetyltransferase activity (GO:0016407)","oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor (GO:0016624)","oxidoreductase activity, acting on NAD(P)H (GO:0016651)","oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen (GO:0016702)","pentosyltransferase activity (GO:0016763)","phosphotransferase activity, carboxyl group as acceptor (GO:0016774)","carboxy-lyase activity (GO:0016831)","protein-DNA covalent cross-linking (GO:0018142)","L-lysine catabolic process to acetate (GO:0019475)","anaerobic glutamate catabolic process (GO:0019670)","rRNA binding (GO:0019843)","transmembrane transporter activity (GO:0022857)","molybdenum ion binding (GO:0030151)","outer membrane-bounded periplasmic space (GO:0030288)","polyketide metabolic process (GO:0030638)","mismatched DNA binding (GO:0030983)","high-affinity iron permease complex (GO:0033573)","lipoyl(octanoyl) transferase activity (GO:0033819)","oligopeptide transmembrane transporter activity (GO:0035673)","cobyrinic acid a,c-diamide synthase activity (GO:0042242)","arginine biosynthetic process via ornithine (GO:0042450)","poly-hydroxybutyrate biosynthetic process (GO:0042619)","ATP synthesis coupled electron transport (GO:0042773)","[formate-C-acetyltransferase]-activating enzyme activity (GO:0043365)","extracellular polysaccharide biosynthetic process (GO:0045226)","nor-spermidine biosynthetic process (GO:0045312)","negative regulation of transcription, DNA-templated (GO:0045892)","protein-disulfide reductase (NAD(P)) activity (GO:0047134)","tetrahydrodipicolinate N-acetyltransferase activity (GO:0047200)","methylaspartate mutase activity (GO:0050097)","NADP binding (GO:0050661)","adenosylcobinamide-GDP ribazoletransferase activity (GO:0051073)","unfolded protein binding (GO:0051082)","defense response to virus (GO:0051607)","regulation of cell cycle (GO:0051726)","ADP-dependent NAD(P)H-hydrate dehydratase activity (GO:0052855)","transmembrane transport (GO:0055085)","metalloaminopeptidase activity (GO:0070006)","carbohydrate derivative binding (GO:0097367)","carbohydrate derivative metabolic process (GO:1901135)","regulation of cell septum assembly (GO:1901891)")
+
+phyloseqin <- prune_taxa(goodTaxa, phyloseqin)
+
+#Bar plot raw reads at top 10 genus
+TopNOTUs <- names(sort(taxa_sums(phyloseqin), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin)
+plot_bar(Top10, fill = 'Kingdom', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('go_table/diff_abundant_genus_bar_Hp_Status_box_bar.tiff' , width=7, height=7, units=c("in"))
+
+phyloseq::psmelt(phyloseqin) %>%
+ggplot(data = ., aes(x = Hp_Status, y = Abundance)) +
+  geom_boxplot(outlier.shape  = NA) +
+  geom_jitter(aes(color = OTU), height = 0, width = .2) +
+  labs(x = "", y = "Abundance\n") +
+  facet_wrap(~ OTU, scales = "free_y")+
+  theme(axis.text.x = element_text(angle = 90),legend.position = "none")
+ggsave('go_table/diff_abundant_genus_bar_Hp_Status_box.tiff' , width=49, height=49, units=c("in"))

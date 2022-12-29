@@ -1,0 +1,1203 @@
+GO	X210222Fox_D21.2140	X210222Fox_D21.2141	X210222Fox_D21.2142	X210222Fox_D21.2143	X210222Fox_D21.2144	X210222Fox_D21.2145	X210222Fox_D21.2146	X210222Fox_D21.2147	X210713Fox_D21.6682	X210713Fox_D21.6683	X210713Fox_D21.6684	X210713Fox_D21.6685	X210713Fox_D21.6686	X210713Fox_D21.6687	X210713Fox_D21.6688	X210713Fox_D21.6689	X210713Fox_D21.6690	X210713Fox_D21.6691	X210713Fox_D21.6692	X210713Fox_D21.6693
+mitochondrial genome maintenance (GO:0000002)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+phosphopyruvate hydratase complex (GO:0000015)	0	0	0	0	0	0	1	0	0	0	12	3	5	0	8	16	4	12	4	12
+tRNA binding (GO:0000049)	0	0	4	0	0	0	0	2	0	0	13	1	11	1	9	14	10	13	6	13
+regulation of transcription involved in G1/S transition of mitotic cell cycle (GO:0000083)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+sulfate assimilation (GO:0000103)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+histidine biosynthetic process (GO:0000105)	0	1	0	0	0	0	0	0	0	0	0	0	3	2	1	1	0	0	0	3
+Golgi membrane (GO:0000139)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA strand exchange activity (GO:0000150)	4	2	0	0	0	0	7	0	0	0	0	4	0	0	6	3	0	6	5	6
+rRNA modification (GO:0000154)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	1	2	1	2	0	2
+phosphorelay sensor kinase activity (GO:0000155)	0	9	20	0	0	0	6	0	0	0	9	4	9	0	12	24	13	13	2	13
+phosphorelay signal transduction system (GO:0000160)	2	16	9	0	0	0	15	5	0	0	46	6	51	0	33	49	42	49	14	48
+tryptophan biosynthetic process (GO:0000162)	0	0	0	1	0	0	1	1	0	0	3	2	4	0	5	4	4	5	1	5
+nucleotide binding (GO:0000166)	0	11	30	6	0	1	31	36	0	0	158	40	165	11	128	163	117	164	31	165
+rRNA (adenine-N6,N6-)-dimethyltransferase activity (GO:0000179)	0	0	0	0	0	0	0	0	0	0	4	0	4	0	1	4	1	4	0	4
+nuclear-transcribed mRNA catabolic process, nonsense-mediated decay (GO:0000184)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+spliceosomal complex assembly (GO:0000245)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+lanosterol synthase activity (GO:0000250)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+polysaccharide biosynthetic process (GO:0000271)	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+alanine dehydrogenase activity (GO:0000286)	0	0	0	0	0	0	1	1	0	0	2	0	2	0	2	2	2	2	1	4
+magnesium ion binding (GO:0000287)	0	9	3	0	0	0	12	13	0	0	44	8	40	1	38	54	33	57	8	57
+xanthine phosphoribosyltransferase activity (GO:0000310)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+mRNA splicing, via spliceosome (GO:0000398)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+protein peptidyl-prolyl isomerization (GO:0000413)	0	0	0	0	0	0	0	0	0	0	7	0	0	0	6	7	7	7	6	7
+box C/D snoRNP assembly (GO:0000492)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+mismatch base pair DNA N-glycosylase activity (GO:0000700)	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+conjugation (GO:0000746)	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+adenyl-nucleotide exchange factor activity (GO:0000774)	0	0	0	0	0	0	0	0	0	0	9	0	6	0	6	9	6	9	4	9
+cell morphogenesis (GO:0000902)	0	0	0	0	0	0	2	3	0	0	13	2	8	0	6	13	6	13	0	13
+6,7-dimethyl-8-ribityllumazine synthase activity (GO:0000906)	0	0	0	0	0	0	0	0	0	0	4	0	3	0	4	4	3	4	3	4
+DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA-binding transcription activator activity (GO:0001216)	0	0	0	0	0	0	1	5	0	0	9	0	2	0	6	2	2	12	2	9
+ossification (GO:0001503)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0
+RNA methylation (GO:0001510)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+selenocysteine incorporation (GO:0001514)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1
+pseudouridine synthesis (GO:0001522)	0	0	1	0	0	0	2	1	0	2	30	7	31	0	28	32	19	33	11	31
+lipopolysaccharide binding (GO:0001530)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	1	0	1
+cornified envelope (GO:0001533)	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cellular glucose homeostasis (GO:0001678)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tRNA wobble uridine modification (GO:0002098)	0	1	2	0	0	0	1	0	0	0	6	0	8	0	3	7	5	9	1	9
+aminoacyl-tRNA editing activity (GO:0002161)	0	0	3	0	0	0	5	0	0	0	10	2	13	3	10	11	9	7	0	7
+tRNA threonylcarbamoyladenosine modification (GO:0002949)	0	0	0	0	0	0	0	2	0	0	5	0	2	0	4	5	3	6	1	5
+5'-deoxynucleotidase activity (GO:0002953)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+amino acid transmembrane transport (GO:0003333)	0	0	0	0	0	0	1	0	0	0	2	1	1	0	2	2	2	2	0	2
+nucleic acid binding (GO:0003676)	1	19	9	1	1	0	16	25	2	2	71	11	66	1	59	69	54	70	10	75
+DNA binding (GO:0003677)	13	55	22	8	0	5	88	65	4	5	279	42	290	10	226	300	239	322	95	355
+DNA helicase activity (GO:0003678)	0	0	7	0	0	1	6	4	1	2	12	2	17	1	14	15	15	14	6	12
+chromatin binding (GO:0003682)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+damaged DNA binding (GO:0003684)	0	0	2	0	0	0	0	0	0	0	1	0	4	0	3	3	1	3	0	3
+DNA replication origin binding (GO:0003688)	0	0	0	0	0	0	1	0	0	0	4	1	3	0	1	4	4	4	0	4
+single-stranded DNA binding (GO:0003697)	0	0	7	0	0	0	7	0	2	0	20	5	22	0	13	24	19	21	0	25
+DNA-binding transcription factor activity (GO:0003700)	7	43	11	0	0	0	13	5	0	0	25	8	31	0	27	50	30	37	12	39
+RNA binding (GO:0003723)	1	6	12	0	1	0	14	12	0	2	150	36	130	2	108	148	117	157	37	151
+RNA helicase activity (GO:0003724)	0	0	0	0	0	0	1	0	0	0	1	0	1	0	1	1	1	1	0	1
+double-stranded RNA binding (GO:0003725)	0	0	0	0	0	0	2	0	0	0	2	0	2	0	2	2	1	2	2	2
+mRNA binding (GO:0003729)	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	0
+structural constituent of ribosome (GO:0003735)	0	33	25	0	0	0	77	13	0	0	319	75	284	4	204	331	233	328	90	316
+translation initiation factor activity (GO:0003743)	0	0	0	0	0	0	0	0	0	0	16	0	14	0	7	16	9	16	8	16
+translation elongation factor activity (GO:0003746)	0	0	0	0	0	0	7	0	0	0	13	3	13	0	12	15	13	18	0	15
+translation release factor activity (GO:0003747)	0	0	0	0	0	0	2	0	0	0	4	2	4	0	4	4	2	4	2	4
+peptidyl-prolyl cis-trans isomerase activity (GO:0003755)	0	0	0	0	0	2	4	1	0	2	16	2	7	0	11	16	14	16	14	16
+motor activity (GO:0003774)	0	10	0	0	0	0	0	9	0	0	44	8	37	0	33	47	47	48	15	48
+actin binding (GO:0003779)	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+lysozyme activity (GO:0003796)	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+catalytic activity (GO:0003824)	9	56	79	3	6	0	68	80	3	16	264	86	257	9	268	307	249	249	89	253
+1-acylglycerol-3-phosphate O-acyltransferase activity (GO:0003841)	0	0	1	0	0	0	0	0	0	0	1	1	1	0	1	0	1	1	1	1
+1-pyrroline-5-carboxylate dehydrogenase activity (GO:0003842)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	1
+1,4-alpha-glucan branching enzyme activity (GO:0003844)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity (GO:0003848)	0	3	0	0	0	0	0	0	0	0	4	1	3	0	3	7	4	4	4	4
+3-deoxy-7-phosphoheptulonate synthase activity (GO:0003849)	0	0	2	0	0	0	3	2	0	0	4	2	3	0	2	3	4	3	4	3
+2-isopropylmalate synthase activity (GO:0003852)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3-beta-hydroxy-delta5-steroid dehydrogenase activity (GO:0003854)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3-dehydroquinate dehydratase activity (GO:0003855)	0	0	8	0	0	0	0	7	0	0	9	5	8	0	9	8	9	9	0	9
+3-dehydroquinate synthase activity (GO:0003856)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	2	2	0	2
+3-hydroxyisobutyryl-CoA hydrolase activity (GO:0003860)	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+3-isopropylmalate dehydrogenase activity (GO:0003862)	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+3-methyl-2-oxobutanoate hydroxymethyltransferase activity (GO:0003864)	0	2	0	2	0	0	0	0	0	0	5	3	6	0	5	6	6	6	0	6
+3-phosphoshikimate 1-carboxyvinyltransferase activity (GO:0003866)	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	2	2	4	0	4
+5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase activity (GO:0003871)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+6-phosphofructokinase activity (GO:0003872)	0	0	0	0	0	0	0	0	0	4	0	0	2	0	0	0	0	0	0	0
+ATP phosphoribosyltransferase activity (GO:0003879)	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0
+CTP synthase activity (GO:0003883)	0	0	1	0	0	0	1	0	0	0	5	0	6	0	4	6	5	6	4	6
+DNA-directed DNA polymerase activity (GO:0003887)	1	3	0	0	0	0	9	16	0	0	20	1	12	0	17	23	14	21	3	21
+DNA primase activity (GO:0003896)	0	0	0	0	0	0	0	0	0	0	6	0	4	0	4	3	4	5	2	5
+DNA-directed 5'-3' RNA polymerase activity (GO:0003899)	0	1	0	0	0	0	10	21	0	0	40	11	36	1	36	38	36	38	24	36
+DNA-(apurinic or apyrimidinic site) endonuclease activity (GO:0003906)	0	0	4	0	0	0	0	0	0	0	2	0	3	0	3	0	2	2	0	2
+methylated-DNA-[protein]-cysteine S-methyltransferase activity (GO:0003908)	0	0	2	0	0	0	2	0	0	0	2	0	3	0	3	3	3	4	0	3
+DNA ligase (ATP) activity (GO:0003910)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA ligase (NAD+) activity (GO:0003911)	0	0	0	0	0	0	2	0	0	0	4	0	7	0	2	7	6	7	3	7
+DNA topoisomerase activity (GO:0003916)	0	0	4	0	0	0	7	3	2	2	26	1	28	0	16	27	22	31	6	35
+DNA topoisomerase type I (single strand cut, ATP-independent) activity (GO:0003917)	0	0	1	0	0	0	2	1	0	1	5	1	8	0	3	8	10	5	1	7
+DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity (GO:0003918)	0	3	0	0	0	0	3	7	0	0	22	8	27	0	26	27	25	26	9	34
+FMN adenylyltransferase activity (GO:0003919)	0	0	0	0	0	0	1	0	0	2	4	0	1	0	1	2	1	5	0	4
+GMP reductase activity (GO:0003920)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	5	3	0	3	0	3
+GMP synthase (glutamine-hydrolyzing) activity (GO:0003922)	0	0	0	0	0	0	0	0	0	0	6	0	6	0	2	6	3	6	0	6
+GTPase activity (GO:0003924)	6	7	8	0	0	0	12	8	0	0	58	30	54	0	45	60	48	66	8	61
+GTP cyclohydrolase I activity (GO:0003934)	0	0	0	0	0	0	4	0	0	0	0	0	5	0	5	5	0	5	0	5
+GTP cyclohydrolase II activity (GO:0003935)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	3	2	3	0	3
+IMP dehydrogenase activity (GO:0003938)	0	0	0	0	1	0	0	0	0	0	2	1	4	0	4	4	2	5	0	4
+L-serine ammonia-lyase activity (GO:0003941)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	2	2	2	2	0	2
+NAD+ kinase activity (GO:0003951)	0	2	0	0	0	0	0	4	0	0	4	0	3	0	5	4	4	4	2	4
+NAD+ synthase (glutamine-hydrolyzing) activity (GO:0003952)	0	0	0	0	0	0	0	0	0	0	3	3	3	1	3	3	4	3	0	3
+NADH dehydrogenase activity (GO:0003954)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+NADPH dehydrogenase activity (GO:0003959)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+RNA-directed 5'-3' RNA polymerase activity (GO:0003968)	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+UDP-N-acetylglucosamine diphosphorylase activity (GO:0003977)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	3	3	0	3	0	3
+UDP-glucose 4-epimerase activity (GO:0003978)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	1	2	2	2	0	2
+UDP-glucose:glycoprotein glucosyltransferase activity (GO:0003980)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+UTP:glucose-1-phosphate uridylyltransferase activity (GO:0003983)	0	2	0	0	0	0	1	1	0	0	3	0	1	0	3	4	4	3	1	3
+acetate-CoA ligase activity (GO:0003987)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	2	0	0
+acetyl-CoA carboxylase activity (GO:0003989)	0	0	0	0	0	0	7	4	0	0	19	3	18	0	12	21	17	21	6	21
+aconitate hydratase activity (GO:0003994)	0	0	0	0	0	0	0	1	0	0	6	3	6	0	3	7	7	8	4	7
+acyl-CoA dehydrogenase activity (GO:0003995)	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	1	0
+adenine phosphoribosyltransferase activity (GO:0003999)	0	0	0	0	0	0	0	2	0	0	2	0	2	0	2	0	0	2	0	2
+adenosylmethionine-8-amino-7-oxononanoate transaminase activity (GO:0004015)	0	0	0	0	0	0	0	0	0	0	1	0	2	0	0	0	1	2	0	1
+N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity (GO:0004018)	0	0	0	1	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+adenylosuccinate synthase activity (GO:0004019)	0	0	0	0	0	0	0	4	0	0	6	8	9	0	10	10	6	10	4	6
+adenylylsulfate kinase activity (GO:0004020)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+amidase activity (GO:0004040)	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	1	0	1
+aminoacyl-tRNA hydrolase activity (GO:0004045)	0	0	0	0	0	0	6	4	0	0	9	8	8	0	8	16	8	15	0	9
+anthranilate phosphoribosyltransferase activity (GO:0004048)	0	0	0	1	0	0	1	1	0	0	3	2	3	0	4	2	3	3	0	3
+anthranilate synthase activity (GO:0004049)	0	0	1	0	0	0	0	1	0	0	3	2	2	0	2	3	3	3	1	3
+arginase activity (GO:0004053)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	0	2	0	1
+argininosuccinate synthase activity (GO:0004055)	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0
+argininosuccinate lyase activity (GO:0004056)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+asparagine synthase (glutamine-hydrolyzing) activity (GO:0004066)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+asparaginase activity (GO:0004067)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	2	2	0	2
+aspartate 1-decarboxylase activity (GO:0004068)	0	0	0	0	0	0	0	0	0	0	6	0	6	0	0	6	1	6	4	6
+aspartate carbamoyltransferase activity (GO:0004070)	0	0	0	0	0	0	0	0	0	0	3	0	1	0	3	2	1	3	2	3
+aspartate kinase activity (GO:0004072)	0	0	0	0	0	0	0	0	0	0	3	0	5	0	2	5	5	5	0	5
+aspartate-semialdehyde dehydrogenase activity (GO:0004073)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	0	1	0	3	0	3
+biotin synthase activity (GO:0004076)	0	0	1	0	0	0	0	0	0	0	2	0	1	0	1	2	1	3	1	3
+biotin-[acetyl-CoA-carboxylase] ligase activity (GO:0004077)	0	0	0	0	0	0	0	0	0	0	2	0	1	0	2	2	1	2	0	2
+branched-chain-amino-acid transaminase activity (GO:0004084)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	3	0	0	3	0	1
+carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity (GO:0004088)	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	2	0	2	0	2
+carbonate dehydratase activity (GO:0004089)	0	0	0	0	0	0	5	0	0	0	6	1	8	0	6	6	7	6	1	7
+catalase activity (GO:0004096)	0	4	23	0	0	0	5	6	0	0	19	0	16	0	17	26	16	15	13	17
+chorismate synthase activity (GO:0004107)	0	0	0	0	0	0	4	0	0	0	9	0	6	0	8	8	3	9	0	9
+citrate (Si)-synthase activity (GO:0004108)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	0	1
+coproporphyrinogen oxidase activity (GO:0004109)	0	0	6	0	0	8	0	0	0	0	2	0	2	0	3	3	2	5	0	3
+cystathionine beta-lyase activity (GO:0004121)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+L-seryl-tRNASec selenium transferase activity (GO:0004125)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1
+cytochrome-c oxidase activity (GO:0004129)	0	8	8	3	0	0	7	4	0	0	6	4	6	0	6	6	6	6	0	6
+4-alpha-glucanotransferase activity (GO:0004134)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+dephospho-CoA kinase activity (GO:0004140)	0	0	0	0	0	0	0	0	0	0	4	0	4	0	6	4	4	4	2	4
+dethiobiotin synthase activity (GO:0004141)	0	0	0	0	0	0	0	0	0	0	3	0	2	0	3	3	2	2	0	3
+diacylglycerol kinase activity (GO:0004143)	0	0	0	0	0	0	1	0	0	0	1	0	1	0	1	1	0	1	0	1
+dihydroneopterin aldolase activity (GO:0004150)	0	1	0	0	0	0	4	0	0	0	2	0	4	0	3	4	3	3	0	4
+dihydroorotase activity (GO:0004151)	0	0	0	0	0	0	0	1	0	0	5	0	1	0	1	4	2	5	0	2
+dihydroorotate dehydrogenase activity (GO:0004152)	0	0	0	0	0	0	0	0	0	0	5	2	5	0	0	4	5	6	0	6
+dihydropteroate synthase activity (GO:0004156)	0	0	1	0	0	0	1	0	0	0	3	1	2	0	2	3	2	3	0	3
+dUTP diphosphatase activity (GO:0004170)	0	0	1	0	0	0	2	3	0	0	3	0	2	0	3	3	3	3	0	3
+electron-transferring-flavoprotein dehydrogenase activity (GO:0004174)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP-dependent peptidase activity (GO:0004176)	0	1	3	0	0	0	4	3	0	0	23	6	26	0	18	22	15	22	3	22
+serine-type carboxypeptidase activity (GO:0004185)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+aspartic-type endopeptidase activity (GO:0004190)	0	0	0	0	0	0	0	0	0	0	8	6	7	0	7	13	8	8	0	8
+metalloendopeptidase activity (GO:0004222)	0	3	4	0	0	0	6	6	0	0	25	8	19	0	19	22	15	21	2	22
+serine-type endopeptidase activity (GO:0004252)	0	4	6	0	0	0	8	0	0	0	22	13	29	0	22	24	17	25	10	23
+threonine-type endopeptidase activity (GO:0004298)	0	3	0	0	0	0	0	1	0	0	2	0	2	0	2	3	3	3	0	3
+[acyl-carrier-protein] S-malonyltransferase activity (GO:0004314)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	1	1	1
+3-oxoacyl-[acyl-carrier-protein] synthase activity (GO:0004315)	0	0	0	0	0	0	0	2	0	0	4	0	4	0	2	4	4	5	3	4
+3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity (GO:0004316)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	0	1
+enoyl-[acyl-carrier-protein] reductase (NADH) activity (GO:0004318)	0	0	0	0	0	0	0	1	0	0	3	1	3	0	3	3	3	3	0	3
+ferrochelatase activity (GO:0004325)	0	2	0	0	0	0	3	0	0	0	5	0	5	0	4	5	3	5	0	5
+tetrahydrofolylpolyglutamate synthase activity (GO:0004326)	0	0	0	0	0	0	2	0	0	0	4	0	3	0	2	4	3	4	0	4
+formamidase activity (GO:0004328)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	0	1
+fructose-bisphosphate aldolase activity (GO:0004332)	0	2	0	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	0	1
+fumarate hydratase activity (GO:0004333)	0	0	0	0	0	0	1	0	0	1	4	1	4	0	2	4	4	4	3	4
+fumarylacetoacetase activity (GO:0004334)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glucokinase activity (GO:0004340)	0	0	0	0	0	0	0	1	0	0	3	0	2	0	2	3	2	3	2	3
+glucosamine-6-phosphate deaminase activity (GO:0004342)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glucose-6-phosphate dehydrogenase activity (GO:0004345)	0	0	0	0	0	0	2	1	0	0	3	0	1	0	1	2	2	3	0	3
+glucose-6-phosphate isomerase activity (GO:0004347)	0	0	0	0	0	0	8	3	0	0	13	6	13	0	14	13	13	13	14	13
+glucosylceramidase activity (GO:0004348)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glutamate-ammonia ligase activity (GO:0004356)	0	1	0	0	0	0	0	0	0	0	6	1	6	0	2	9	6	6	0	6
+glutamate-cysteine ligase activity (GO:0004357)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+glutamate N-acetyltransferase activity (GO:0004358)	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glutaminase activity (GO:0004359)	0	0	0	0	0	0	0	0	0	0	3	3	3	1	3	7	4	3	0	3
+glutamine-fructose-6-phosphate transaminase (isomerizing) activity (GO:0004360)	0	0	0	0	0	0	2	0	0	0	2	1	3	0	2	3	2	3	1	3
+glycerol-3-phosphate dehydrogenase [NAD+] activity (GO:0004367)	0	0	1	0	0	0	0	0	0	0	9	0	7	0	7	10	6	10	1	10
+glycerone kinase activity (GO:0004371)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glycine hydroxymethyltransferase activity (GO:0004372)	0	0	0	0	0	0	0	2	0	0	4	0	4	0	3	4	4	4	0	4
+glycogen (starch) synthase activity (GO:0004373)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glycine dehydrogenase (decarboxylating) activity (GO:0004375)	2	1	3	0	0	0	2	0	0	0	0	0	0	1	2	2	0	0	0	0
+guanylate kinase activity (GO:0004385)	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	2	0	2	0	2
+helicase activity (GO:0004386)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hexokinase activity (GO:0004396)	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+homoserine dehydrogenase activity (GO:0004412)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	0	1
+homoserine kinase activity (GO:0004413)	0	0	0	0	0	0	0	0	0	0	1	0	3	0	3	3	1	3	0	3
+hydroxyethylthiazole kinase activity (GO:0004417)	0	0	0	0	0	0	3	0	0	0	11	0	11	0	11	11	9	11	9	11
+hydroxymethylbilane synthase activity (GO:0004418)	0	7	0	0	0	0	0	0	0	0	14	0	11	0	14	12	11	14	1	14
+hydroxymethylglutaryl-CoA synthase activity (GO:0004421)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+imidazoleglycerol-phosphate dehydratase activity (GO:0004424)	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	3
+indole-3-glycerol-phosphate synthase activity (GO:0004425)	0	0	0	0	0	0	0	1	0	0	5	0	5	0	2	5	3	5	0	5
+inorganic diphosphatase activity (GO:0004427)	0	0	0	0	0	0	0	0	0	0	0	0	6	0	4	6	5	6	0	6
+isocitrate dehydrogenase (NADP+) activity (GO:0004450)	0	0	0	0	0	0	2	0	0	0	3	0	2	0	2	6	3	2	0	2
+isocitrate lyase activity (GO:0004451)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ketol-acid reductoisomerase activity (GO:0004455)	0	0	0	0	0	0	0	0	0	0	4	0	2	0	4	4	2	4	0	4
+phosphogluconate dehydratase activity (GO:0004456)	0	1	1	0	0	0	2	1	0	0	2	0	3	0	2	2	3	3	3	2
+lactoylglutathione lyase activity (GO:0004462)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+malic enzyme activity (GO:0004470)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+malate dehydrogenase (decarboxylating) (NAD+) activity (GO:0004471)	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+mannose-6-phosphate isomerase activity (GO:0004476)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+methionine adenosyltransferase activity (GO:0004478)	0	9	3	0	0	0	3	6	0	0	11	6	12	0	6	17	11	12	8	20
+methionyl-tRNA formyltransferase activity (GO:0004479)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	2	2	0	2	0	2
+mRNA (guanine-N7-)-methyltransferase activity (GO:0004482)	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+methylenetetrahydrofolate dehydrogenase (NADP+) activity (GO:0004488)	0	0	0	0	0	0	0	0	0	0	11	0	11	0	11	11	7	11	0	11
+methylmalonate-semialdehyde dehydrogenase (acylating) activity (GO:0004491)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+monooxygenase activity (GO:0004497)	0	0	6	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0
+nicotinate-nucleotide diphosphorylase (carboxylating) activity (GO:0004514)	0	0	0	0	0	0	0	3	0	0	4	3	4	0	4	4	4	4	0	4
+nuclease activity (GO:0004518)	4	0	0	0	0	0	0	1	0	0	6	0	7	0	4	8	9	7	1	7
+endonuclease activity (GO:0004519)	0	1	3	0	0	0	0	1	0	0	10	0	7	0	5	8	7	9	2	13
+endodeoxyribonuclease activity (GO:0004520)	0	0	0	0	0	0	9	1	0	0	9	0	9	0	7	9	8	10	4	9
+endoribonuclease activity (GO:0004521)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	1
+RNA-DNA hybrid ribonuclease activity (GO:0004523)	2	0	0	0	0	0	0	3	0	0	8	2	7	0	7	6	7	8	0	9
+ribonuclease III activity (GO:0004525)	0	0	0	4	0	0	0	0	0	0	10	0	10	0	8	11	5	10	4	10
+ribonuclease P activity (GO:0004526)	0	0	0	0	0	0	0	1	0	0	5	0	4	0	0	5	4	5	0	5
+5'-3' exoribonuclease activity (GO:0004534)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	1
+deoxyribonuclease activity (GO:0004536)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+ribonuclease activity (GO:0004540)	0	0	0	0	0	0	2	0	0	0	3	3	2	0	4	4	3	4	2	2
+nucleoside diphosphate kinase activity (GO:0004550)	0	0	0	0	0	0	0	0	0	0	6	0	5	0	5	6	4	6	0	6
+hydrolase activity, hydrolyzing O-glycosyl compounds (GO:0004553)	0	6	5	1	0	0	2	0	0	0	0	0	1	1	1	2	0	0	0	1
+alpha-mannosidase activity (GO:0004559)	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+alpha-L-fucosidase activity (GO:0004560)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+beta-N-acetylhexosaminidase activity (GO:0004563)	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+mannosyl-oligosaccharide glucosidase activity (GO:0004573)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+orotate phosphoribosyltransferase activity (GO:0004588)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	2	2	2	2
+orotidine-5'-phosphate decarboxylase activity (GO:0004590)	0	0	0	0	0	0	0	4	0	0	5	1	6	0	4	7	4	5	0	6
+oxoglutarate dehydrogenase (succinyl-transferring) activity (GO:0004591)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+pantoate-beta-alanine ligase activity (GO:0004592)	0	1	0	2	0	0	0	0	0	0	5	2	5	0	6	6	4	5	0	5
+pantothenate kinase activity (GO:0004594)	0	0	0	0	0	0	0	0	0	0	4	0	4	0	3	3	4	4	0	4
+pantetheine-phosphate adenylyltransferase activity (GO:0004595)	0	0	0	0	0	0	0	0	0	0	9	0	9	0	9	13	9	13	0	9
+peroxidase activity (GO:0004601)	0	0	5	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+phosphatidylserine decarboxylase activity (GO:0004609)	0	0	0	0	0	0	0	0	0	0	4	0	4	0	0	4	4	4	0	4
+phosphoenolpyruvate carboxykinase activity (GO:0004611)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0
+phosphoenolpyruvate carboxykinase (ATP) activity (GO:0004612)	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+phosphoenolpyruvate carboxykinase (GTP) activity (GO:0004613)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+phosphoglycerate dehydrogenase activity (GO:0004617)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	1	0	1
+phosphoglycerate kinase activity (GO:0004618)	0	0	0	0	0	0	0	7	0	0	17	7	19	0	16	17	17	17	9	17
+phosphoglycerate mutase activity (GO:0004619)	0	4	0	0	0	0	4	3	0	0	8	0	7	0	6	8	8	8	0	8
+phospholipase activity (GO:0004620)	0	0	0	0	0	0	0	4	0	0	10	0	1	0	7	10	10	10	6	10
+phosphopantothenate--cysteine ligase activity (GO:0004632)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	2	1	0	2	0	2
+phosphopantothenoylcysteine decarboxylase activity (GO:0004633)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	2	1	0	2	0	2
+phosphopyruvate hydratase activity (GO:0004634)	0	0	0	0	0	0	1	0	0	0	12	3	5	0	8	16	4	12	4	12
+phosphoribosylamine-glycine ligase activity (GO:0004637)	0	0	0	4	0	0	0	0	0	0	7	2	7	0	4	7	4	7	2	7
+phosphoribosylaminoimidazolesuccinocarboxamide synthase activity (GO:0004639)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+phosphoribosylanthranilate isomerase activity (GO:0004640)	0	0	0	0	0	0	0	1	0	0	3	0	3	0	3	3	4	3	4	3
+phosphoribosylformylglycinamidine cyclo-ligase activity (GO:0004641)	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+phosphoribosylformylglycinamidine synthase activity (GO:0004642)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+phosphoserine phosphatase activity (GO:0004647)	0	0	0	0	0	0	0	0	0	0	1	1	1	0	1	2	0	2	0	2
+polyribonucleotide nucleotidyltransferase activity (GO:0004654)	0	1	0	0	0	0	1	1	0	0	4	3	2	0	4	3	3	4	2	4
+porphobilinogen synthase activity (GO:0004655)	0	0	0	0	0	0	0	8	0	0	10	0	10	0	9	10	10	10	3	10
+proline dehydrogenase activity (GO:0004657)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	0	1	0	1
+prenyltransferase activity (GO:0004659)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+prephenate dehydratase activity (GO:0004664)	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+prephenate dehydrogenase (NADP+) activity (GO:0004665)	0	0	0	0	0	0	0	0	0	0	2	4	2	0	2	2	2	2	0	2
+protein-arginine deiminase activity (GO:0004668)	0	0	0	0	0	0	0	0	0	0	2	2	4	0	3	2	3	2	2	2
+protein kinase activity (GO:0004672)	2	0	10	0	0	0	0	0	0	0	0	0	0	0	0	5	0	7	0	0
+protein histidine kinase activity (GO:0004673)	0	0	0	0	0	0	0	0	0	0	2	2	2	0	2	2	2	2	0	2
+protein serine/threonine kinase activity (GO:0004674)	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+protein-L-isoaspartate (D-aspartate) O-methyltransferase activity (GO:0004719)	0	0	0	0	0	0	3	0	0	0	4	0	4	0	0	4	3	4	3	4
+protein tyrosine phosphatase activity (GO:0004725)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+purine-nucleoside phosphorylase activity (GO:0004731)	1	0	0	0	0	0	0	0	0	0	3	2	4	0	1	4	4	4	1	4
+pyrroline-5-carboxylate reductase activity (GO:0004735)	0	0	0	0	0	0	0	0	0	0	5	0	1	0	2	5	5	5	0	5
+pyruvate dehydrogenase (acetyl-transferring) activity (GO:0004739)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+pyruvate kinase activity (GO:0004743)	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0
+ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor (GO:0004748)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	2	0	1
+ribose phosphate diphosphokinase activity (GO:0004749)	0	0	0	0	0	0	0	3	0	0	5	3	5	0	5	5	0	5	2	5
+ribulose-phosphate 3-epimerase activity (GO:0004750)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	1	3	0	3	0	3
+shikimate 3-dehydrogenase (NADP+) activity (GO:0004764)	0	0	0	0	0	0	0	2	0	0	4	0	4	0	4	4	4	4	0	4
+superoxide dismutase activity (GO:0004784)	0	0	0	0	0	0	6	4	0	2	6	0	3	0	2	8	8	8	0	8
+thiamine diphosphokinase activity (GO:0004788)	0	0	0	0	0	0	0	0	0	0	5	0	7	0	5	6	5	5	0	6
+thiamine-phosphate diphosphorylase activity (GO:0004789)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	2	2	2	0	2
+thioredoxin-disulfide reductase activity (GO:0004791)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	1	0	1
+thymidylate kinase activity (GO:0004798)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	3	1	3	3	0	3
+transaldolase activity (GO:0004801)	0	0	1	0	0	0	0	0	0	0	4	1	2	0	2	4	2	4	1	4
+transketolase activity (GO:0004802)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	1	0	1
+transposase activity (GO:0004803)	0	2	1	0	0	0	8	0	0	0	4	0	9	0	1	4	9	0	5	0
+triose-phosphate isomerase activity (GO:0004807)	0	0	8	0	0	0	0	0	0	0	10	0	4	0	12	6	9	7	3	7
+tRNA adenylyltransferase activity (GO:0004810)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0
+aminoacyl-tRNA ligase activity (GO:0004812)	0	2	14	1	0	1	19	14	0	0	50	15	48	3	48	63	38	53	14	52
+alanine-tRNA ligase activity (GO:0004813)	0	0	6	0	0	0	1	4	0	0	4	5	11	0	8	6	4	4	2	4
+arginine-tRNA ligase activity (GO:0004814)	0	0	0	0	0	0	3	7	0	0	12	1	10	0	12	10	13	13	4	14
+cysteine-tRNA ligase activity (GO:0004817)	0	0	0	0	0	0	0	0	0	0	3	0	4	0	3	3	0	4	0	4
+glutamate-tRNA ligase activity (GO:0004818)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	3	3	1	4	0	4
+glycine-tRNA ligase activity (GO:0004820)	0	0	0	0	0	0	3	0	0	0	22	0	24	5	18	24	17	21	4	21
+histidine-tRNA ligase activity (GO:0004821)	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	2	2	2	0	2
+isoleucine-tRNA ligase activity (GO:0004822)	0	0	1	0	0	0	0	0	0	0	6	0	5	0	2	5	5	7	0	7
+leucine-tRNA ligase activity (GO:0004823)	0	0	5	0	0	0	1	0	0	0	11	5	11	1	10	11	9	11	4	11
+lysine-tRNA ligase activity (GO:0004824)	0	0	0	0	0	0	0	0	0	0	5	0	8	0	4	4	3	8	2	8
+methionine-tRNA ligase activity (GO:0004825)	0	0	0	0	0	0	0	0	0	0	11	0	10	2	4	8	6	11	0	11
+phenylalanine-tRNA ligase activity (GO:0004826)	0	0	0	0	0	0	0	1	0	0	3	0	3	1	3	8	5	9	1	8
+proline-tRNA ligase activity (GO:0004827)	0	0	0	0	0	0	0	5	0	0	5	0	6	0	3	6	5	6	0	6
+serine-tRNA ligase activity (GO:0004828)	0	3	0	0	0	0	0	5	0	0	9	7	5	0	4	11	7	9	1	9
+threonine-tRNA ligase activity (GO:0004829)	0	0	1	0	0	0	1	8	0	0	8	5	8	0	8	8	3	8	5	8
+tryptophan-tRNA ligase activity (GO:0004830)	0	0	0	2	0	0	0	3	0	0	7	2	3	0	5	7	0	7	0	7
+tyrosine-tRNA ligase activity (GO:0004831)	0	0	0	0	0	0	0	3	0	0	8	0	9	0	2	9	8	9	2	9
+valine-tRNA ligase activity (GO:0004832)	0	0	3	0	0	0	3	0	0	0	9	1	12	1	6	9	8	9	0	9
+tryptophan synthase activity (GO:0004834)	0	0	1	0	0	0	4	3	0	1	8	4	9	0	1	12	4	11	0	11
+ubiquitin-protein transferase activity (GO:0004842)	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+uracil DNA N-glycosylase activity (GO:0004844)	0	0	0	0	0	0	0	1	0	0	4	0	4	0	4	4	0	4	0	4
+uroporphyrinogen-III synthase activity (GO:0004852)	0	0	0	0	0	0	0	4	0	0	6	0	5	0	5	6	6	6	3	6
+uroporphyrinogen decarboxylase activity (GO:0004853)	0	1	0	0	0	0	0	0	0	0	6	0	8	0	4	6	4	6	1	8
+enzyme inhibitor activity (GO:0004857)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+transmembrane signaling receptor activity (GO:0004888)	0	5	0	0	0	0	0	2	0	0	2	0	0	0	2	0	0	2	0	2
+G protein-coupled receptor activity (GO:0004930)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6
+mating-type factor pheromone receptor activity (GO:0004932)	30	0	35	12	11	11	8	16	8	4	0	23	15	14	8	4	8	25	4	20
+scavenger receptor activity (GO:0005044)	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+sevenless binding (GO:0005118)	4	0	5	0	4	0	4	6	0	0	0	0	0	0	0	0	0	0	0	0
+structural molecule activity (GO:0005198)	0	7	2	0	0	0	3	1	0	0	32	2	35	0	30	35	35	36	5	37
+transporter activity (GO:0005215)	0	1	4	1	0	0	7	0	0	0	6	5	6	0	11	4	9	3	5	3
+voltage-gated chloride channel activity (GO:0005247)	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+proline:sodium symporter activity (GO:0005298)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	0	2	0	2
+inorganic phosphate transmembrane transporter activity (GO:0005315)	0	0	0	0	0	0	2	2	0	0	2	0	6	0	4	2	4	2	0	2
+nucleoside transmembrane transporter activity (GO:0005337)	0	0	0	1	0	0	1	1	0	0	2	0	2	0	1	2	2	2	0	2
+galactose transmembrane transporter activity (GO:0005354)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+glucose transmembrane transporter activity (GO:0005355)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+iron ion transmembrane transporter activity (GO:0005381)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+manganese ion transmembrane transporter activity (GO:0005384)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+iron ion binding (GO:0005506)	0	1	6	0	0	0	4	7	0	0	23	4	24	0	17	28	16	27	3	24
+copper ion binding (GO:0005507)	0	3	3	0	0	0	7	0	2	0	10	0	6	0	6	6	0	6	0	6
+calcium ion binding (GO:0005509)	0	3	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+protein binding (GO:0005515)	1	23	62	2	0	0	19	8	0	0	94	21	73	1	67	90	70	103	24	102
+ATP binding (GO:0005524)	15	56	108	15	6	3	144	128	11	4	540	134	558	29	480	587	444	597	140	595
+GTP binding (GO:0005525)	7	16	14	3	0	0	19	21	1	0	139	54	134	1	107	152	108	156	33	146
+glucose binding (GO:0005536)	0	0	2	0	0	0	0	1	0	0	3	0	2	0	2	3	2	3	2	3
+extracellular region (GO:0005576)	0	0	0	0	0	0	12	7	0	0	20	7	16	0	13	16	12	14	2	25
+nucleus (GO:0005634)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nuclear pore (GO:0005643)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+spliceosomal complex (GO:0005681)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+chromosome (GO:0005694)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	3	8	3	6	2	5
+cytoplasm (GO:0005737)	1	5	4	0	0	0	18	33	0	1	129	20	127	7	108	122	109	150	25	147
+mitochondrion (GO:0005739)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+signal peptidase complex (GO:0005787)	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+lipid droplet (GO:0005811)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cytosol (GO:0005829)	0	0	0	0	0	0	9	0	0	0	1	0	1	0	0	2	2	2	0	2
+proteasome core complex (GO:0005839)	0	1	0	0	0	0	0	0	0	0	2	0	2	0	1	1	1	1	0	1
+ribosome (GO:0005840)	0	29	24	0	0	0	69	14	0	0	279	63	245	1	184	294	198	286	79	277
+dynactin complex (GO:0005869)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+plasma membrane (GO:0005886)	0	1	0	0	0	0	4	0	0	0	6	0	7	0	6	8	3	6	1	6
+integral component of plasma membrane (GO:0005887)	0	1	0	0	0	0	10	4	0	1	14	5	19	0	14	18	15	15	11	14
+carbohydrate metabolic process (GO:0005975)	0	21	23	3	0	0	9	10	0	2	72	15	60	4	55	84	64	65	14	70
+polysaccharide metabolic process (GO:0005976)	0	0	1	0	0	0	1	0	0	0	1	1	1	0	1	1	1	1	1	2
+glycogen biosynthetic process (GO:0005978)	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+trehalose biosynthetic process (GO:0005992)	0	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+fructose 6-phosphate metabolic process (GO:0006002)	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+glucose metabolic process (GO:0006006)	0	0	4	0	0	0	8	2	0	0	15	0	5	0	8	13	12	15	1	16
+glucose catabolic process (GO:0006007)	0	2	0	0	0	0	2	1	0	0	6	0	5	0	3	6	5	6	0	6
+UDP-glucose metabolic process (GO:0006011)	0	2	0	0	0	0	1	1	0	0	3	0	1	0	3	4	4	3	2	3
+galactose metabolic process (GO:0006012)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	1	2	2	2	0	2
+mannose metabolic process (GO:0006013)	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+N-acetylglucosamine metabolic process (GO:0006044)	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+UDP-N-acetylglucosamine biosynthetic process (GO:0006048)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	3	3	0	3	0	3
+glycerol metabolic process (GO:0006071)	0	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glycerol-3-phosphate metabolic process (GO:0006072)	0	0	1	0	0	0	0	0	0	0	8	0	6	0	6	9	5	9	0	9
+cellular aldehyde metabolic process (GO:0006081)	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+organic acid metabolic process (GO:0006082)	0	0	0	0	0	0	0	0	0	0	0	2	1	0	1	1	2	2	0	3
+acetyl-CoA metabolic process (GO:0006084)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+acetyl-CoA biosynthetic process from pyruvate (GO:0006086)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+pyruvate metabolic process (GO:0006090)	0	0	0	0	0	0	1	0	0	0	3	2	2	0	3	3	5	3	1	3
+gluconeogenesis (GO:0006094)	0	6	0	0	0	0	7	3	0	0	14	6	14	0	18	14	14	14	13	14
+glycolytic process (GO:0006096)	0	2	1	0	0	0	15	11	0	4	46	17	42	0	43	50	37	47	29	47
+pentose-phosphate shunt (GO:0006098)	0	0	1	0	0	0	0	0	0	0	9	1	7	0	5	9	4	9	1	9
+tricarboxylic acid cycle (GO:0006099)	0	1	3	0	0	0	2	1	2	1	16	8	16	0	11	21	18	17	6	17
+fumarate metabolic process (GO:0006106)	0	0	0	0	0	0	1	0	0	1	4	1	4	0	2	4	4	4	3	4
+malate metabolic process (GO:0006108)	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+regulation of carbohydrate metabolic process (GO:0006109)	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	9	6	6	0	6
+NADH oxidation (GO:0006116)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+mitochondrial electron transport, NADH to ubiquinone (GO:0006120)	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0
+nucleobase-containing compound metabolic process (GO:0006139)	1	0	0	0	0	0	0	0	0	0	13	9	12	0	9	13	9	14	1	14
+purine nucleotide metabolic process (GO:0006163)	0	0	0	0	0	0	0	0	0	0	5	0	4	0	5	5	0	5	0	5
+purine nucleotide biosynthetic process (GO:0006164)	0	0	1	0	1	0	0	4	0	0	11	9	16	0	14	17	9	18	4	13
+nucleoside diphosphate phosphorylation (GO:0006165)	0	0	0	0	0	0	0	0	0	0	6	0	5	0	5	6	4	6	0	6
+adenine salvage (GO:0006168)	0	0	0	0	0	0	0	2	0	0	2	0	2	0	2	0	0	2	0	2
+GMP biosynthetic process (GO:0006177)	0	0	0	0	0	0	0	0	0	0	6	0	6	0	2	6	3	6	0	6
+GTP biosynthetic process (GO:0006183)	0	0	0	0	0	0	0	0	0	0	6	0	5	0	5	6	4	6	0	6
+IMP biosynthetic process (GO:0006188)	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+'de novo' IMP biosynthetic process (GO:0006189)	0	0	3	0	0	0	0	0	0	0	8	0	9	0	6	10	5	9	0	9
+inosine salvage (GO:0006190)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+dGTP catabolic process (GO:0006203)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+'de novo' pyrimidine nucleobase biosynthetic process (GO:0006207)	0	0	0	0	0	0	0	2	0	0	13	3	9	0	6	12	8	13	2	13
+pyrimidine nucleotide biosynthetic process (GO:0006221)	0	0	1	0	0	0	1	0	0	0	10	0	10	0	3	10	9	10	5	10
+UMP biosynthetic process (GO:0006222)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1
+dUMP biosynthetic process (GO:0006226)	0	0	1	0	0	0	2	3	0	0	3	0	2	0	3	3	3	3	0	3
+UTP biosynthetic process (GO:0006228)	0	0	0	0	0	0	0	0	0	0	6	0	5	0	5	6	4	6	0	6
+dUTP biosynthetic process (GO:0006229)	0	0	0	0	0	0	0	0	0	0	1	1	1	0	0	1	1	2	0	2
+dTMP biosynthetic process (GO:0006231)	0	0	0	0	0	0	6	0	0	0	7	6	5	0	4	10	7	7	0	7
+dTDP biosynthetic process (GO:0006233)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	3	1	3	3	0	3
+CTP biosynthetic process (GO:0006241)	0	0	0	0	0	0	0	0	0	0	6	0	6	0	6	7	5	7	0	7
+DNA metabolic process (GO:0006259)	0	1	0	0	0	0	0	1	0	0	3	2	3	0	1	3	3	3	2	7
+DNA replication (GO:0006260)	2	5	10	0	0	0	11	17	4	0	45	6	45	5	28	54	45	48	12	46
+DNA-dependent DNA replication (GO:0006261)	0	0	0	0	0	0	0	10	0	0	10	0	6	0	10	13	6	10	1	10
+DNA topological change (GO:0006265)	0	2	5	0	0	0	11	8	2	3	48	8	56	0	40	57	51	58	13	69
+DNA replication, synthesis of RNA primer (GO:0006269)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	2	1	2	3	0	3
+DNA replication initiation (GO:0006270)	0	0	0	0	0	0	13	0	0	0	8	1	6	0	2	7	9	8	1	8
+regulation of DNA replication (GO:0006275)	0	0	0	0	0	0	4	0	0	0	7	1	6	0	1	7	7	7	0	7
+plasmid maintenance (GO:0006276)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+DNA repair (GO:0006281)	3	3	13	1	0	0	18	7	3	0	67	17	76	0	59	75	56	77	16	81
+regulation of DNA repair (GO:0006282)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+base-excision repair (GO:0006284)	0	0	5	3	0	0	0	1	0	0	16	4	17	0	18	15	12	16	2	16
+base-excision repair, AP site formation (GO:0006285)	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+nucleotide-excision repair (GO:0006289)	1	0	0	0	0	0	0	2	0	0	4	0	3	0	4	4	4	7	2	7
+mismatch repair (GO:0006298)	0	0	6	0	0	0	2	2	0	0	4	0	5	0	4	7	3	4	1	4
+double-strand break repair (GO:0006302)	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA modification (GO:0006304)	0	0	0	0	0	0	0	1	0	0	5	0	5	0	5	6	5	7	3	7
+DNA methylation (GO:0006306)	0	0	3	0	0	0	21	9	0	0	51	6	49	0	35	46	38	55	8	73
+DNA catabolic process (GO:0006308)	0	0	1	0	0	0	0	0	4	0	8	1	7	0	3	8	3	7	5	7
+DNA recombination (GO:0006310)	7	10	4	0	0	3	27	7	0	0	35	12	40	0	33	39	23	48	23	46
+transposition, DNA-mediated (GO:0006313)	0	2	1	0	0	0	8	0	0	0	4	0	9	0	1	4	9	0	5	0
+chromatin organization (GO:0006325)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+transcription, DNA-templated (GO:0006351)	1	1	2	0	0	0	12	25	0	0	40	10	37	1	36	38	37	39	24	36
+DNA-templated transcription, initiation (GO:0006352)	7	14	0	0	0	0	6	4	0	0	25	2	27	0	25	30	26	31	7	31
+DNA-templated transcription, termination (GO:0006353)	0	0	0	0	0	0	3	2	0	0	13	3	7	1	5	12	7	14	2	16
+regulation of transcription, DNA-templated (GO:0006355)	11	75	24	3	0	0	23	10	0	0	58	13	75	12	59	89	65	73	20	81
+rRNA processing (GO:0006364)	0	1	1	0	0	0	7	3	0	0	32	0	21	3	29	26	12	35	5	35
+7-methylguanosine mRNA capping (GO:0006370)	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+RNA processing (GO:0006396)	0	0	2	7	1	0	1	1	0	1	12	5	13	0	10	18	10	13	6	13
+tRNA modification (GO:0006400)	0	0	4	0	0	0	4	4	0	0	15	1	17	0	14	14	11	18	4	18
+mRNA catabolic process (GO:0006402)	0	1	1	0	0	0	2	2	0	0	13	4	4	0	6	11	12	13	3	13
+translation (GO:0006412)	0	33	24	0	0	0	77	16	0	0	330	78	291	7	212	335	240	338	93	325
+translational initiation (GO:0006413)	0	0	0	0	0	0	0	0	0	0	19	0	17	0	7	19	12	19	11	19
+translational elongation (GO:0006414)	0	0	0	0	0	0	7	0	0	0	13	3	13	0	12	15	13	18	0	15
+translational termination (GO:0006415)	0	1	0	1	0	0	3	0	0	0	12	5	12	0	8	10	8	12	5	12
+tRNA aminoacylation for protein translation (GO:0006418)	0	1	9	1	0	1	15	10	0	0	44	12	47	5	43	47	38	38	8	38
+alanyl-tRNA aminoacylation (GO:0006419)	0	0	6	0	0	0	1	4	0	0	3	5	11	0	8	5	3	3	2	3
+arginyl-tRNA aminoacylation (GO:0006420)	0	0	0	0	0	0	3	7	0	0	12	1	10	0	12	10	13	13	4	14
+cysteinyl-tRNA aminoacylation (GO:0006423)	0	0	0	0	0	0	0	0	0	0	3	0	4	0	3	3	0	4	0	4
+glutamyl-tRNA aminoacylation (GO:0006424)	0	0	0	0	0	0	0	0	0	0	3	0	2	0	4	4	1	5	0	5
+glycyl-tRNA aminoacylation (GO:0006426)	0	0	0	0	0	0	3	0	0	0	22	0	24	5	18	24	17	21	4	21
+histidyl-tRNA aminoacylation (GO:0006427)	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	2	2	2	0	2
+isoleucyl-tRNA aminoacylation (GO:0006428)	0	0	0	0	0	0	0	0	0	0	6	0	5	0	2	5	5	6	0	6
+leucyl-tRNA aminoacylation (GO:0006429)	0	0	5	0	0	0	1	0	0	0	11	5	11	1	10	11	9	11	4	11
+lysyl-tRNA aminoacylation (GO:0006430)	0	0	0	0	0	0	0	0	0	0	5	0	8	0	4	4	3	8	2	8
+methionyl-tRNA aminoacylation (GO:0006431)	0	0	0	0	0	0	0	0	0	0	10	0	10	2	4	8	6	10	0	10
+phenylalanyl-tRNA aminoacylation (GO:0006432)	0	0	0	0	0	0	1	1	0	0	6	0	6	1	6	13	4	14	1	10
+prolyl-tRNA aminoacylation (GO:0006433)	0	0	0	0	0	0	0	5	0	0	5	0	6	0	3	6	5	6	0	6
+seryl-tRNA aminoacylation (GO:0006434)	0	3	0	0	0	0	0	5	0	0	9	7	5	0	4	11	7	9	1	9
+threonyl-tRNA aminoacylation (GO:0006435)	0	0	1	0	0	0	1	8	0	0	8	5	8	0	8	8	3	8	5	8
+tryptophanyl-tRNA aminoacylation (GO:0006436)	0	0	0	2	0	0	0	3	0	0	6	2	3	0	5	6	0	6	0	6
+tyrosyl-tRNA aminoacylation (GO:0006437)	0	0	0	0	0	0	0	1	0	0	6	0	6	0	0	6	4	6	0	6
+valyl-tRNA aminoacylation (GO:0006438)	0	0	3	0	0	0	3	0	0	0	9	1	12	1	6	9	8	9	0	9
+regulation of translational fidelity (GO:0006450)	0	0	0	0	0	0	0	0	0	0	4	4	4	0	4	0	4	4	0	4
+protein folding (GO:0006457)	0	1	2	0	0	0	6	10	0	0	46	3	39	0	43	45	33	48	10	48
+cellular protein modification process (GO:0006464)	0	0	0	0	0	0	3	0	0	0	8	0	6	1	4	8	6	9	3	8
+signal peptide processing (GO:0006465)	0	0	3	0	0	0	2	0	0	0	4	2	2	0	4	2	4	2	2	2
+protein phosphorylation (GO:0006468)	2	1	10	0	0	0	0	0	0	0	0	0	0	0	0	3	0	7	0	0
+protein methylation (GO:0006479)	0	1	0	0	0	0	0	0	0	0	4	0	2	0	4	4	1	4	0	4
+protein glycosylation (GO:0006486)	0	0	1	0	0	0	2	0	0	0	2	2	2	0	2	0	2	2	0	2
+proteolysis (GO:0006508)	0	13	7	1	0	0	28	7	0	0	63	28	64	1	49	75	55	70	13	66
+cellular amino acid metabolic process (GO:0006520)	0	2	1	0	0	0	2	2	0	0	21	2	15	0	19	21	14	23	11	23
+alanine metabolic process (GO:0006522)	0	0	0	0	0	0	0	0	0	0	11	0	11	0	7	11	10	11	0	11
+alanine biosynthetic process (GO:0006523)	0	0	0	0	0	0	0	0	0	0	6	0	6	0	0	6	1	6	4	6
+arginine metabolic process (GO:0006525)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	3	0	2	0	1
+arginine biosynthetic process (GO:0006526)	0	0	0	0	3	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0
+arginine catabolic process (GO:0006527)	0	0	0	0	0	0	0	1	0	0	12	5	9	0	6	12	6	12	1	12
+asparagine metabolic process (GO:0006528)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	2	2	0	2
+asparagine biosynthetic process (GO:0006529)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+aspartate metabolic process (GO:0006531)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	1
+cysteine metabolic process (GO:0006534)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	1	1	0	1
+cysteine biosynthetic process from serine (GO:0006535)	0	0	0	0	0	0	0	0	0	0	3	0	2	0	2	2	3	3	0	3
+glutamate biosynthetic process (GO:0006537)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glutamine metabolic process (GO:0006541)	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	2	0	2	0	2
+glutamine biosynthetic process (GO:0006542)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	0	3	3	3	0	3
+glycine catabolic process (GO:0006546)	1	1	3	0	0	0	1	0	0	0	0	0	0	1	2	2	0	0	0	0
+S-adenosylmethionine biosynthetic process (GO:0006556)	0	9	3	0	0	0	3	6	0	0	11	6	12	0	6	17	11	12	8	20
+proline biosynthetic process (GO:0006561)	0	0	0	0	0	0	0	0	0	0	5	0	1	0	2	5	5	5	0	5
+proline catabolic process (GO:0006562)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+L-serine biosynthetic process (GO:0006564)	0	0	0	0	0	0	0	0	0	0	1	1	2	0	1	3	0	3	0	3
+threonine metabolic process (GO:0006566)	0	0	0	0	0	0	0	0	0	0	1	0	3	0	3	3	1	3	0	3
+tryptophan metabolic process (GO:0006568)	0	0	1	0	0	0	4	3	0	1	11	3	11	0	3	13	8	12	3	12
+tryptophan catabolic process (GO:0006569)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tyrosine biosynthetic process (GO:0006571)	0	0	0	0	0	0	0	0	0	0	2	4	2	0	2	2	2	2	0	2
+protein targeting (GO:0006605)	0	2	0	1	0	0	5	6	0	0	17	2	18	0	12	19	10	18	8	17
+SRP-dependent cotranslational protein targeting to membrane (GO:0006614)	0	3	4	0	0	0	6	0	0	0	22	3	19	0	16	21	19	20	3	20
+lipid metabolic process (GO:0006629)	0	0	2	0	0	0	0	4	0	0	13	4	4	0	10	14	13	13	8	13
+fatty acid metabolic process (GO:0006631)	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+fatty acid biosynthetic process (GO:0006633)	0	4	0	0	0	0	8	9	0	0	43	12	35	0	31	40	38	45	15	44
+phosphatidic acid biosynthetic process (GO:0006654)	0	0	0	0	0	0	1	0	0	0	1	0	1	0	1	1	0	1	0	1
+glycerol ether metabolic process (GO:0006662)	0	0	0	0	0	2	1	2	0	0	2	0	0	0	2	2	2	2	0	2
+sphingolipid metabolic process (GO:0006665)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+steroid biosynthetic process (GO:0006694)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cellular aromatic compound metabolic process (GO:0006725)	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	3	3	3	0	3
+NADP biosynthetic process (GO:0006741)	0	1	0	0	0	0	0	2	0	0	2	0	1	0	2	2	2	2	1	2
+glutathione metabolic process (GO:0006749)	0	2	0	0	0	0	2	0	0	0	0	0	1	0	0	0	1	1	0	1
+glutathione biosynthetic process (GO:0006750)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+glutathione catabolic process (GO:0006751)	0	0	0	0	0	0	1	0	0	0	2	1	0	0	2	2	1	2	1	2
+folic acid-containing compound metabolic process (GO:0006760)	0	1	0	0	0	0	4	0	0	0	2	0	4	0	3	4	3	3	0	4
+thiamine metabolic process (GO:0006772)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	2	2	2	2	0	2
+Mo-molybdopterin cofactor biosynthetic process (GO:0006777)	0	1	0	0	0	0	1	0	0	0	16	7	15	0	11	16	11	17	1	17
+porphyrin-containing compound biosynthetic process (GO:0006779)	0	1	6	0	0	8	0	0	0	0	8	0	10	0	7	9	6	11	1	11
+uroporphyrinogen III biosynthetic process (GO:0006780)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	1	0	1
+heme biosynthetic process (GO:0006783)	0	2	0	0	0	0	3	0	0	0	5	0	5	0	4	5	3	5	0	5
+phosphate-containing compound metabolic process (GO:0006796)	0	0	0	0	0	0	0	0	0	0	0	0	4	0	4	6	5	6	0	6
+polyphosphate biosynthetic process (GO:0006799)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	1	4	1	4	0	4
+superoxide metabolic process (GO:0006801)	0	0	0	0	0	0	6	4	0	2	6	0	3	0	2	8	8	8	0	8
+nitrogen compound metabolic process (GO:0006807)	1	3	7	2	0	0	8	9	0	0	47	19	40	0	29	53	41	46	7	47
+regulation of nitrogen utilization (GO:0006808)	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cation transport (GO:0006812)	0	5	1	0	0	0	1	2	0	0	11	4	11	0	8	11	4	12	0	12
+potassium ion transport (GO:0006813)	0	0	0	0	0	0	2	0	2	2	10	2	10	1	6	10	10	13	0	10
+sodium ion transport (GO:0006814)	0	0	0	0	0	0	0	4	0	0	15	3	19	2	9	21	10	15	6	15
+phosphate ion transport (GO:0006817)	0	0	0	0	0	0	2	2	0	0	2	0	6	0	4	2	4	2	0	2
+chloride transport (GO:0006821)	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cobalt ion transport (GO:0006824)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1
+copper ion transport (GO:0006825)	0	0	0	0	0	0	3	0	0	0	5	0	5	0	5	5	0	5	0	5
+iron ion transport (GO:0006826)	0	0	0	0	0	0	0	0	1	0	3	0	3	0	1	3	3	3	0	3
+amino acid transport (GO:0006865)	0	0	0	0	0	0	2	0	0	0	4	0	5	0	1	5	2	5	0	5
+cellular copper ion homeostasis (GO:0006878)	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+cellular iron ion homeostasis (GO:0006879)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	1	0	1
+regulation of pH (GO:0006885)	0	0	0	0	0	0	0	0	0	0	4	3	4	2	4	5	1	4	0	4
+intracellular protein transport (GO:0006886)	0	0	1	1	0	0	1	6	0	0	15	1	15	0	13	17	9	16	8	15
+endoplasmic reticulum to Golgi vesicle-mediated transport (GO:0006888)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum (GO:0006890)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+chemotaxis (GO:0006935)	0	16	0	0	0	0	3	11	0	0	47	9	37	0	32	46	43	48	17	51
+defense response (GO:0006952)	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cellular response to DNA damage stimulus (GO:0006974)	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+response to oxidative stress (GO:0006979)	0	2	18	0	0	0	6	6	0	0	13	0	13	0	12	19	13	12	9	13
+plasma membrane organization (GO:0007009)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+microtubule-based process (GO:0007017)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+mitotic sister chromatid cohesion (GO:0007064)	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cell adhesion (GO:0007155)	0	6	1	0	0	0	0	0	0	0	1	1	1	0	1	1	1	4	1	1
+signal transduction (GO:0007165)	0	32	22	0	0	0	9	12	0	0	42	10	33	0	41	51	34	49	14	52
+G protein-coupled receptor signaling pathway (GO:0007186)	30	0	38	12	11	11	8	16	8	4	0	23	15	14	8	4	8	25	4	26
+visual perception (GO:0007601)	4	0	5	0	4	0	4	6	0	0	0	0	0	0	0	0	0	0	0	0
+tRNA processing (GO:0008033)	0	2	3	0	0	0	8	1	0	0	20	0	20	0	10	18	13	23	2	23
+enzyme activator activity (GO:0008047)	0	0	0	0	0	0	0	7	0	0	5	0	8	0	8	8	8	11	8	8
+N-acetyltransferase activity (GO:0008080)	0	0	4	0	0	0	2	2	0	0	2	0	4	0	8	2	2	3	2	2
+phosphoric diester hydrolase activity (GO:0008081)	0	0	2	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0
+ATPase, acting on DNA (GO:0008094)	0	0	0	0	0	0	0	0	1	0	5	1	4	0	2	5	5	4	0	8
+5S rRNA binding (GO:0008097)	0	0	0	0	0	0	0	1	0	0	4	3	4	0	4	4	4	4	3	4
+galactoside 2-alpha-L-fucosyltransferase activity (GO:0008107)	0	0	0	0	0	0	2	0	0	0	2	2	2	0	1	2	2	2	0	2
+peptide-methionine (S)-S-oxide reductase activity (GO:0008113)	0	0	0	0	0	0	3	4	0	0	5	0	5	0	5	5	3	5	5	5
+ubiquinol-cytochrome-c reductase activity (GO:0008121)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0
+transcription factor binding (GO:0008134)	0	0	4	0	0	0	1	2	0	0	2	0	4	0	3	2	3	2	0	4
+NADH dehydrogenase (ubiquinone) activity (GO:0008137)	2	0	7	0	0	0	3	2	0	0	16	6	22	3	14	21	17	21	1	21
+protein tyrosine/serine/threonine phosphatase activity (GO:0008138)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+protein phosphatase 1 binding (GO:0008157)	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+methyltransferase activity (GO:0008168)	9	9	8	2	0	0	17	12	0	0	90	6	73	0	52	75	45	96	17	82
+N-methyltransferase activity (GO:0008170)	0	0	3	0	0	0	21	9	0	0	51	6	49	0	35	46	38	55	8	73
+RNA methyltransferase activity (GO:0008173)	0	0	2	3	0	0	1	0	0	0	3	0	2	0	1	6	1	4	0	4
+tRNA (guanine-N7-)-methyltransferase activity (GO:0008176)	0	0	0	0	0	0	0	0	0	0	5	0	5	0	5	4	3	6	4	5
+COP9 signalosome (GO:0008180)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glycogen phosphorylase activity (GO:0008184)	0	0	4	0	0	0	2	0	0	0	0	0	0	0	2	0	0	0	0	0
+ATPase, acting on RNA (GO:0008186)	0	0	0	0	0	0	1	1	0	0	4	1	3	0	3	3	3	3	0	3
+ferrous iron binding (GO:0008198)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ferric iron binding (GO:0008199)	0	0	1	0	0	0	1	0	0	0	3	0	3	0	3	3	3	3	0	3
+peptidase activity (GO:0008233)	0	1	0	0	0	0	0	9	0	0	13	1	17	0	15	15	14	19	9	16
+cysteine-type peptidase activity (GO:0008234)	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+serine-type peptidase activity (GO:0008236)	0	1	1	1	0	0	5	0	0	0	8	4	5	0	4	11	6	10	0	9
+metallopeptidase activity (GO:0008237)	0	2	0	0	0	0	1	0	0	0	1	1	1	0	1	2	1	1	1	1
+dipeptidyl-peptidase activity (GO:0008239)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+nucleotidase activity (GO:0008252)	0	0	0	0	0	0	0	0	0	0	2	2	2	0	2	2	2	2	0	2
+zinc ion binding (GO:0008270)	1	5	13	0	0	0	10	3	0	0	29	10	27	0	27	25	24	26	8	27
+secondary active sulfate transmembrane transporter activity (GO:0008271)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+sulfate transport (GO:0008272)	0	0	1	0	0	0	1	1	0	0	2	0	2	2	1	2	1	2	0	2
+protein methyltransferase activity (GO:0008276)	0	1	0	0	0	0	0	0	0	0	4	0	2	0	4	4	1	4	0	4
+spermidine biosynthetic process (GO:0008295)	0	0	0	0	0	0	0	1	0	0	12	5	9	0	6	12	6	12	1	12
+isoprenoid biosynthetic process (GO:0008299)	0	0	1	0	0	0	1	2	0	0	9	1	8	0	10	13	8	11	0	11
+7S RNA binding (GO:0008312)	0	0	1	0	0	0	0	0	0	0	3	3	3	0	3	3	3	3	0	3
+protein transmembrane transporter activity (GO:0008320)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+cation transmembrane transporter activity (GO:0008324)	0	3	0	0	0	0	0	0	0	0	5	0	8	0	2	6	5	7	0	6
+regulation of cell shape (GO:0008360)	0	1	0	0	3	0	1	0	0	0	7	1	3	0	3	5	3	7	2	7
+thioredoxin peroxidase activity (GO:0008379)	0	0	0	0	0	0	0	1	1	0	2	0	3	0	1	1	0	1	0	2
+3'-5' exonuclease activity (GO:0008408)	1	2	0	0	0	0	4	7	0	0	6	5	6	0	6	10	10	7	1	7
+5'-3' exonuclease activity (GO:0008409)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	0	1
+CoA-transferase activity (GO:0008410)	0	0	3	0	0	0	0	3	0	0	11	2	10	0	3	10	10	10	0	10
+fucosyltransferase activity (GO:0008417)	0	0	0	0	0	0	2	0	0	0	2	2	2	0	2	0	2	2	0	2
+CDP-diacylglycerol-glycerol-3-phosphate 3-phosphatidyltransferase activity (GO:0008444)	0	0	0	0	0	0	0	0	0	0	1	1	2	0	1	2	0	2	0	2
+GDP-mannose 4,6-dehydratase activity (GO:0008446)	0	0	0	0	0	0	2	0	0	0	3	0	2	0	2	2	2	3	1	3
+N-acetylglucosamine-6-phosphate deacetylase activity (GO:0008448)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+RNA ligase activity (GO:0008452)	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0
+queuine tRNA-ribosyltransferase activity (GO:0008479)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	1	2	0	2
+transaminase activity (GO:0008483)	0	0	1	0	0	0	3	0	2	0	7	5	8	0	4	8	9	7	2	9
+sulfuric ester hydrolase activity (GO:0008484)	0	1	3	0	0	0	0	0	0	0	6	0	5	0	3	5	3	2	2	7
+organic anion transmembrane transporter activity (GO:0008514)	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+ammonium transmembrane transporter activity (GO:0008519)	0	0	2	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0
+riboflavin kinase activity (GO:0008531)	0	0	0	0	0	0	4	0	0	0	6	0	5	0	4	5	4	6	0	6
+P-type potassium transmembrane transporter activity (GO:0008556)	0	0	0	0	0	0	4	0	2	2	0	0	0	0	0	0	0	0	0	0
+lipid biosynthetic process (GO:0008610)	0	0	0	0	0	0	2	0	0	0	5	0	7	0	7	6	7	7	0	7
+pyridoxine biosynthetic process (GO:0008615)	0	0	0	0	0	0	3	0	0	0	5	0	4	0	7	5	4	6	3	6
+queuosine biosynthetic process (GO:0008616)	0	0	0	0	0	0	1	0	0	0	4	3	1	0	4	4	4	4	1	4
+ubiquitin-like modifier activating enzyme activity (GO:0008641)	0	0	0	0	0	0	1	1	0	0	3	0	2	0	1	3	2	2	0	2
+carbohydrate transport (GO:0008643)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+rRNA methyltransferase activity (GO:0008649)	0	0	0	0	0	0	1	3	0	0	5	0	4	0	5	3	3	7	0	7
+cellular amino acid biosynthetic process (GO:0008652)	0	1	0	1	0	0	0	0	0	0	3	0	3	0	2	3	4	3	1	3
+phospholipid biosynthetic process (GO:0008654)	0	2	1	0	0	0	3	1	0	0	21	4	21	0	14	20	12	23	2	23
+penicillin binding (GO:0008658)	0	1	2	0	0	0	3	3	0	0	9	4	7	0	9	9	6	9	4	9
+1-deoxy-D-xylulose-5-phosphate synthase activity (GO:0008661)	0	0	0	0	0	0	0	3	0	0	5	0	5	0	6	7	4	5	0	5
+2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase activity (GO:0008666)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	0	1	1	0	1
+2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase activity (GO:0008667)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0
+3-deoxy-8-phosphooctulonate synthase activity (GO:0008676)	0	1	0	0	0	0	1	1	0	0	3	0	1	0	3	3	3	3	1	3
+2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase activity (GO:0008685)	0	0	0	0	0	0	0	0	0	0	8	0	8	0	0	8	8	8	5	8
+3,4-dihydroxy-2-butanone-4-phosphate synthase activity (GO:0008686)	0	0	0	1	0	0	0	0	0	0	3	0	4	0	2	1	2	3	0	3
+3-deoxy-manno-octulosonate cytidylyltransferase activity (GO:0008690)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	1	1	0	3	0	3
+methionine synthase activity (GO:0008705)	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ADP-glyceromanno-heptose 6-epimerase activity (GO:0008712)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	1	0	1
+CDP-diacylglycerol diphosphatase activity (GO:0008715)	0	0	0	0	0	0	0	1	0	0	4	0	1	0	2	2	1	4	0	4
+D-alanine-D-alanine ligase activity (GO:0008716)	0	0	0	0	0	0	1	1	0	0	2	0	2	0	2	1	0	4	1	2
+DNA-3-methyladenine glycosylase activity (GO:0008725)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+L-aspartate oxidase activity (GO:0008734)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+N-acetylmuramoyl-L-alanine amidase activity (GO:0008745)	0	0	0	0	0	0	0	0	0	0	5	0	3	0	2	5	2	3	0	3
+S-adenosylmethionine-dependent methyltransferase activity (GO:0008757)	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase activity (GO:0008759)	0	0	0	0	0	0	0	0	0	0	6	0	6	0	6	6	6	6	0	6
+UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity (GO:0008760)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	2	3	3	0	3
+UDP-N-acetylglucosamine 2-epimerase activity (GO:0008761)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0
+UDP-N-acetylmuramate dehydrogenase activity (GO:0008762)	0	0	1	0	0	0	0	0	0	0	6	6	6	0	0	6	6	6	6	6
+UDP-N-acetylmuramate-L-alanine ligase activity (GO:0008763)	0	0	0	0	0	0	0	0	0	0	2	0	0	0	2	0	0	1	0	1
+UDP-N-acetylmuramoylalanine-D-glutamate ligase activity (GO:0008764)	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	0	2	0	2
+[protein-PII] uridylyltransferase activity (GO:0008773)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine O-acyltransferase activity (GO:0008780)	0	0	0	0	0	0	1	0	0	0	3	0	5	0	5	4	5	5	0	5
+adenosylhomocysteine nucleosidase activity (GO:0008782)	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+alanine racemase activity (GO:0008784)	0	0	0	0	0	0	0	0	0	0	11	0	11	0	7	11	10	11	0	11
+arginine decarboxylase activity (GO:0008792)	0	0	0	0	0	0	0	1	0	0	12	5	9	0	6	12	6	12	1	12
+NAD+ synthase activity (GO:0008795)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	1	0	1
+aspartate ammonia-lyase activity (GO:0008797)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	1
+carbamate kinase activity (GO:0008804)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+cob(I)yrinic acid a,c-diamide adenosyltransferase activity (GO:0008817)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cobalamin 5'-phosphate synthase activity (GO:0008818)	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+crossover junction endodeoxyribonuclease activity (GO:0008821)	0	0	0	0	0	0	1	0	0	0	1	0	1	0	1	1	1	1	1	1
+dCTP deaminase activity (GO:0008829)	0	0	0	0	0	0	0	0	0	0	1	1	1	0	0	1	1	2	0	2
+dGTPase activity (GO:0008832)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+diaminohydroxyphosphoribosylaminopyrimidine deaminase activity (GO:0008835)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1
+diaminopimelate decarboxylase activity (GO:0008836)	0	0	0	0	0	0	0	0	0	0	7	2	7	0	5	7	7	7	0	7
+diaminopimelate epimerase activity (GO:0008837)	0	0	0	0	0	0	0	0	0	0	6	0	0	0	6	3	4	6	0	6
+4-hydroxy-tetrahydrodipicolinate reductase (GO:0008839)	0	0	0	0	0	0	0	1	0	0	8	0	4	0	1	5	7	7	0	7
+4-hydroxy-tetrahydrodipicolinate synthase activity (GO:0008840)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	1	2	2	3	2	3
+exodeoxyribonuclease VII activity (GO:0008855)	0	0	2	0	0	1	0	0	4	0	9	2	8	0	4	9	4	8	5	8
+formate dehydrogenase (NAD+) activity (GO:0008863)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+formyltetrahydrofolate deformylase activity (GO:0008864)	0	0	0	0	0	0	0	0	0	0	8	0	8	0	6	9	5	9	0	9
+glucose-1-phosphate adenylyltransferase activity (GO:0008878)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glucose-1-phosphate thymidylyltransferase activity (GO:0008879)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glutamate racemase activity (GO:0008881)	0	0	0	0	0	0	1	0	0	0	3	1	2	0	2	2	2	3	0	3
+[glutamate-ammonia-ligase] adenylyltransferase activity (GO:0008882)	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glutamyl-tRNA reductase activity (GO:0008883)	0	0	0	0	0	0	0	0	0	0	12	3	7	0	7	9	9	9	2	9
+glycerate kinase activity (GO:0008887)	5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glycolate oxidase activity (GO:0008891)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+holo-[acyl-carrier-protein] synthase activity (GO:0008897)	0	4	0	0	0	0	0	5	0	0	6	0	5	0	6	6	6	6	0	6
+ferredoxin hydrogenase activity (GO:0008901)	0	0	0	0	0	0	0	0	0	0	6	3	3	0	6	5	6	5	1	5
+lipid-A-disaccharide synthase activity (GO:0008915)	0	0	2	2	0	0	0	3	0	0	5	0	3	0	4	6	3	5	0	6
+lipopolysaccharide heptosyltransferase activity (GO:0008920)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+malate dehydrogenase (quinone) activity (GO:0008924)	0	1	0	0	0	0	0	0	0	0	2	0	2	0	1	2	2	2	0	3
+methylthioadenosine nucleosidase activity (GO:0008930)	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+1,4-dihydroxy-2-naphthoyl-CoA synthase activity (GO:0008935)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nitrate reductase activity (GO:0008940)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity (GO:0008961)	0	0	0	0	0	0	4	0	0	1	5	1	5	0	3	6	6	5	0	5
+phosphatidylglycerophosphatase activity (GO:0008962)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	3	3	3	3	2	3
+phospho-N-acetylmuramoyl-pentapeptide-transferase activity (GO:0008963)	0	2	0	2	0	0	3	3	0	0	8	1	5	2	5	8	7	7	0	7
+phosphoenolpyruvate carboxylase activity (GO:0008964)	0	0	2	0	0	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0
+phosphoglucosamine mutase activity (GO:0008966)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	3	1	0	3
+D-sedoheptulose 7-phosphate isomerase activity (GO:0008968)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	2	2	0	2
+phosphomethylpyrimidine kinase activity (GO:0008972)	0	0	0	0	0	0	1	0	0	0	3	0	4	0	2	4	3	4	0	3
+phosphopentomutase activity (GO:0008973)	0	0	0	0	0	0	0	1	0	0	7	2	7	0	4	5	7	7	0	7
+polyphosphate kinase activity (GO:0008976)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	1	4	1	4	0	4
+prephenate dehydrogenase (NAD+) activity (GO:0008977)	0	0	0	0	0	0	0	0	0	0	2	4	2	0	2	2	2	2	0	2
+protein-N(PI)-phosphohistidine-sugar phosphotransferase activity (GO:0008982)	0	0	0	0	0	0	1	0	0	0	0	3	0	3	0	11	0	0	0	1
+pyruvate, water dikinase activity (GO:0008986)	0	0	0	0	0	0	1	0	0	0	3	2	2	0	3	3	5	3	1	3
+quinolinate synthetase A activity (GO:0008987)	0	0	0	0	0	0	0	3	0	0	7	0	10	0	5	7	7	7	4	7
+ribonucleoside-triphosphate reductase activity (GO:0008998)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+serine O-acetyltransferase activity (GO:0009001)	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	1	2	2	0	2
+serine-type D-Ala-D-Ala carboxypeptidase activity (GO:0009002)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	1	0	1
+site-specific DNA-methyltransferase (adenine-specific) activity (GO:0009007)	0	1	0	0	0	0	7	0	0	0	34	2	8	0	5	9	7	24	1	22
+succinyl-diaminopimelate desuccinylase activity (GO:0009014)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	1	2	0	2	0	2
+tetraacyldisaccharide 4'-kinase activity (GO:0009029)	0	0	0	0	0	0	1	0	0	0	5	1	2	0	3	4	3	4	0	6
+thiamine-phosphate kinase activity (GO:0009030)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+type I site-specific deoxyribonuclease activity (GO:0009035)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	2	2	0	2	0	2
+type II site-specific deoxyribonuclease activity (GO:0009036)	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	2	2	5	2	4
+urease activity (GO:0009039)	0	0	8	0	0	0	4	4	0	0	9	6	9	0	6	9	9	9	1	9
+uridylate kinase activity (GO:0009041)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+xylose isomerase activity (GO:0009045)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+electron transfer activity (GO:0009055)	0	10	7	2	0	0	11	11	0	0	49	10	47	0	38	49	36	52	12	54
+biosynthetic process (GO:0009058)	3	14	17	0	0	0	18	24	0	0	68	13	63	2	65	76	64	72	13	66
+aerobic respiration (GO:0009060)	0	7	2	2	0	0	4	2	0	0	2	2	2	0	2	2	2	2	0	2
+aromatic amino acid family metabolic process (GO:0009072)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+aromatic amino acid family biosynthetic process (GO:0009073)	0	0	2	0	0	0	7	2	0	0	13	2	13	0	13	16	12	19	4	19
+branched-chain amino acid metabolic process (GO:0009081)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	3	0	0	3	0	1
+branched-chain amino acid biosynthetic process (GO:0009082)	0	1	1	0	0	0	0	1	0	0	7	0	4	0	7	7	5	7	0	7
+methionine biosynthetic process (GO:0009086)	0	4	0	0	0	0	0	0	0	0	2	0	2	0	0	0	0	2	0	2
+threonine biosynthetic process (GO:0009088)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	0	0	2	0	2
+lysine biosynthetic process via diaminopimelate (GO:0009089)	0	0	1	0	0	0	0	1	0	0	29	2	21	0	14	22	23	30	2	30
+L-phenylalanine biosynthetic process (GO:0009094)	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+isoleucine biosynthetic process (GO:0009097)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	0	0	2	0	2
+leucine biosynthetic process (GO:0009098)	0	2	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+biotin biosynthetic process (GO:0009102)	0	0	1	0	0	0	0	0	0	0	6	0	5	0	4	5	4	7	1	7
+lipopolysaccharide biosynthetic process (GO:0009103)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+purine nucleobase biosynthetic process (GO:0009113)	0	0	0	4	0	0	0	0	0	0	7	2	7	0	4	7	4	7	2	7
+nucleoside metabolic process (GO:0009116)	4	0	3	2	0	0	5	4	0	0	18	4	16	0	13	20	15	19	8	18
+nucleotide metabolic process (GO:0009117)	0	0	2	0	0	0	0	1	0	0	5	1	5	0	2	3	5	5	0	5
+nucleoside triphosphate catabolic process (GO:0009143)	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+purine ribonucleotide biosynthetic process (GO:0009152)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+ribonucleoside monophosphate biosynthetic process (GO:0009156)	0	0	0	0	0	0	0	1	0	0	1	0	1	0	1	1	0	1	0	1
+nucleoside catabolic process (GO:0009164)	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+nucleotide biosynthetic process (GO:0009165)	0	0	0	0	0	0	0	2	0	0	3	3	4	0	4	3	0	3	2	3
+nucleotide catabolic process (GO:0009166)	0	0	0	0	0	0	3	4	0	0	9	4	11	0	7	9	9	10	10	10
+cyclic nucleotide biosynthetic process (GO:0009190)	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0
+nucleotide-sugar biosynthetic process (GO:0009226)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	1	0	2	0	2
+thiamine biosynthetic process (GO:0009228)	0	2	0	0	0	0	4	0	0	0	15	0	16	0	13	17	14	18	9	16
+thiamine diphosphate biosynthetic process (GO:0009229)	0	0	0	0	0	0	0	0	0	0	4	0	6	0	4	5	4	4	0	5
+riboflavin biosynthetic process (GO:0009231)	0	0	0	1	0	0	5	0	0	2	21	0	15	0	14	17	15	23	6	22
+menaquinone biosynthetic process (GO:0009234)	0	1	0	0	0	0	1	1	0	0	4	0	5	0	2	6	2	8	1	7
+cobalamin biosynthetic process (GO:0009236)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0
+lipopolysaccharide core region biosynthetic process (GO:0009244)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+lipid A biosynthetic process (GO:0009245)	0	0	2	2	0	0	2	4	0	0	21	1	16	0	17	21	13	20	1	23
+protein lipoylation (GO:0009249)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+peptidoglycan biosynthetic process (GO:0009252)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	3	3	0	3	0	3
+peptidoglycan catabolic process (GO:0009253)	0	0	0	0	0	0	2	0	0	0	5	0	3	0	2	5	2	3	0	3
+Entner-Doudoroff pathway through 6-phosphogluconate (GO:0009255)	0	1	1	0	0	0	2	1	0	0	2	0	3	0	2	2	3	3	3	2
+deoxyribonucleotide biosynthetic process (GO:0009263)	0	2	0	0	0	0	6	0	0	0	4	2	6	0	6	4	4	4	0	4
+cellular response to starvation (GO:0009267)	0	0	0	0	0	0	3	0	0	0	1	1	1	0	2	1	1	1	1	1
+cell outer membrane (GO:0009279)	0	0	0	0	0	0	1	0	0	0	18	1	17	0	4	16	12	20	5	20
+bacterial-type flagellum (GO:0009288)	0	7	1	0	0	0	0	4	0	0	19	2	18	0	15	23	19	22	6	22
+DNA mediated transformation (GO:0009294)	0	2	2	0	0	0	0	0	0	0	3	2	3	0	3	4	2	3	0	3
+protein secretion (GO:0009306)	0	3	0	0	0	0	12	9	0	0	50	0	50	0	32	47	40	50	15	48
+DNA restriction-modification system (GO:0009307)	0	0	0	0	0	0	0	0	0	0	6	0	3	0	3	6	3	11	3	9
+oligosaccharide metabolic process (GO:0009311)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+acetyl-CoA carboxylase complex (GO:0009317)	0	0	0	0	0	0	7	4	0	0	19	3	18	0	12	21	17	21	6	21
+exodeoxyribonuclease VII complex (GO:0009318)	0	0	1	0	0	0	0	0	4	0	8	1	7	0	3	8	3	7	5	7
+nitrate reductase complex (GO:0009325)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+glycerol-3-phosphate dehydrogenase complex (GO:0009331)	0	0	1	0	0	0	0	0	0	0	8	0	6	0	6	9	5	9	0	9
+glycolate oxidase complex (GO:0009339)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+riboflavin synthase complex (GO:0009349)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	3	3	3	3	3	3
+polyphosphate kinase complex (GO:0009358)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	1	4	1	4	0	4
+DNA polymerase III complex (GO:0009360)	2	0	0	0	0	0	0	3	0	0	7	1	5	0	4	8	7	9	0	9
+quorum sensing (GO:0009372)	0	0	0	0	0	0	0	5	0	0	10	0	10	0	4	10	6	10	0	10
+ferredoxin hydrogenase complex (GO:0009375)	0	0	0	0	0	0	0	0	0	0	4	0	1	0	5	3	4	3	0	3
+HslUV protease complex (GO:0009376)	0	4	0	0	0	0	0	2	0	0	5	0	5	0	4	5	5	6	1	6
+four-way junction helicase activity (GO:0009378)	2	0	2	0	0	0	3	3	0	0	10	4	9	0	9	9	9	9	6	10
+Holliday junction helicase complex (GO:0009379)	0	0	2	0	0	0	0	0	0	0	3	0	2	0	2	2	2	2	0	2
+excinuclease repair complex (GO:0009380)	1	0	0	0	0	0	0	2	0	0	4	0	3	0	4	4	4	7	2	7
+excinuclease ABC activity (GO:0009381)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	1	2	0	2
+folic acid-containing compound biosynthetic process (GO:0009396)	0	3	1	0	0	0	3	0	0	0	11	2	8	0	7	14	9	11	4	11
+phosphoenolpyruvate-dependent sugar phosphotransferase system (GO:0009401)	0	0	4	0	0	0	4	4	0	0	0	3	0	3	2	11	0	0	0	1
+toxin biosynthetic process (GO:0009403)	0	0	1	0	0	0	0	0	0	0	1	1	1	0	0	1	1	1	0	1
+response to heat (GO:0009408)	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2	2	0	2	0	2
+bacterial-type flagellum filament cap (GO:0009421)	0	0	1	0	0	0	0	0	0	0	2	2	1	0	2	1	1	2	1	1
+bacterial-type flagellum hook (GO:0009424)	0	0	0	0	0	0	0	1	0	0	3	1	7	0	9	7	6	7	1	7
+bacterial-type flagellum basal body (GO:0009425)	0	3	0	0	0	0	0	0	0	0	17	8	17	0	11	18	19	18	4	18
+bacterial-type flagellum basal body, distal rod (GO:0009426)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	0	1	0	1
+bacterial-type flagellum basal body, distal rod, L ring (GO:0009427)	0	0	0	0	0	0	0	1	0	0	7	0	2	0	5	6	7	7	0	7
+bacterial-type flagellum basal body, distal rod, P ring (GO:0009428)	0	0	0	0	0	0	0	0	0	0	12	1	12	0	4	12	12	12	0	12
+bacterial-type flagellum basal body, MS ring (GO:0009431)	0	0	0	0	0	0	0	4	0	0	8	0	6	0	6	8	7	8	7	8
+NAD biosynthetic process (GO:0009435)	0	0	1	0	0	0	0	6	0	0	18	7	20	1	17	17	16	18	4	18
+putrescine biosynthetic process (GO:0009446)	0	0	0	0	0	0	0	0	0	0	2	2	4	0	3	2	3	2	2	2
+RNA modification (GO:0009451)	0	0	1	0	0	0	2	1	0	2	30	7	31	0	28	32	19	33	11	31
+cytochrome bo3 ubiquinol oxidase activity (GO:0009486)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+pyrophosphate hydrolysis-driven proton transmembrane transporter activity (GO:0009678)	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+pseudouridine synthase activity (GO:0009982)	0	0	1	0	0	0	3	2	0	2	31	7	32	0	29	33	20	34	13	32
+response to organic substance (GO:0010033)	0	0	0	0	0	0	0	1	0	0	2	0	3	0	1	1	1	2	1	2
+response to nickel cation (GO:0010045)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	1	0	1
+proline catabolic process to glutamate (GO:0010133)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	1
+farnesyl diphosphate biosynthetic process, mevalonate pathway (GO:0010142)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FMN binding (GO:0010181)	0	0	2	0	0	0	1	3	0	0	5	0	8	0	4	5	3	6	7	6
+proteasomal protein catabolic process (GO:0010498)	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0
+protein transport (GO:0015031)	0	0	0	0	0	0	7	7	0	0	15	0	15	0	13	13	11	14	8	16
+protein-disulfide reductase activity (GO:0015035)	0	0	0	0	0	2	1	2	0	0	3	0	1	0	3	3	3	3	0	3
+disulfide oxidoreductase activity (GO:0015036)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+DNA integration (GO:0015074)	1	14	0	0	2	3	22	3	0	0	9	0	15	2	5	11	3	15	11	12
+proton transmembrane transporter activity (GO:0015078)	2	5	19	0	0	2	4	1	0	2	11	2	4	2	15	14	9	16	0	16
+potassium ion transmembrane transporter activity (GO:0015079)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cobalt ion transmembrane transporter activity (GO:0015087)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1
+ferrous iron transmembrane transporter activity (GO:0015093)	0	0	0	0	0	0	0	0	1	0	2	0	2	0	0	2	2	2	0	2
+magnesium ion transmembrane transporter activity (GO:0015095)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+molybdate ion transmembrane transporter activity (GO:0015098)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+nickel cation transmembrane transporter activity (GO:0015099)	0	0	0	0	0	0	1	1	0	0	1	1	1	0	1	2	1	2	2	1
+inorganic anion transmembrane transporter activity (GO:0015103)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+chromate transmembrane transporter activity (GO:0015109)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nitrate transmembrane transporter activity (GO:0015112)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+sulfate transmembrane transporter activity (GO:0015116)	0	0	0	0	0	0	1	1	0	0	2	0	2	2	1	2	1	2	0	2
+gluconate transmembrane transporter activity (GO:0015128)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+lactate transmembrane transporter activity (GO:0015129)	0	0	0	0	0	0	4	2	0	0	6	2	9	0	9	8	7	6	7	6
+pyrimidine nucleotide-sugar transmembrane transporter activity (GO:0015165)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+amino acid transmembrane transporter activity (GO:0015171)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	1	0	1
+nucleobase transmembrane transporter activity (GO:0015205)	0	1	1	0	0	0	1	0	0	0	2	0	1	0	2	3	1	1	1	1
+heme transmembrane transporter activity (GO:0015232)	0	4	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+symporter activity (GO:0015293)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	4	0	0	0	0	0
+antiporter activity (GO:0015297)	0	0	0	1	0	0	0	2	0	0	5	3	6	0	3	7	6	8	0	7
+solute:proton antiporter activity (GO:0015299)	0	0	1	0	0	0	1	2	0	0	3	1	3	0	2	2	3	2	0	2
+siderophore transmembrane transporter activity (GO:0015343)	0	0	0	0	0	0	3	0	0	0	4	0	4	0	3	4	3	4	3	4
+ABC-type amino acid transporter activity (GO:0015424)	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	1	1	1	0	1
+P-P-bond-hydrolysis-driven protein transmembrane transporter activity (GO:0015450)	0	0	0	0	0	0	6	0	0	0	10	1	9	0	9	10	9	10	6	10
+glutamate:sodium symporter activity (GO:0015501)	0	0	0	0	0	0	6	2	0	0	3	0	5	0	4	3	4	4	3	9
+C4-dicarboxylate transmembrane transporter activity (GO:0015556)	0	0	0	0	0	0	0	0	0	0	3	0	4	0	5	4	5	4	2	6
+efflux transmembrane transporter activity (GO:0015562)	0	1	0	0	1	0	0	1	0	0	8	1	8	0	5	8	6	7	1	7
+alanine:sodium symporter activity (GO:0015655)	0	0	0	0	0	0	0	4	0	0	9	0	13	0	5	14	9	9	6	9
+branched-chain amino acid transmembrane transporter activity (GO:0015658)	0	1	2	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+site-specific DNA-methyltransferase (cytosine-N4-specific) activity (GO:0015667)	0	0	0	0	0	0	2	1	0	0	1	0	1	0	2	2	2	2	1	3
+molybdate ion transport (GO:0015689)	0	0	0	0	0	0	1	0	0	0	2	1	2	0	2	4	3	4	1	4
+magnesium ion transport (GO:0015693)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+ammonium transport (GO:0015696)	0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0
+chromate transport (GO:0015703)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+organic anion transport (GO:0015711)	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+lactate transport (GO:0015727)	0	0	0	0	0	0	4	2	0	0	6	2	9	0	9	8	7	6	7	6
+C4-dicarboxylate transport (GO:0015740)	0	0	0	0	0	0	0	0	0	0	3	0	4	0	5	4	5	4	2	6
+galactose transmembrane transport (GO:0015757)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+L-glutamate transmembrane transport (GO:0015813)	0	0	0	0	0	0	6	2	0	0	3	0	5	0	4	3	4	4	3	9
+methionine transport (GO:0015821)	0	0	0	0	0	0	1	1	0	0	1	1	1	0	1	1	2	1	0	1
+proline transport (GO:0015824)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	0	2	0	2
+peptide transport (GO:0015833)	0	0	0	0	0	0	2	0	0	0	4	1	4	0	5	1	3	4	2	4
+nucleoside transport (GO:0015858)	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+heme transport (GO:0015886)	0	4	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+siderophore transport (GO:0015891)	0	0	0	0	0	0	3	0	0	0	4	0	4	0	3	4	3	4	3	4
+lipopolysaccharide transport (GO:0015920)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	2	0	2
+glutamate synthase activity (GO:0015930)	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+large ribosomal subunit (GO:0015934)	0	1	0	0	0	0	2	0	0	0	16	3	16	3	10	18	8	16	5	15
+small ribosomal subunit (GO:0015935)	0	3	0	0	0	0	1	0	0	0	14	6	13	1	5	9	13	16	1	14
+coenzyme A biosynthetic process (GO:0015937)	0	0	0	0	0	0	0	0	0	0	14	0	14	0	17	18	13	19	2	15
+pantothenate biosynthetic process (GO:0015940)	0	3	0	4	0	0	0	0	0	0	10	5	11	0	11	12	10	11	0	11
+pantothenate catabolic process (GO:0015941)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	2	1	0	2	0	2
+guanosine tetraphosphate metabolic process (GO:0015969)	0	0	0	3	0	0	0	3	0	0	4	0	3	0	3	3	3	4	2	4
+carbon utilization (GO:0015976)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1	0	1
+carbon fixation (GO:0015977)	0	0	2	0	0	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0
+ATP synthesis coupled proton transport (GO:0015986)	0	5	14	0	0	0	6	4	0	0	36	1	21	0	28	38	30	39	0	39
+electron transport coupled proton transport (GO:0015990)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+membrane (GO:0016020)	72	89	127	65	62	54	129	145	23	14	302	156	328	45	269	350	287	356	116	350
+integral component of membrane (GO:0016021)	5	48	42	12	4	2	63	35	4	0	161	48	150	14	133	186	136	166	47	179
+carbohydrate biosynthetic process (GO:0016051)	0	0	0	0	0	0	0	0	0	0	1	2	1	0	1	1	2	1	0	1
+rRNA catabolic process (GO:0016075)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	1	0	0	3	0	3
+triterpenoid biosynthetic process (GO:0016104)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+terpenoid biosynthetic process (GO:0016114)	0	0	0	0	0	0	0	3	0	0	20	2	21	0	8	23	15	20	6	20
+translation release factor activity, codon specific (GO:0016149)	0	0	0	0	0	0	0	0	0	0	4	0	4	0	0	2	2	4	1	4
+nickel cation binding (GO:0016151)	0	0	17	0	0	0	6	4	0	0	40	16	34	0	34	38	32	39	6	40
+urocanate hydratase activity (GO:0016153)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+vesicle-mediated transport (GO:0016192)	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+AMP binding (GO:0016208)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	2	0	0
+antioxidant activity (GO:0016209)	0	0	0	0	0	0	0	1	1	0	4	1	5	0	2	3	2	3	1	4
+iron-sulfur cluster assembly (GO:0016226)	0	0	1	0	0	0	3	0	0	0	7	2	10	0	6	10	6	7	4	7
+kinase activity (GO:0016301)	0	0	3	0	0	2	5	4	0	0	16	12	17	0	14	17	19	18	3	18
+phosphorylation (GO:0016310)	0	7	9	0	2	0	11	4	0	0	24	13	20	0	18	23	23	27	7	22
+dephosphorylation (GO:0016311)	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+acetyltransferase activity (GO:0016407)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+N-acyltransferase activity (GO:0016410)	0	0	0	0	0	0	1	0	0	0	6	0	5	0	3	5	0	6	1	6
+tRNA (adenine-N1-)-methyltransferase activity (GO:0016429)	0	0	0	0	0	0	0	0	0	0	0	0	3	0	2	0	0	0	0	0
+pyrophosphatase activity (GO:0016462)	0	0	1	0	0	0	1	0	0	0	1	0	1	0	2	1	1	2	0	1
+protein processing (GO:0016485)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	1	1	1
+oxidoreductase activity (GO:0016491)	17	90	59	0	5	3	64	23	11	12	112	42	113	4	91	119	98	125	22	121
+histone modification (GO:0016570)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+amino acid binding (GO:0016597)	0	0	0	0	0	0	0	0	0	0	9	0	3	0	9	9	3	9	9	9
+oxidoreductase activity, acting on CH-OH group of donors (GO:0016614)	0	3	5	1	0	0	7	1	0	0	10	0	2	0	6	9	8	10	1	11
+malate dehydrogenase activity (GO:0016615)	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor (GO:0016616)	0	5	1	0	0	0	8	1	0	3	7	3	6	0	6	10	18	6	1	6
+oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor (GO:0016620)	2	3	4	1	0	0	5	5	0	0	21	7	21	1	15	21	21	22	2	21
+oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor (GO:0016624)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0
+oxidoreductase activity, acting on the aldehyde or oxo group of donors, iron-sulfur protein as acceptor (GO:0016625)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	3	3	3	3	0	3
+oxidoreductase activity, acting on the CH-CH group of donors (GO:0016627)	1	5	0	0	0	0	5	0	0	0	3	6	2	0	3	5	3	4	9	2
+oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor (GO:0016628)	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+oxidoreductase activity, acting on the CH-NH2 group of donors (GO:0016638)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+oxidoreductase activity, acting on the CH-NH2 group of donors, NAD or NADP as acceptor (GO:0016639)	0	0	0	0	0	0	0	0	0	0	1	0	2	0	0	1	2	2	0	2
+oxidoreductase activity, acting on NAD(P)H (GO:0016651)	0	1	1	0	0	0	3	5	0	0	11	3	11	0	10	11	10	11	0	14
+oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as acceptor (GO:0016668)	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor (GO:0016671)	0	0	0	0	0	0	1	2	0	0	1	0	1	0	1	1	1	1	1	1
+oxidoreductase activity, acting on peroxide as acceptor (GO:0016684)	0	0	0	0	0	0	0	1	1	0	1	0	2	0	1	1	0	1	0	1
+oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen (GO:0016702)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen (GO:0016705)	0	3	9	0	0	0	0	3	0	0	0	0	0	0	3	0	2	0	0	0
+oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced pteridine as one donor, and incorporation of one atom of oxygen (GO:0016714)	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+oxidoreductase activity, acting on metal ions (GO:0016722)	0	0	0	0	0	0	2	1	0	0	2	0	0	0	2	2	0	2	0	2
+transferase activity (GO:0016740)	3	4	13	8	3	0	6	8	0	4	32	3	33	2	18	24	22	35	5	34
+hydroxymethyl-, formyl- and related transferase activity (GO:0016742)	1	0	4	0	0	0	2	0	0	0	5	0	5	0	5	7	6	7	0	5
+carboxyl- or carbamoyltransferase activity (GO:0016743)	0	0	0	0	0	0	0	0	0	0	12	0	4	0	10	12	3	12	10	12
+acyltransferase activity (GO:0016746)	0	4	7	0	2	0	3	11	0	2	14	8	14	0	19	18	20	16	12	14
+acyltransferase activity, transferring groups other than amino-acyl groups (GO:0016747)	0	1	0	0	1	0	1	5	0	4	11	6	11	0	10	11	10	11	1	11
+aminoacyltransferase activity (GO:0016755)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+glycosyltransferase activity (GO:0016757)	0	1	1	1	0	0	5	3	0	1	14	3	17	0	14	19	16	15	5	16
+hexosyltransferase activity (GO:0016758)	0	0	0	0	0	0	1	0	1	0	2	0	2	0	3	2	2	2	0	6
+pentosyltransferase activity (GO:0016763)	0	0	4	0	0	0	4	4	0	0	7	0	7	0	10	7	7	7	0	7
+transferase activity, transferring alkyl or aryl (other than methyl) groups (GO:0016765)	0	1	2	0	0	0	1	6	0	0	18	2	22	6	20	23	17	24	6	21
+transferase activity, transferring phosphorus-containing groups (GO:0016772)	0	8	7	0	2	0	11	0	0	0	18	3	13	0	14	16	11	18	7	19
+phosphotransferase activity, alcohol group as acceptor (GO:0016773)	0	1	1	1	0	0	0	0	0	0	2	0	1	0	1	5	3	4	0	4
+phosphotransferase activity, carboxyl group as acceptor (GO:0016774)	0	0	3	0	0	0	0	4	0	0	12	11	12	0	9	12	13	13	2	13
+nucleotidyltransferase activity (GO:0016779)	1	2	1	0	1	0	2	1	0	0	11	3	9	0	9	13	9	13	3	14
+phosphotransferase activity, for other substituted phosphate groups (GO:0016780)	0	2	0	0	0	0	0	0	0	0	4	2	4	0	2	4	2	4	0	4
+sulfurtransferase activity (GO:0016783)	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	2	1	1	0	1
+hydrolase activity (GO:0016787)	0	7	12	1	2	1	17	14	0	2	44	20	47	1	44	45	40	46	15	46
+hydrolase activity, acting on ester bonds (GO:0016788)	1	0	4	0	0	0	1	0	0	1	6	0	7	0	7	10	3	8	3	8
+thiolester hydrolase activity (GO:0016790)	0	0	0	0	0	0	0	1	0	0	1	1	1	0	1	1	1	1	0	1
+phosphatase activity (GO:0016791)	0	0	1	0	0	0	0	0	0	0	11	0	4	0	7	8	6	8	0	9
+hydrolase activity, acting on glycosyl bonds (GO:0016798)	0	0	0	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1	1
+hydrolase activity, hydrolyzing N-glycosyl compounds (GO:0016799)	0	0	4	0	0	0	0	1	0	0	0	0	2	0	3	1	0	1	0	1
+hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds (GO:0016810)	0	8	1	0	0	0	1	2	0	0	10	2	9	0	11	9	9	8	2	9
+hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides (GO:0016811)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides (GO:0016812)	0	0	0	0	0	0	0	1	0	0	2	0	1	0	1	2	1	2	0	2
+hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines (GO:0016813)	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+hydrolase activity, acting on acid anhydrides (GO:0016817)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides (GO:0016818)	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	1	1	1	0	1
+lyase activity (GO:0016829)	0	0	2	0	0	0	12	1	0	4	21	1	20	0	13	24	20	21	14	27
+carbon-carbon lyase activity (GO:0016830)	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+carboxy-lyase activity (GO:0016831)	0	1	2	0	0	0	4	1	0	0	9	3	7	0	8	8	9	8	2	10
+aldehyde-lyase activity (GO:0016832)	0	3	1	0	0	0	0	2	0	0	6	6	6	0	6	6	6	6	0	6
+hydro-lyase activity (GO:0016836)	0	0	0	0	0	0	1	0	0	0	2	0	3	0	2	5	2	2	1	2
+carbon-oxygen lyase activity, acting on phosphates (GO:0016838)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	0	1
+isomerase activity (GO:0016853)	0	0	0	0	0	0	2	3	0	0	15	0	13	0	13	22	14	16	0	16
+racemase and epimerase activity, acting on amino acids and derivatives (GO:0016855)	0	0	0	0	0	0	1	0	0	0	2	1	2	0	3	2	2	2	0	2
+racemase and epimerase activity, acting on carbohydrates and derivatives (GO:0016857)	0	0	0	0	0	0	0	3	0	0	5	0	5	0	6	5	5	5	0	5
+intramolecular transferase activity (GO:0016866)	0	0	2	0	0	0	0	0	0	0	2	0	2	0	2	3	2	2	0	2
+intramolecular transferase activity, phosphotransferases (GO:0016868)	0	4	0	0	0	0	0	2	0	0	21	5	19	2	14	22	20	23	9	21
+ligase activity (GO:0016874)	0	6	0	0	0	0	6	6	0	0	19	4	15	0	16	18	14	20	1	19
+ligase activity, forming carbon-nitrogen bonds (GO:0016879)	0	0	0	0	0	0	5	0	0	0	4	0	4	0	0	3	0	4	0	4
+acid-amino acid ligase activity (GO:0016881)	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	2	0	2
+carbon-nitrogen ligase activity, with glutamine as amido-N-donor (GO:0016884)	0	2	0	0	0	0	0	4	0	0	7	1	7	0	7	7	7	7	9	7
+ATPase (GO:0016887)	4	2	8	0	0	0	10	9	0	0	43	8	40	2	39	39	35	48	14	44
+oxidoreductase activity, acting on the aldehyde or oxo group of donors (GO:0016903)	0	1	0	0	0	0	0	0	0	0	2	1	2	0	2	2	2	2	0	2
+pyroglutamyl-peptidase activity (GO:0016920)	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0
+sigma factor activity (GO:0016987)	0	1	0	0	0	0	1	4	0	0	12	0	5	0	8	6	4	15	2	11
+precorrin-6A reductase activity (GO:0016994)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0
+cell wall macromolecule catabolic process (GO:0016998)	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+cytochrome complex assembly (GO:0017004)	0	5	0	0	0	0	1	0	0	3	4	3	3	0	0	4	3	3	1	3
+protein flavinylation (GO:0017013)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+protein import (GO:0017038)	0	0	0	2	0	0	5	6	0	0	7	0	15	0	7	8	6	7	8	13
+6-phosphogluconolactonase activity (GO:0017057)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	2	2	2	2	0	2
+purine nucleotide binding (GO:0017076)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+5'-flap endonuclease activity (GO:0017108)	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	1	1	1	0	0
+tRNA dihydrouridine synthase activity (GO:0017150)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	3	2	1	2	1	2
+protein-DNA covalent cross-linking (GO:0018142)	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+peptidyl-pyrromethane cofactor linkage (GO:0018160)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	1	0	1
+peptidyl-L-beta-methylthioaspartic acid biosynthetic process from peptidyl-aspartic acid (GO:0018339)	0	0	0	0	0	0	0	1	0	1	2	1	4	0	1	2	2	4	1	4
+nitronate monooxygenase activity (GO:0018580)	0	0	1	0	0	0	1	0	0	0	2	0	2	0	3	2	2	2	3	2
+guanyl nucleotide binding (GO:0019001)	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+molybdopterin synthase complex (GO:0019008)	0	0	0	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	0	1
+modulation by virus of host process (GO:0019048)	0	0	1	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+modulation by virus of host cellular process (GO:0019054)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+virion assembly (GO:0019068)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+viral DNA genome packaging (GO:0019073)	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+glucosamine-1-phosphate N-acetyltransferase activity (GO:0019134)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	3	3	0	3	0	3
+nucleobase-containing compound kinase activity (GO:0019205)	0	0	0	0	0	0	0	0	0	0	7	7	7	0	4	7	5	7	0	7
+glycine biosynthetic process from serine (GO:0019264)	0	0	0	0	0	0	0	2	0	0	4	0	4	0	3	4	4	4	0	4
+UDP-N-acetylgalactosamine biosynthetic process (GO:0019277)	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	2	3	3	0	3
+isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway (GO:0019288)	0	0	0	0	0	0	0	0	1	0	5	0	5	0	4	5	5	5	2	6
+siderophore biosynthetic process (GO:0019290)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	2	0
+transsulfuration (GO:0019346)	0	3	4	0	0	0	1	5	0	2	5	2	8	3	5	4	6	5	0	5
+acetyl-CoA biosynthetic process from acetate (GO:0019427)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	2	0	0
+removal of superoxide radicals (GO:0019430)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	1	0	1
+L-lysine catabolic process to acetate (GO:0019475)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+L-methionine salvage from methylthioadenosine (GO:0019509)	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	1
+lactate oxidation (GO:0019516)	0	0	0	0	0	0	1	0	0	0	2	2	2	0	1	3	3	2	1	2
+toxin transmembrane transporter activity (GO:0019534)	0	0	0	0	0	0	3	0	0	0	0	0	8	0	9	4	0	11	0	11
+protein metabolic process (GO:0019538)	0	0	0	0	0	0	0	0	0	0	7	0	7	0	6	7	7	7	5	7
+urea metabolic process (GO:0019627)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	0	1	0	1
+shikimate metabolic process (GO:0019632)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	1	0	1
+aerobic electron transport chain (GO:0019646)	0	2	3	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+anaerobic glutamate catabolic process (GO:0019670)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+GDP-mannose metabolic process (GO:0019673)	0	0	0	0	0	0	2	0	0	0	3	0	2	0	2	2	2	3	1	3
+NAD metabolic process (GO:0019674)	0	0	0	0	0	0	0	1	0	0	1	0	1	0	1	1	1	1	0	1
+carboxylic acid metabolic process (GO:0019752)	0	0	2	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+ATPase-coupled cation transmembrane transporter activity (GO:0019829)	0	2	0	0	0	0	0	0	0	0	7	3	4	0	6	7	0	8	0	8
+rRNA binding (GO:0019843)	0	0	11	0	0	0	13	0	0	0	39	3	39	0	24	57	40	40	26	40
+pyrimidine nucleobase biosynthetic process (GO:0019856)	0	0	0	0	0	0	0	1	0	0	6	0	2	0	1	5	3	6	1	3
+outer membrane (GO:0019867)	0	2	0	0	0	1	0	5	0	2	12	2	10	0	12	11	10	9	3	9
+modification-dependent protein catabolic process (GO:0019941)	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0
+heme binding (GO:0020037)	0	16	37	2	0	0	22	14	0	2	61	4	54	0	49	66	44	54	22	62
+transmembrane transporter activity (GO:0022857)	16	60	44	18	23	15	39	43	4	2	80	50	82	12	83	98	87	90	46	80
+electron transport chain (GO:0022900)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+respiratory electron transport chain (GO:0022904)	0	0	1	0	0	0	0	2	0	0	2	2	2	0	2	3	2	3	0	2
+metal ion transport (GO:0030001)	0	1	5	0	0	0	6	0	0	0	2	1	3	0	2	2	2	1	5	1
+cellular manganese ion homeostasis (GO:0030026)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+protein repair (GO:0030091)	0	0	0	0	0	0	1	2	0	0	1	0	1	0	1	1	1	1	1	1
+COPII vesicle coat (GO:0030127)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+manganese ion binding (GO:0030145)	0	1	3	0	0	0	1	0	0	0	8	0	8	0	7	8	8	8	5	8
+molybdenum ion binding (GO:0030151)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+protein catabolic process (GO:0030163)	0	1	1	0	0	0	2	0	0	0	3	3	4	0	5	2	2	2	2	2
+pyridoxal phosphate binding (GO:0030170)	0	6	14	0	0	0	13	10	2	2	28	10	33	3	24	31	32	30	7	31
+integral component of endoplasmic reticulum membrane (GO:0030176)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+enzyme regulator activity (GO:0030234)	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+carbohydrate binding (GO:0030246)	0	0	0	0	0	0	2	0	0	0	0	0	0	1	0	2	0	0	0	0
+protein secretion by the type III secretion system (GO:0030254)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	1	0	1
+protein secretion by the type IV secretion system (GO:0030255)	0	0	0	0	0	0	1	0	0	0	1	0	1	0	1	1	0	3	0	1
+type III protein secretion system complex (GO:0030257)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	1	0	1
+lipid glycosylation (GO:0030259)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	2	1	1	1	0	3
+structural constituent of skin epidermis (GO:0030280)	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+outer membrane-bounded periplasmic space (GO:0030288)	0	0	0	0	0	0	3	0	0	0	16	1	16	0	7	17	15	16	3	16
+fructose 1,6-bisphosphate metabolic process (GO:0030388)	0	0	0	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	0	1
+kynureninase activity (GO:0030429)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+sporulation resulting in formation of a cellular spore (GO:0030435)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+tRNA methylation (GO:0030488)	0	0	0	0	0	0	0	0	0	0	2	0	5	0	2	2	1	2	0	2
+1-deoxy-D-xylulose-5-phosphate reductoisomerase activity (GO:0030604)	0	0	1	0	0	0	0	0	0	0	4	0	2	0	4	5	4	4	0	4
+polyketide metabolic process (GO:0030638)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+bacterial-type flagellum basal body, rod (GO:0030694)	0	0	0	0	0	0	0	0	0	0	4	0	4	0	3	3	1	4	0	4
+MBF transcription complex (GO:0030907)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+potassium ion binding (GO:0030955)	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0
+glutamyl-tRNA(Gln) amidotransferase complex (GO:0030956)	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	2	0	2
+molybdate ion binding (GO:0030973)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	0	1
+thiamine pyrophosphate binding (GO:0030976)	1	2	3	0	0	0	0	0	0	1	2	0	4	3	4	5	2	2	2	2
+mismatched DNA binding (GO:0030983)	0	0	6	0	0	0	2	3	0	0	8	0	7	0	6	11	4	8	1	8
+cysteine desulfurase activity (GO:0031071)	0	0	0	0	0	0	1	0	0	0	2	1	1	0	2	4	2	3	0	3
+heat shock protein binding (GO:0031072)	0	0	3	0	0	0	3	0	0	0	2	0	3	0	3	3	0	3	3	3
+rRNA methylation (GO:0031167)	0	0	0	0	0	0	0	0	0	0	2	0	1	0	2	0	0	2	0	2
+phosphopantetheine binding (GO:0031177)	0	1	0	0	0	0	0	0	0	0	1	1	0	0	1	0	1	1	0	1
+small GTPase binding (GO:0031267)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+integral component of mitochondrial inner membrane (GO:0031305)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+organic acid phosphorylation (GO:0031388)	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+sodium ion binding (GO:0031402)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	0	2	0	2
+cobalamin binding (GO:0031419)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	1	0	0
+tRNA (m1A) methyltransferase complex (GO:0031515)	0	0	0	0	0	0	0	0	0	0	0	0	3	0	2	0	0	0	0	0
+regulation of DNA-templated transcription, termination (GO:0031554)	0	0	0	0	0	0	3	1	0	0	2	0	3	0	3	3	0	6	3	3
+transcription antitermination (GO:0031564)	0	0	0	0	0	0	2	1	0	0	1	0	1	1	2	2	1	3	2	3
+G-protein beta/gamma-subunit complex binding (GO:0031683)	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOR signaling (GO:0031929)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TORC1 complex (GO:0031931)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TORC2 complex (GO:0031932)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+energy transducer activity (GO:0031992)	0	0	0	0	0	0	3	0	0	0	4	0	4	0	3	4	3	4	3	4
+transposition (GO:0032196)	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0
+methylation (GO:0032259)	0	2	1	1	0	0	2	5	0	0	22	0	17	0	16	19	11	22	2	25
+mismatch repair complex (GO:0032300)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+molybdopterin cofactor biosynthetic process (GO:0032324)	0	2	2	0	0	0	2	0	0	0	3	0	4	0	3	3	3	3	0	3
+alanine transport (GO:0032328)	0	0	0	0	0	0	0	4	0	0	9	0	13	0	5	14	9	9	6	9
+DNA duplex unwinding (GO:0032508)	0	1	0	0	0	0	0	0	0	0	2	0	2	0	0	2	1	2	0	1
+ribonucleoside binding (GO:0032549)	0	0	0	0	0	0	1	2	0	0	2	3	1	0	4	2	3	1	3	1
+adenyl ribonucleotide binding (GO:0032559)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	1	0	1
+DNA methylation on adenine (GO:0032775)	0	1	0	0	0	0	6	0	0	0	29	1	7	0	4	8	6	18	1	20
+regulation of DNA-templated transcription, elongation (GO:0032784)	0	5	0	0	0	0	0	0	0	0	13	0	12	0	15	15	14	20	3	15
+regulation of division septum assembly (GO:0032955)	0	0	0	0	0	0	1	0	0	0	5	4	1	0	5	5	5	5	0	5
+membrane insertase activity (GO:0032977)	0	0	0	0	0	0	2	0	0	0	11	0	10	0	9	12	10	11	0	11
+tetrapyrrole biosynthetic process (GO:0033014)	0	7	0	0	0	0	0	12	0	0	42	3	32	0	34	37	36	39	9	39
+proton-transporting two-sector ATPase complex, proton-transporting domain (GO:0033177)	0	0	1	0	0	0	0	1	0	0	0	0	0	0	1	1	1	1	0	1
+proton-transporting V-type ATPase, V0 domain (GO:0033179)	2	0	4	0	0	2	4	0	0	2	0	2	0	2	2	0	0	0	0	0
+DNA replication, Okazaki fragment processing (GO:0033567)	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	1	1	1	0	0
+high-affinity iron permease complex (GO:0033573)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+preQ1 synthase activity (GO:0033739)	0	0	0	0	0	0	1	0	0	0	1	1	1	0	1	1	1	1	1	1
+peptide-methionine (R)-S-oxide reductase activity (GO:0033743)	0	0	0	0	0	0	0	2	0	0	3	0	5	0	3	3	3	3	0	3
+lipoyl(octanoyl) transferase activity (GO:0033819)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+pyridoxine 5'-phosphate synthase activity (GO:0033856)	0	0	0	0	0	0	3	0	0	0	5	0	4	0	7	5	4	6	3	6
+UMP kinase activity (GO:0033862)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	0	3	3	3	0	3
+nicotinamide riboside transmembrane transporter activity (GO:0034257)	0	0	0	0	0	0	0	5	0	0	3	3	3	0	4	3	3	3	3	3
+nicotinamide riboside transport (GO:0034258)	0	0	0	0	0	0	0	5	0	0	3	3	3	0	4	3	3	3	3	3
+iron ion transmembrane transport (GO:0034755)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+gluconate transmembrane transport (GO:0035429)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+nickel cation transmembrane transport (GO:0035444)	0	0	0	0	0	0	2	2	0	0	3	2	3	0	2	4	2	4	4	3
+urease complex (GO:0035550)	0	0	1	0	0	0	0	0	0	0	4	0	4	0	4	4	4	4	4	4
+intracellular signal transduction (GO:0035556)	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0
+methylthiotransferase activity (GO:0035596)	0	0	0	0	0	0	0	4	0	0	6	6	6	0	6	6	6	6	4	6
+oligopeptide transmembrane transporter activity (GO:0035673)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+tetrahydrofolate interconversion (GO:0035999)	0	0	0	0	0	0	0	2	0	0	4	0	4	0	3	4	4	4	0	4
+protein-malonyllysine demalonylase activity (GO:0036054)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	0	0	2	0	2
+protein-succinyllysine desuccinylase activity (GO:0036055)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	0	0	2	0	2
+racemase activity, acting on amino acids and derivatives (GO:0036361)	0	0	0	0	0	0	0	0	0	0	1	1	1	0	1	1	1	1	0	1
+glutathione hydrolase activity (GO:0036374)	0	0	0	0	0	0	1	0	0	0	2	1	0	0	2	2	1	2	1	2
+protein refolding (GO:0042026)	0	0	0	0	0	0	0	0	0	0	8	0	8	0	4	8	8	8	0	8
+alginic acid biosynthetic process (GO:0042121)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0
+regulation of cell population proliferation (GO:0042127)	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+fructose 1,6-bisphosphate 1-phosphatase activity (GO:0042132)	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+lipoprotein biosynthetic process (GO:0042158)	0	0	0	0	0	0	4	0	0	1	7	1	6	0	3	7	6	7	0	7
+cobyrinic acid a,c-diamide synthase activity (GO:0042242)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+ribosomal small subunit biogenesis (GO:0042274)	0	0	1	0	0	0	0	0	0	0	2	0	2	0	0	2	2	2	1	2
+nitrite reductase (cytochrome, ammonia-forming) activity (GO:0042279)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2
+glutamate-1-semialdehyde 2,1-aminomutase activity (GO:0042286)	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	2	2	2	0	2
+beta-amyrin synthase activity (GO:0042300)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+arginine biosynthetic process via ornithine (GO:0042450)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+pteridine-containing compound metabolic process (GO:0042558)	0	0	2	0	0	0	2	4	0	0	2	2	2	0	4	2	2	2	0	2
+peptide deformylase activity (GO:0042586)	0	0	0	0	0	0	0	0	0	0	9	2	10	0	10	10	4	10	0	20
+periplasmic space (GO:0042597)	0	2	0	0	0	0	0	0	0	0	3	1	3	0	3	3	2	6	0	7
+poly-hydroxybutyrate biosynthetic process (GO:0042619)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+ATPase-coupled transmembrane transporter activity (GO:0042626)	0	0	0	0	0	0	1	1	0	0	1	1	3	0	1	1	2	1	0	1
+D-xylose metabolic process (GO:0042732)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+hydrogen peroxide catabolic process (GO:0042744)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1	0	1
+ATP synthesis coupled electron transport (GO:0042773)	0	0	4	0	0	0	1	1	0	0	12	6	17	0	9	17	13	17	0	19
+protein homodimerization activity (GO:0042803)	0	0	0	0	0	0	0	0	0	0	9	0	6	0	6	9	6	9	4	9
+vitamin B6 biosynthetic process (GO:0042819)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	4	0	2	0	0
+pyridoxal phosphate biosynthetic process (GO:0042823)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	4	0	2	0	0
+peptidoglycan binding (GO:0042834)	0	0	0	0	0	0	0	0	0	0	5	0	4	0	6	4	4	5	6	9
+L-alanine catabolic process (GO:0042853)	0	0	0	0	0	0	1	1	0	0	2	0	2	0	2	2	2	2	1	4
+xenobiotic transmembrane transporter activity (GO:0042910)	0	0	0	1	0	0	0	2	0	0	5	2	6	0	3	7	6	8	0	7
+lipoprotein transport (GO:0042953)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	1	0	1
+ribosome binding (GO:0043022)	0	0	0	0	0	0	0	0	0	0	2	0	1	1	1	1	1	2	1	2
+tRNA aminoacylation (GO:0043039)	0	1	8	0	0	0	4	4	0	0	12	5	10	1	10	20	5	18	4	17
+peptide biosynthetic process (GO:0043043)	0	0	0	0	0	0	3	0	0	0	2	0	3	0	3	3	3	3	0	3
+negative regulation of apoptotic process (GO:0043066)	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+cellular metabolic compound salvage (GO:0043094)	0	0	0	0	0	0	0	1	0	0	5	1	5	0	2	3	5	5	0	5
+3'-5' DNA helicase activity (GO:0043138)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Gram-negative-bacterium-type cell outer membrane assembly (GO:0043165)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	2	0	2
+ATP-binding cassette (ABC) transporter complex (GO:0043190)	2	4	0	0	0	0	1	0	0	0	9	1	13	0	4	8	5	11	2	12
+[formate-C-acetyltransferase]-activating enzyme activity (GO:0043365)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+urea catabolic process (GO:0043419)	0	0	6	0	0	0	0	0	0	0	11	0	11	0	9	11	11	11	7	11
+regulation of ATPase activity (GO:0043462)	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+molybdopterin cofactor binding (GO:0043546)	0	0	0	0	0	0	1	0	0	0	1	1	1	0	1	1	1	1	0	1
+sequence-specific DNA binding (GO:0043565)	0	0	0	0	0	0	5	0	0	0	5	0	5	0	0	6	6	6	0	6
+maintenance of CRISPR repeat elements (GO:0043571)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+type IV secretion system complex (GO:0043684)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	0	1	0	1
+S-ribosylhomocysteine lyase activity (GO:0043768)	0	0	0	0	0	0	0	5	0	0	10	0	10	0	4	10	6	10	0	10
+acyl-phosphate glycerol-3-phosphate acyltransferase activity (GO:0043772)	0	0	0	0	0	0	0	0	0	0	5	0	6	0	5	5	3	5	1	5
+regulation of sporulation (GO:0043937)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+protein transport by the Tat complex (GO:0043953)	0	0	0	0	0	0	0	0	0	0	3	0	4	0	0	0	3	4	1	4
+cell wall macromolecule biosynthetic process (GO:0044038)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+secretion by the type IV secretion system (GO:0044097)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	0	1	0	1
+'de novo' UMP biosynthetic process (GO:0044205)	0	0	0	0	0	0	0	2	0	0	2	0	3	0	1	3	2	2	0	3
+cellular metabolic process (GO:0044237)	0	0	2	0	0	0	6	4	6	0	4	2	4	0	5	3	3	4	1	3
+cellular biosynthetic process (GO:0044249)	0	0	0	0	0	0	0	1	0	0	1	0	1	0	1	1	0	1	0	1
+[2Fe-2S] cluster assembly (GO:0044571)	0	0	0	0	0	0	1	0	0	0	1	1	1	0	1	3	1	2	0	2
+bacterial-type flagellum assembly (GO:0044780)	0	0	0	0	0	0	0	1	0	0	18	0	17	0	21	21	14	28	2	23
+bacterial-type flagellum organization (GO:0044781)	0	0	0	0	0	0	0	1	0	0	3	1	2	0	4	4	2	3	0	3
+acetoin biosynthetic process (GO:0045151)	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+extracellular polysaccharide biosynthetic process (GO:0045226)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tricarboxylic acid cycle enzyme complex (GO:0045239)	0	0	0	0	0	0	1	0	0	1	4	1	4	0	2	4	4	4	3	4
+proton-transporting ATP synthase complex, catalytic core F(1) (GO:0045261)	0	0	0	0	0	0	6	2	0	0	21	0	13	0	14	19	18	20	0	20
+proton-transporting ATP synthase complex, coupling factor F(o) (GO:0045263)	0	5	14	0	0	0	0	0	0	0	11	0	4	0	12	13	8	15	0	15
+plasma membrane respiratory chain complex IV (GO:0045278)	0	0	0	1	0	0	2	1	0	0	2	1	2	0	2	2	2	2	0	2
+nor-spermidine biosynthetic process (GO:0045312)	0	0	1	0	0	0	1	1	0	0	2	1	3	0	3	4	3	4	2	6
+cell redox homeostasis (GO:0045454)	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+negative regulation of transcription, DNA-templated (GO:0045892)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+negative regulation of DNA recombination (GO:0045910)	0	0	1	0	0	0	0	1	0	0	4	0	2	0	2	4	1	4	0	4
+negative regulation of growth (GO:0045926)	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP metabolic process (GO:0046034)	0	0	0	0	0	0	2	2	0	0	6	2	2	0	4	4	2	4	0	4
+dUTP catabolic process (GO:0046081)	0	0	1	0	0	0	2	3	0	0	3	0	2	0	3	3	3	3	0	3
+glycerol-3-phosphate catabolic process (GO:0046168)	0	0	1	0	0	0	0	1	0	0	1	0	1	0	1	1	0	1	0	1
+L-arabinose metabolic process (GO:0046373)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+chorismate metabolic process (GO:0046417)	0	0	0	0	0	0	0	0	0	0	5	0	3	0	4	5	5	5	0	5
+4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase activity (GO:0046429)	0	0	0	0	0	0	0	0	0	0	4	2	6	0	2	6	2	5	2	5
+alpha-L-arabinofuranosidase activity (GO:0046556)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+tetrahydrofolate biosynthetic process (GO:0046654)	0	0	0	0	0	0	4	0	0	0	0	0	5	0	5	5	0	5	0	5
+response to antibiotic (GO:0046677)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+viral entry into host cell (GO:0046718)	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0
+viral procapsid maturation (GO:0046797)	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	3	0	0	0	0
+inositol phosphate dephosphorylation (GO:0046855)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	0	0	0	0
+oxidoreductase activity, acting on other nitrogenous compounds as donors, with NAD or NADP as acceptor (GO:0046857)	0	0	0	0	0	0	0	0	0	0	3	2	0	0	3	3	3	3	0	3
+metal ion binding (GO:0046872)	0	7	8	0	0	0	33	19	1	2	75	18	71	0	70	84	79	85	23	79
+metal ion transmembrane transporter activity (GO:0046873)	0	0	5	0	0	0	6	0	0	0	2	1	3	0	2	2	2	1	5	1
+secretion (GO:0046903)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+acyltransferase, acyl groups converted into alkyl on transfer (GO:0046912)	3	6	0	0	0	0	4	5	0	0	15	2	10	2	0	10	10	10	5	10
+transition metal ion binding (GO:0046914)	0	0	0	0	0	0	0	2	0	0	1	2	2	0	2	2	2	2	0	2
+proton-transporting ATP synthase activity, rotational mechanism (GO:0046933)	0	0	0	0	0	0	6	2	0	0	22	0	14	0	15	20	19	21	0	21
+protein carbamoylation (GO:0046944)	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	2	0	2	0	2
+protein dimerization activity (GO:0046983)	0	0	2	1	0	0	2	3	0	0	6	0	5	0	8	7	6	6	2	6
+protein-disulfide reductase (NAD(P)) activity (GO:0047134)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+methylenetetrahydrofolate-tRNA-(uracil-5-)-methyltransferase (FADH2-oxidizing) activity (GO:0047151)	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+tetrahydrodipicolinate N-acetyltransferase activity (GO:0047200)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+nucleoside-triphosphate diphosphatase activity (GO:0047429)	0	1	0	0	0	0	0	0	0	1	6	0	1	0	2	5	2	6	0	5
+acetolactate decarboxylase activity (GO:0047605)	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+D-threo-aldose 1-dehydrogenase activity (GO:0047834)	0	2	1	0	0	0	0	0	0	0	1	2	1	0	0	0	2	1	1	0
+quinone binding (GO:0048038)	2	1	1	0	0	0	2	1	0	0	3	1	3	0	3	3	3	3	0	3
+UDP-glucuronate decarboxylase activity (GO:0048040)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+signal recognition particle (GO:0048500)	0	0	1	0	0	0	2	0	0	0	7	3	7	0	5	9	9	7	0	7
+malonyl-CoA decarboxylase activity (GO:0050080)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+methylaspartate mutase activity (GO:0050097)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+N-acetyldiaminopimelate deacetylase activity (GO:0050118)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+oleate hydratase activity (GO:0050151)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+thiaminase activity (GO:0050334)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	1	1	0	1
+IMP 5'-nucleotidase activity (GO:0050483)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase activity (GO:0050511)	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	2	0	0
+4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase activity (GO:0050515)	0	0	0	0	0	0	0	0	0	0	4	0	4	0	0	4	2	4	0	4
+2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase activity (GO:0050518)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1	0	1
+glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity (GO:0050567)	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	2	0	2
+flavin adenine dinucleotide binding (GO:0050660)	0	11	9	2	2	0	12	2	0	2	19	8	15	0	25	24	22	20	15	22
+NADP binding (GO:0050661)	0	0	6	0	0	0	7	2	0	0	34	4	18	0	19	28	22	31	5	32
+thymidylate synthase (FAD) activity (GO:0050797)	0	0	0	0	0	0	6	0	0	0	7	6	5	0	4	10	7	7	0	7
+modulation of chemical synaptic transmission (GO:0050804)	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+dimethylallyl diphosphate biosynthetic process (GO:0050992)	0	0	0	0	0	0	0	0	1	0	5	0	5	0	4	5	5	5	2	6
+adenosylcobinamide-GDP ribazoletransferase activity (GO:0051073)	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+unfolded protein binding (GO:0051082)	0	1	5	0	0	0	6	4	0	0	15	3	15	0	19	16	7	18	6	18
+chaperone binding (GO:0051087)	0	0	0	0	0	0	0	0	0	0	9	0	6	0	6	9	6	9	4	9
+chaperone-mediated protein complex assembly (GO:0051131)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+glucose 6-phosphate metabolic process (GO:0051156)	0	0	0	0	0	0	0	1	0	0	3	0	2	0	2	3	2	3	2	3
+NAD binding (GO:0051287)	0	5	2	3	0	0	9	4	0	0	21	8	20	1	15	22	24	20	3	20
+cell division (GO:0051301)	2	3	0	2	0	0	8	2	2	0	18	8	8	0	18	21	13	15	8	15
+iron-sulfur cluster binding (GO:0051536)	3	12	10	0	0	0	12	8	0	5	64	27	57	0	47	67	48	60	25	59
+2 iron, 2 sulfur cluster binding (GO:0051537)	0	6	1	0	0	0	13	0	10	0	9	1	8	0	3	8	8	8	1	6
+4 iron, 4 sulfur cluster binding (GO:0051539)	2	1	2	0	0	0	1	12	0	2	36	12	43	0	29	38	35	43	11	44
+proteolysis involved in cellular protein catabolic process (GO:0051603)	0	1	0	0	0	0	0	0	0	0	2	0	2	0	1	1	1	1	0	1
+protein maturation (GO:0051604)	0	0	4	0	0	0	0	0	0	0	8	2	7	0	7	8	7	8	0	9
+defense response to virus (GO:0051607)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+regulation of cell cycle (GO:0051726)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase activity (GO:0051745)	0	0	0	0	0	0	0	0	1	0	5	0	5	0	4	5	5	5	2	6
+peroxiredoxin activity (GO:0051920)	0	1	0	0	0	0	1	0	0	0	1	0	0	0	1	1	1	1	0	1
+ADP-dependent NAD(P)H-hydrate dehydratase activity (GO:0052855)	0	0	3	0	0	0	1	2	0	0	5	3	5	0	3	8	5	8	0	5
+glucan endo-1,3-beta-glucanase activity, C-3 substituted reducing group (GO:0052861)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tRNA (guanine(37)-N(1))-methyltransferase activity (GO:0052906)	0	0	0	0	0	0	0	0	0	0	5	0	6	0	3	5	3	6	0	6
+copper ion homeostasis (GO:0055070)	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0
+transmembrane transport (GO:0055085)	41	83	69	49	50	41	70	77	15	10	149	91	161	33	146	178	154	164	63	164
+negative regulation of DNA-templated transcription, termination (GO:0060567)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+membrane organization (GO:0061024)	0	0	0	0	0	0	0	1	0	0	2	0	3	0	1	1	1	1	1	1
+protein-containing complex assembly (GO:0065003)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	0	1	0	1
+metalloaminopeptidase activity (GO:0070006)	0	0	1	0	0	0	2	0	0	0	14	2	13	0	12	14	13	14	8	13
+RNA polymerase binding (GO:0070063)	0	2	0	0	0	0	0	0	0	0	3	0	3	0	3	3	3	5	0	3
+cytochrome complex (GO:0070069)	0	2	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase activity (GO:0070204)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+NADPH binding (GO:0070402)	0	1	1	0	0	0	0	0	0	0	1	1	2	0	1	1	1	1	1	1
+NAD+ binding (GO:0070403)	0	3	1	0	0	1	1	0	0	0	3	0	4	0	1	2	2	4	1	3
+rRNA base methylation (GO:0070475)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	1	2	0	2
+cytidylyltransferase activity (GO:0070567)	0	0	0	0	0	0	0	0	0	0	2	0	3	0	1	3	2	2	1	2
+nucleosome-dependent ATPase activity (GO:0070615)	0	0	3	0	0	0	0	0	0	0	0	1	0	0	1	1	1	0	0	1
+ureidoglycine aminohydrolase activity (GO:0071522)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CAAX-box protein processing (GO:0071586)	0	0	2	0	0	0	1	1	0	0	3	1	2	0	2	2	1	2	0	2
+organic substance metabolic process (GO:0071704)	0	2	0	0	0	0	0	0	0	0	4	4	2	0	2	6	4	4	2	4
+nitrogen compound transport (GO:0071705)	0	0	0	0	0	0	1	0	0	0	3	1	3	0	0	3	2	4	1	3
+membrane assembly (GO:0071709)	0	0	0	0	0	0	0	1	0	0	3	2	3	0	4	3	3	3	1	3
+endoplasmic reticulum tubular network organization (GO:0071786)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+potassium ion transmembrane transport (GO:0071805)	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FAD binding (GO:0071949)	0	2	2	0	0	0	0	0	0	1	2	0	1	0	2	4	2	2	0	2
+conversion of methionyl-tRNA to N-formyl-methionyl-tRNA (GO:0071951)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	2	2	0	2	0	2
+bacterial-type flagellum-dependent cell motility (GO:0071973)	0	10	0	0	0	0	0	9	0	0	67	9	59	0	43	68	63	70	16	70
+ammonium transmembrane transport (GO:0072488)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+N-4 methylation of cytosine (GO:0090124)	0	0	0	0	0	0	2	1	0	0	1	0	1	0	2	2	2	2	1	3
+pyrimidine nucleotide-sugar transmembrane transport (GO:0090481)	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+RNA phosphodiester bond hydrolysis (GO:0090501)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	1
+cell septum assembly (GO:0090529)	0	0	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	0	0	0
+carbohydrate derivative binding (GO:0097367)	0	0	2	0	0	0	8	2	0	0	8	2	8	0	10	8	7	8	3	8
+protein maturation by iron-sulfur cluster transfer (GO:0097428)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tRNA-guanine transglycosylation (GO:0101030)	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	2	1	2	0	2
+ABC-type transporter activity (GO:0140359)	0	3	0	2	1	0	2	1	0	0	3	2	3	2	3	5	3	3	0	3
+ATP hydrolysis activity (GO:0140603)	0	1	4	1	0	0	7	0	0	0	6	5	6	0	11	4	9	3	5	3
+carbohydrate derivative metabolic process (GO:1901135)	0	0	2	0	0	0	8	2	0	0	8	2	8	0	10	8	7	8	3	8
+carbohydrate derivative biosynthetic process (GO:1901137)	0	0	0	0	0	0	2	0	0	0	2	1	3	0	2	3	2	3	1	3
+nucleoside transmembrane transport (GO:1901642)	0	0	0	0	0	0	1	1	0	0	2	0	2	0	1	2	2	2	0	2
+regulation of cell septum assembly (GO:1901891)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+GMP reductase complex (GO:1902560)	0	0	0	0	0	0	0	0	0	0	3	0	3	0	5	3	0	3	0	3
+proton transmembrane transport (GO:1902600)	2	0	5	0	0	2	6	3	0	2	6	4	4	2	7	5	3	5	0	5
+glucose transmembrane transport (GO:1904659)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	1
+queuosine salvage (GO:1990397)	0	1	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0
+starch binding (GO:2001070)	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
