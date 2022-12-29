@@ -1,0 +1,11 @@
+
+Call:
+anosim(x = distances, grouping = Hp_Status) 
+Dissimilarity: euclidean 
+
+ANOSIM statistic R: 0.1784 
+      Significance: 0.049 
+
+Permutation: free
+Number of permutations: 999
+
