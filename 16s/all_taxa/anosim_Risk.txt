@@ -1,0 +1,11 @@
+
+Call:
+anosim(x = distances, grouping = Risk) 
+Dissimilarity: euclidean 
+
+ANOSIM statistic R: 0.09889 
+      Significance: 0.03 
+
+Permutation: free
+Number of permutations: 999
+
