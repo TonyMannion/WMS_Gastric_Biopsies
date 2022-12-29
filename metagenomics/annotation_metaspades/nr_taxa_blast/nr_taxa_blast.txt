@@ -1,1 +1,1 @@
-Protein annotations for bacterial contigs --> DIAMOND blast against nr database --> identify closest homology and taxa for each gene
+Protein annotations for bacterial contigs --> DIAMOND blast against nr database --> identify closest homolog and taxa for each gene
