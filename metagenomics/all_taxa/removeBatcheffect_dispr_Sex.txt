@@ -1,0 +1,16 @@
+
+	Homogeneity of multivariate dispersions
+
+Call: vegan::betadisper(d = distances, group = phyloseq::sample_data(ps_clr_limma)$Sex)
+
+No. of Positive Eigenvalues: 18
+No. of Negative Eigenvalues: 0
+
+Average distance to median:
+Female   Male 
+ 21.69  21.13 
+
+Eigenvalues for PCoA axes:
+(Showing 8 of 18 eigenvalues)
+ PCoA1  PCoA2  PCoA3  PCoA4  PCoA5  PCoA6  PCoA7  PCoA8 
+1440.0  963.5  871.8  690.8  649.0  596.5  560.1  545.8 
