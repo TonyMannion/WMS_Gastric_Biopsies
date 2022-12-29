@@ -1,0 +1,91 @@
+library('BiocManager')
+library("ggpubr")
+library("limma")
+library("vegan")
+library(tidyverse)
+library(phyloseq); packageVersion("phyloseq")
+library(microbiome)
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+dir.create("kegg")
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########raw reads##########
+
+#' script to convert the output of a metaphlan_taxonomic_table_joined.tsv object to a otu_table + tax_table object
+#' 
+#' 
+#' @param phyloseq object 
+#' @param 
+#' @export
+#' @examples
+#' mtph_tbru_phy <- metaphlanToPhyloseq(tax = mtph_tbru, split = "|")
+metaphlanToPhyloseq <- function(
+  tax,
+  metadat=NULL,
+  simplenames=TRUE,
+  roundtointeger=FALSE,
+  split="|"){
+  ## tax is a matrix or data.frame with the table of taxonomic abundances, rows are taxa, columns are samples
+  ## metadat is an optional data.frame of specimen metadata, rows are samples, columns are variables
+  ## if simplenames=TRUE, use only the most detailed level of taxa names in the final object
+  ## if roundtointeger=TRUE, values will be rounded to the nearest integer
+  xnames = rownames(tax)
+  shortnames = gsub(paste0(".+\\", split), "", xnames)
+  if(simplenames){
+    rownames(tax) = shortnames
+  }
+  if(roundtointeger){
+    tax = round(tax * 1e4)
+  }
+  x2 = strsplit(xnames, split=split, fixed=TRUE)
+  taxmat = matrix(NA, ncol=max(sapply(x2, length)), nrow=length(x2))
+  colnames(taxmat) = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")[1:ncol(taxmat)]
+  rownames(taxmat) = rownames(tax)
+  for (i in 1:nrow(taxmat)){
+    taxmat[i, 1:length(x2[[i]])] <- x2[[i]]
+  }
+  taxmat = gsub("[a-z]__", "", taxmat)
+  taxmat = phyloseq::tax_table(taxmat)
+  otutab = phyloseq::otu_table(tax, taxa_are_rows=TRUE)
+  if(is.null(metadat)){
+    res = phyloseq::phyloseq(taxmat, otutab)
+  }else{
+    res = phyloseq::phyloseq(taxmat, otutab, phyloseq::sample_data(metadat))
+  }
+  return(res)
+}
+#end of script
+
+
+#load mpa data and metadata tables
+mphlanin <- read.csv("kegg_table.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+phyloseqin= metaphlanToPhyloseq(mphlanin, metadat = metadata)
+
+
+phyloseqin <- microbiome::transform(phyloseqin, "compositional")
+goodTaxa = c("09101 Carbohydrate metabolism","09105 Amino acid metabolism")
+
+phyloseqin <- prune_taxa(goodTaxa, phyloseqin)
+
+#Bar plot raw reads at top 10 genus
+TopNOTUs <- names(sort(taxa_sums(phyloseqin), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin)
+plot_bar(Top10, fill = 'Kingdom', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('kegg/diff_abundant_genus_bar_Hp_Status_bar.tiff' , width=7, height=7, units=c("in"))
+
+phyloseq::psmelt(phyloseqin) %>%
+ggplot(data = ., aes(x = Hp_Status, y = Abundance)) +
+  geom_boxplot(outlier.shape  = NA) +
+  geom_jitter(aes(color = OTU), height = 0, width = .2) +
+  labs(x = "", y = "Abundance\n") +
+  facet_wrap(~ OTU, scales = "free")+
+  theme(axis.text.x = element_text(angle = 90),legend.position = "none")
+ggsave('kegg/diff_abundant_genus_bar_Hp_Status_box.tiff' , width=7, height=7, units=c("in"))
