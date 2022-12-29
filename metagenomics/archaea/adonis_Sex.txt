@@ -1,0 +1,13 @@
+
+Call:
+adonis(formula = distances ~ sample_data(ps_clr)$Sex) 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+                        Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)
+sample_data(ps_clr)$Sex  1     57.33  57.332  1.1212 0.05864  0.271
+Residuals               18    920.40  51.134         0.94136       
+Total                   19    977.73                 1.00000       
