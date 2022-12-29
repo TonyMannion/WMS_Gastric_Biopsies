@@ -1,0 +1,9 @@
+
+	Pairwise comparisons using Wilcoxon rank sum exact test 
+
+data:  rich$Observed and sample_data(phyloseqin)$Sex 
+
+     Female
+Male 0.4   
+
+P value adjustment method: holm 

@@ -1,0 +1,16 @@
+
+	Homogeneity of multivariate dispersions
+
+Call: vegan::betadisper(d = distances, group = phyloseq::sample_data(ps_clr_limma)$Risk_Group)
+
+No. of Positive Eigenvalues: 17
+No. of Negative Eigenvalues: 0
+
+Average distance to median:
+High_Risk  Low_Risk 
+    18.90     17.65 
+
+Eigenvalues for PCoA axes:
+(Showing 8 of 17 eigenvalues)
+PCoA1 PCoA2 PCoA3 PCoA4 PCoA5 PCoA6 PCoA7 PCoA8 
+839.5 778.8 597.0 538.0 516.7 484.4 443.5 397.4 

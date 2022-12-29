@@ -1,0 +1,11 @@
+
+Call:
+anosim(x = distances, grouping = Sex) 
+Dissimilarity: euclidean 
+
+ANOSIM statistic R: 0.02332 
+      Significance: 0.258 
+
+Permutation: free
+Number of permutations: 999
+
