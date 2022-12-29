@@ -1,0 +1,4 @@
+install.packages("rsvg")
+library(rsvg)
+svg_file <- "BVBRC_circular_genome.svg"
+rsvg_png(svg_file, "out.png", width=10000, height=5000)
