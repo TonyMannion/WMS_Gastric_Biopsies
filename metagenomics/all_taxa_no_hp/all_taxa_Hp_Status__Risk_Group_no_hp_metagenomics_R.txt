@@ -1,0 +1,252 @@
+library('BiocManager')
+library("ggpubr")
+library("limma")
+library("vegan")
+library(tidyverse)
+library(phyloseq); packageVersion("phyloseq")
+library(microbiome)
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+dir.create("all_taxa")
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########raw reads##########
+
+#' script to convert the output of a metaphlan_taxonomic_table_joined.tsv object to a otu_table + tax_table object
+#' 
+#' 
+#' @param phyloseq object 
+#' @param 
+#' @export
+#' @examples
+#' mtph_tbru_phy <- metaphlanToPhyloseq(tax = mtph_tbru, split = "|")
+metaphlanToPhyloseq <- function(
+  tax,
+  metadat=NULL,
+  simplenames=TRUE,
+  roundtointeger=FALSE,
+  split="|"){
+  ## tax is a matrix or data.frame with the table of taxonomic abundances, rows are taxa, columns are samples
+  ## metadat is an optional data.frame of specimen metadata, rows are samples, columns are variables
+  ## if simplenames=TRUE, use only the most detailed level of taxa names in the final object
+  ## if roundtointeger=TRUE, values will be rounded to the nearest integer
+  xnames = rownames(tax)
+  shortnames = gsub(paste0(".+\\", split), "", xnames)
+  if(simplenames){
+    rownames(tax) = shortnames
+  }
+  if(roundtointeger){
+    tax = round(tax * 1e4)
+  }
+  x2 = strsplit(xnames, split=split, fixed=TRUE)
+  taxmat = matrix(NA, ncol=max(sapply(x2, length)), nrow=length(x2))
+  colnames(taxmat) = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")[1:ncol(taxmat)]
+  rownames(taxmat) = rownames(tax)
+  for (i in 1:nrow(taxmat)){
+    taxmat[i, 1:length(x2[[i]])] <- x2[[i]]
+  }
+  taxmat = gsub("[a-z]__", "", taxmat)
+  taxmat = phyloseq::tax_table(taxmat)
+  otutab = phyloseq::otu_table(tax, taxa_are_rows=TRUE)
+  if(is.null(metadat)){
+    res = phyloseq::phyloseq(taxmat, otutab)
+  }else{
+    res = phyloseq::phyloseq(taxmat, otutab, phyloseq::sample_data(metadat))
+  }
+  return(res)
+}
+#end of script
+
+
+#load mpa data and metadata tables
+mphlanin <- read.csv("metagenomics_modified_db.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+phyloseqin= metaphlanToPhyloseq(mphlanin, metadat = metadata)
+badTaxa = c("s__Helicobacter_pylori")
+goodTaxa <- setdiff(taxa_names(phyloseqin), badTaxa)
+phyloseqin <- prune_taxa(goodTaxa, phyloseqin)
+
+#phyloseqin = subset_taxa(phyloseqin, Kingdom == "all_taxa")
+#Bar plot raw reads at kingdom level (rank 2)
+plot_bar(phyloseqin, fill = 'Kingdom', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/kingdom_level_raw_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot raw reads at phylum levels (rank 2)
+plot_bar(phyloseqin, fill = 'Phylum', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/phylum_level_raw_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot raw reads at top 10 kingdom
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Kingdom", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Kingdom', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_kingdom_raw_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot raw reads at top 10 phylum
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Phylum", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Phylum', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_phylum_raw_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot raw reads at top 10 class
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Class", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Class', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_class_raw_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot raw reads at top 10 order
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Order", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Order', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_order_raw_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot raw reads at top 10 family
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Family", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Family', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_family_raw_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot raw reads at top 10 genus
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Genus", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Genus', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_genus_raw_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot abudance reads at top 10 species
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Species", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Species', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_species_raw_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+
+##########abudances##########
+#' script to convert the output of a metaphlan_taxonomic_table_joined.tsv object to a otu_table + tax_table object
+#' 
+#' 
+#' @param phyloseq object 
+#' @param 
+#' @export
+#' @examples
+#' mtph_tbru_phy <- metaphlanToPhyloseq(tax = mtph_tbru, split = "|")
+metaphlanToPhyloseq <- function(
+  tax,
+  metadat=NULL,
+  simplenames=TRUE,
+  roundtointeger=FALSE,
+  split="|"){
+  ## tax is a matrix or data.frame with the table of taxonomic abundances, rows are taxa, columns are samples
+  ## metadat is an optional data.frame of specimen metadata, rows are samples, columns are variables
+  ## if simplenames=TRUE, use only the most detailed level of taxa names in the final object
+  ## if roundtointeger=TRUE, values will be rounded to the nearest integer
+  xnames = rownames(tax)
+  shortnames = gsub(paste0(".+\\", split), "", xnames)
+  if(simplenames){
+    rownames(tax) = shortnames
+  }
+  if(roundtointeger){
+    tax = round(tax * 1e4)
+  }
+  x2 = strsplit(xnames, split=split, fixed=TRUE)
+  taxmat = matrix(NA, ncol=max(sapply(x2, length)), nrow=length(x2))
+  colnames(taxmat) = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")[1:ncol(taxmat)]
+  rownames(taxmat) = rownames(tax)
+  for (i in 1:nrow(taxmat)){
+    taxmat[i, 1:length(x2[[i]])] <- x2[[i]]
+  }
+  taxmat = gsub("[a-z]__", "", taxmat)
+  taxmat = phyloseq::tax_table(taxmat)
+  otutab = phyloseq::otu_table(tax, taxa_are_rows=TRUE)
+  if(is.null(metadat)){
+    res = phyloseq::phyloseq(taxmat, otutab)
+  }else{
+    res = phyloseq::phyloseq(taxmat, otutab, phyloseq::sample_data(metadat))
+  }
+  return(res)
+}
+#end of script
+#load mpa data and metadata tables
+mphlanin <- read.csv("metagenomics_modified_db.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+phyloseqin= metaphlanToPhyloseq(mphlanin, metadat = metadata)
+
+badTaxa = c("s__Helicobacter_pylori")
+goodTaxa <- setdiff(taxa_names(phyloseqin), badTaxa)
+phyloseqin <- prune_taxa(goodTaxa, phyloseqin)
+#phyloseqin = subset_taxa(phyloseqin, Kingdom == "all_taxa")
+#convert to % abundances
+phyloseqin <- microbiome::transform(phyloseqin, "compositional")
+
+#Bar plot abudance reads at kingdom level (rank 2)
+plot_bar(phyloseqin, fill = 'Kingdom', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/kingdom_level_abudance_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot abudance reads at phylum levels (rank 2)
+plot_bar(phyloseqin, fill = 'Phylum', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/phylum_level_abudance_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot abudance reads at top 10 kingdom
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Kingdom", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Kingdom', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_kingdom_abudance_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot abudance reads at top 10 phylum
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Phylum", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Phylum', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_phylum_abudance_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot abudance reads at top 10 class
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Class", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Class', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_class_abudance_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot abudance reads at top 10 order
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Order", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Order', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_order_abudance_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot abudance reads at top 10 family
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Family", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Family', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_family_abudance_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot abudance reads at top 10 genus
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Genus", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Genus', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_genus_abudance_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+#Bar plot abudance reads at top 10 species
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Species", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Species', x='Location')+ facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('all_taxa/top10_species_abudance_reads_bar_Hp_Status_Risk_Group.tiff' , width=7, height=7, units=c("in"))
+
+
