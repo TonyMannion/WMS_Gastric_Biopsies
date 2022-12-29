@@ -1,0 +1,52 @@
+#KO	X210222Fox_D21.2140	X210222Fox_D21.2141	X210222Fox_D21.2142	X210222Fox_D21.2143	X210222Fox_D21.2144	X210222Fox_D21.2145	X210222Fox_D21.2146	X210222Fox_D21.2147	X210713Fox_D21.6682	X210713Fox_D21.6683	X210713Fox_D21.6684	X210713Fox_D21.6685	X210713Fox_D21.6686	X210713Fox_D21.6687	X210713Fox_D21.6688	X210713Fox_D21.6689	X210713Fox_D21.6690	X210713Fox_D21.6691	X210713Fox_D21.6692	X210713Fox_D21.6693
+09101 Carbohydrate metabolism	11	51	47	3	9	1	28	3	1	20	118	7	86	9	35	138	76	147	12	138
+09102 Energy metabolism	6	26	18	2	0	0	8	3	0	3	71	7	57	4	26	81	49	94	7	96
+09103 Lipid metabolism	2	11	18	0	0	0	3	3	0	1	30	5	21	0	13	29	14	34	2	35
+09104 Nucleotide metabolism	3	11	4	3	0	0	4	2	0	0	37	2	26	2	15	43	17	47	2	42
+09105 Amino acid metabolism	8	22	48	4	5	0	19	1	1	11	78	6	65	8	32	95	43	116	8	103
+09106 Metabolism of other amino acids	1	12	6	1	0	0	5	0	1	0	18	0	11	0	5	21	7	28	2	28
+09107 Glycan biosynthesis and metabolism	0	7	5	2	0	0	3	0	1	1	44	0	29	1	18	37	21	49	1	50
+09108 Metabolism of cofactors and vitamins	8	15	15	3	0	1	5	1	0	3	72	5	48	3	41	72	35	102	4	88
+09109 Metabolism of terpenoids and polyketides	0	2	8	0	0	0	0	1	0	1	9	1	7	0	5	14	9	12	1	13
+09110 Biosynthesis of other secondary metabolites	1	6	10	0	0	0	2	0	0	2	18	2	11	0	5	16	9	21	2	21
+09111 Xenobiotics biodegradation and metabolism	0	7	10	0	0	0	16	1	0	1	13	0	9	0	5	19	12	17	3	21
+09121 Transcription	0	0	3	0	0	0	0	0	0	1	6	1	2	0	1	3	5	2	1	2
+09122 Translation	1	4	9	2	2	2	8	1	0	0	62	6	50	0	24	67	36	79	3	74
+"09123 Folding, sorting and degradation"	0	1	8	1	0	0	1	0	0	2	21	4	17	0	8	25	13	29	1	33
+09124 Replication and repair	6	4	12	1	0	0	3	6	2	7	37	7	34	0	18	49	17	58	1	51
+09131 Membrane transport	1	17	6	3	1	0	6	2	1	0	27	1	28	5	14	41	26	42	5	43
+09132 Signal transduction	0	14	46	6	5	3	14	3	0	7	33	3	26	1	23	47	23	51	1	49
+09141 Transport and catabolism	0	3	15	0	0	0	1	0	0	1	2	0	5	0	2	7	3	4	0	4
+09142 Cell motility	0	6	1	1	0	0	0	2	0	0	34	2	33	0	15	37	20	54	2	53
+09143 Cell growth and death	0	3	17	1	0	0	2	0	2	0	11	0	7	0	3	14	7	14	0	13
+09144 Cellular community - eukaryotes	0	0	6	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+09145 Cellular community - prokaryotes	0	7	11	1	0	0	3	0	0	0	23	0	15	1	8	30	9	26	1	25
+09149 Aging	0	0	5	0	0	0	5	0	0	3	8	0	7	0	3	15	9	14	0	14
+09151 Immune system	0	1	18	0	0	1	0	1	0	0	7	0	1	0	3	3	2	3	0	3
+09152 Endocrine system	0	6	30	0	1	1	4	0	0	2	6	0	0	0	6	3	0	4	1	2
+09153 Circulatory system	0	0	7	0	0	0	0	0	0	0	2	0	2	0	1	2	0	2	0	2
+09154 Digestive system	0	0	5	0	0	0	0	0	0	1	2	0	1	0	0	6	1	5	1	5
+09155 Excretory system	0	0	2	0	0	0	0	0	0	1	2	0	0	0	2	2	0	4	0	4
+09156 Nervous system	0	1	17	0	0	0	0	1	0	0	2	0	0	0	0	2	2	2	0	2
+09157 Sensory system	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+09158 Development and regeneration	0	0	6	0	0	0	0	0	0	0	0	0	1	0	1	1	0	1	0	1
+09159 Environmental adaptation	0	3	14	0	0	0	0	1	0	0	7	0	3	0	3	6	1	5	0	5
+09161 Cancer: overview	0	3	29	0	2	2	11	1	0	2	11	0	8	0	6	13	7	15	0	14
+09162 Cancer: specific types	0	0	20	0	4	4	2	0	0	0	2	0	1	0	0	1	1	1	0	1
+09163 Immune disease	0	0	1	0	0	0	0	0	0	0	1	0	1	0	1	1	0	1	0	1
+09164 Neurodegenerative disease	0	7	60	0	2	3	1	7	0	1	17	2	16	1	9	20	8	20	0	20
+09165 Substance dependence	0	1	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+09166 Cardiovascular disease	0	3	15	0	0	1	3	2	0	1	11	0	6	0	4	10	5	9	0	10
+09167 Endocrine and metabolic disease	0	2	15	0	1	1	2	1	0	0	5	0	4	0	2	6	1	6	0	5
+09171 Infectious disease: bacterial	0	0	14	0	0	1	0	2	0	0	21	0	22	1	12	27	14	47	1	49
+09172 Infectious disease: viral	0	0	21	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+09174 Infectious disease: parasitic	0	0	5	0	0	0	0	0	0	0	1	0	1	0	1	0	0	1	0	1
+09175 Drug resistance: antimicrobial	0	2	2	0	0	0	3	0	1	0	7	0	11	1	4	10	2	10	0	10
+09176 Drug resistance: antineoplastic	0	0	4	0	0	0	2	0	0	0	1	0	2	0	0	2	1	3	0	3
+09181 Protein families: metabolism	7	27	33	3	2	1	10	2	1	1	92	2	64	5	43	96	44	122	5	117
+09182 Protein families: genetic information processing	12	37	79	7	4	4	25	9	2	12	246	16	198	5	117	269	128	333	13	303
+09183 Protein families: signaling and cellular processes	1	57	39	7	8	2	33	7	2	2	170	10	143	14	79	197	103	265	12	266
+09191 Unclassified: metabolism	4	10	13	0	1	1	4	2	2	1	23	1	23	1	6	27	7	29	5	32
+09192 Unclassified: genetic information processing	2	6	0	0	0	0	11	2	0	1	15	1	12	0	10	19	8	20	7	19
+09193 Unclassified: signaling and cellular processes	0	7	1	0	0	1	4	0	0	0	14	0	8	0	6	15	5	20	1	18
+09194 Poorly characterized	2	9	4	2	1	0	3	0	1	0	22	1	19	2	8	20	11	34	2	29
