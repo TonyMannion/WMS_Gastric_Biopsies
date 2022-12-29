@@ -1,0 +1,9 @@
+
+	Pairwise comparisons using Wilcoxon rank sum test with continuity correction 
+
+data:  rich$Chao1 and sample_data(phyloseqin)$Sex 
+
+     Female
+Male 0.6   
+
+P value adjustment method: holm 
