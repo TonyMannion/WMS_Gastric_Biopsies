@@ -1,0 +1,21 @@
+
+install.packages("ggpubr")
+library("ggpubr")
+#load dataframe
+scatter <- read.delim("scatterplot3.txt", header=TRUE, sep = "\t",row.names = 1)
+#with R2
+ggplot(scatter, aes(x=metagenome,y=X16s))+geom_point()+geom_smooth(method=lm, se=FALSE, fullrange=TRUE) + facet_wrap(HP~Sample, scales='free') + stat_cor(aes(label = ..rr.label..), color = "red", geom = "label")+xlab("Shotgun Metagenomics % Abundance")+ylab("16S rRNA % Abundance")
+ggsave('16s_vs_metagenomics.tiff')
+#with R2 and p-values
+ggplot(scatter, aes(x=metagenome,y=X16s))+geom_point(size=4,shape=18)+geom_smooth(method=lm, se=FALSE, fullrange=TRUE) + facet_wrap(HP~Sample, scales='free') + stat_cor(aes(label = paste(..rr.label.., ..p.label.., sep = "~")), color = "red", geom = "label")
+
+####
+install.packages("ggpubr")
+library("ggpubr")
+#load dataframe
+scatter <- read.delim("scatterplot4.txt", header=TRUE, sep = "\t",row.names = 1)
+#with R2
+ggplot(scatter, aes(x=metagenome,y=X16s))+geom_point()+geom_smooth(method=lm, se=FALSE, fullrange=TRUE) + facet_wrap(HP~Sample, scales='free') + stat_cor(aes(label = ..rr.label..), color = "red", geom = "label")+xlab("Shotgun Metagenomics % Abundance")+ylab("16S rRNA % Abundance")
+ggsave('16s_vs_metagenomics_no_helicobacter.tiff')
+#with R2 and p-values
+ggplot(scatter, aes(x=metagenome,y=X16s))+geom_point(size=4,shape=18)+geom_smooth(method=lm, se=FALSE, fullrange=TRUE) + facet_wrap(HP~Sample, scales='free') + stat_cor(aes(label = paste(..rr.label.., ..p.label.., sep = "~")), color = "red", geom = "label")
