@@ -1,0 +1,395 @@
+library('BiocManager')
+library("ggpubr")
+library("limma")
+library("vegan")
+library(tidyverse)
+library(phyloseq); packageVersion("phyloseq")
+library(microbiome)
+library(scales)
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+dir.create("ipr_table")
+
+##########raw reads##########
+
+#' script to convert the output of a metaphlan_taxonomic_table_joined.tsv object to a otu_table + tax_table object
+#' 
+#' 
+#' @param phyloseq object 
+#' @param 
+#' @export
+#' @examples
+#' mtph_tbru_phy <- metaphlanToPhyloseq(tax = mtph_tbru, split = "|")
+metaphlanToPhyloseq <- function(
+  tax,
+  metadat=NULL,
+  simplenames=TRUE,
+  roundtointeger=FALSE,
+  split="|"){
+  ## tax is a matrix or data.frame with the table of taxonomic abundances, rows are taxa, columns are samples
+  ## metadat is an optional data.frame of specimen metadata, rows are samples, columns are variables
+  ## if simplenames=TRUE, use only the most detailed level of taxa names in the final object
+  ## if roundtointeger=TRUE, values will be rounded to the nearest integer
+  xnames = rownames(tax)
+  shortnames = gsub(paste0(".+\\", split), "", xnames)
+  if(simplenames){
+    rownames(tax) = shortnames
+  }
+  if(roundtointeger){
+    tax = round(tax * 1e4)
+  }
+  x2 = strsplit(xnames, split=split, fixed=TRUE)
+  taxmat = matrix(NA, ncol=max(sapply(x2, length)), nrow=length(x2))
+  colnames(taxmat) = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")[1:ncol(taxmat)]
+  rownames(taxmat) = rownames(tax)
+  for (i in 1:nrow(taxmat)){
+    taxmat[i, 1:length(x2[[i]])] <- x2[[i]]
+  }
+  taxmat = gsub("[a-z]__", "", taxmat)
+  taxmat = phyloseq::tax_table(taxmat)
+  otutab = phyloseq::otu_table(tax, taxa_are_rows=TRUE)
+  if(is.null(metadat)){
+    res = phyloseq::phyloseq(taxmat, otutab)
+  }else{
+    res = phyloseq::phyloseq(taxmat, otutab, phyloseq::sample_data(metadat))
+  }
+  return(res)
+}
+#end of script
+
+
+#load mpa data and metadata tables
+mphlanin <- read.csv("ipr_table.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+phyloseqin= metaphlanToPhyloseq(mphlanin, metadat = metadata)
+
+
+TopNOTUs <- names(sort(taxa_sums(phyloseqin), TRUE)[1:50])
+Top50 <- prune_taxa(TopNOTUs, phyloseqin)
+
+h<-plot_heatmap(Top50,sample.label="Location",trans=log_trans(10))+facet_wrap(~Risk_Group, , scales='free_x', nrow=1)+ labs(fill='# Genes')+ylab('Taxa')
+
+h$scales$scales[[1]]$name <- "Sample"
+h
+
+
+ggsave('ipr_table/ipr_table_heatmap_Risk_Group.tiff', width=14, height=7, units=c("in"))
+
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########raw reads##########
+
+#' script to convert the output of a metaphlan_taxonomic_table_joined.tsv object to a otu_table + tax_table object
+#' 
+#' 
+#' @param phyloseq object 
+#' @param 
+#' @export
+#' @examples
+#' mtph_tbru_phy <- metaphlanToPhyloseq(tax = mtph_tbru, split = "|")
+metaphlanToPhyloseq <- function(
+  tax,
+  metadat=NULL,
+  simplenames=TRUE,
+  roundtointeger=FALSE,
+  split="|"){
+  ## tax is a matrix or data.frame with the table of taxonomic abundances, rows are taxa, columns are samples
+  ## metadat is an optional data.frame of specimen metadata, rows are samples, columns are variables
+  ## if simplenames=TRUE, use only the most detailed level of taxa names in the final object
+  ## if roundtointeger=TRUE, values will be rounded to the nearest integer
+  xnames = rownames(tax)
+  shortnames = gsub(paste0(".+\\", split), "", xnames)
+  if(simplenames){
+    rownames(tax) = shortnames
+  }
+  if(roundtointeger){
+    tax = round(tax * 1e4)
+  }
+  x2 = strsplit(xnames, split=split, fixed=TRUE)
+  taxmat = matrix(NA, ncol=max(sapply(x2, length)), nrow=length(x2))
+  colnames(taxmat) = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")[1:ncol(taxmat)]
+  rownames(taxmat) = rownames(tax)
+  for (i in 1:nrow(taxmat)){
+    taxmat[i, 1:length(x2[[i]])] <- x2[[i]]
+  }
+  taxmat = gsub("[a-z]__", "", taxmat)
+  taxmat = phyloseq::tax_table(taxmat)
+  otutab = phyloseq::otu_table(tax, taxa_are_rows=TRUE)
+  if(is.null(metadat)){
+    res = phyloseq::phyloseq(taxmat, otutab)
+  }else{
+    res = phyloseq::phyloseq(taxmat, otutab, phyloseq::sample_data(metadat))
+  }
+  return(res)
+}
+#end of script
+
+
+#load mpa data and metadata tables
+mphlanin <- read.csv("ipr_table.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+phyloseqin= metaphlanToPhyloseq(mphlanin, metadat = metadata)
+
+(ps_clr <- microbiome::transform(phyloseqin, "clr"))
+
+#batch correction
+ps_clr.limma <- removeBatchEffect(otu_table(ps_clr), batch = sample_data(ps_clr)$batch)
+#remake phyloseq objects
+ps_clr.limma.otu=otu_table(ps_clr.limma, taxa_are_rows = TRUE)
+ps_clr.tax=tax_table(ps_clr)
+mphlanin <- read.csv("ipr_table.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+sampledata = sample_data(metadata)
+ps_clr_limma=phyloseq(ps_clr.limma.otu, ps_clr.tax,sampledata)
+
+#Aitchison Distance ordination
+ord_clr_limma <- phyloseq::ordinate(ps_clr_limma, "PCoA", "euclidean")
+plot_ordination(ps_clr_limma, ord_clr_limma, type="Sample", color="Risk_Group")+ geom_point(size = 4)+ geom_text(mapping=aes(label=Location),size=4,vjust=1.5)+stat_chull(aes(color = Risk_Group, fill = Risk_Group), alpha = 0.1, geom = "polygon")
+ggsave('ipr_table/removeBatcheffect_Aitchison_PCA_plot_Risk_Group_chull.tiff' , width=7, height=7, units=c("in"))
+
+#Permutational ANOVA (PERMANOVA) analysis with adonis: partitioning the sums of squares for the within- and between-cluster components using the concept of centroids
+#adonis significant p-value --> reject the null hypothesis that our Risk_Groups have the same centroid.
+distances = phyloseq::distance(ps_clr_limma, method="euclidean")
+adonis(distances ~ sample_data(ps_clr_limma)$Risk_Group)
+
+sink(file = "ipr_table/removeBatcheffect_adonis_Risk_Group.txt")
+adonis(distances ~ sample_data(ps_clr_limma)$Risk_Group)
+sink(file = NULL)
+
+#Analysis of Similarities (ANOSIM): permutational non-parametric test of significance of the sample-Risk_Grouping against a null-hypothesis. identifies if the between Risk_Groups difference is larger than the within Risk_Groups difference
+Risk_Group = get_variable(ps_clr_limma, "Risk_Group")
+anosim(distances, Risk_Group)
+
+sink(file = "ipr_table/removeBatcheffect_anosim_Risk_Group.txt")
+anosim(distances, Risk_Group)
+sink(file = NULL)
+
+#test  multivariate test for homogeneity of Risk_Group dispersions (variances) with betadisper: ADONIS can be confounded by differences in dispersion (or spread)
+dispr <- vegan::betadisper(distances, phyloseq::sample_data(ps_clr_limma)$Risk_Group)
+dispr
+
+sink(file = "ipr_table/removeBatcheffect_dispr_Risk_Group.txt")
+dispr
+sink(file = NULL)
+
+tiff('ipr_table/removeBatcheffect_Aitchison_betadisper_boxplot_Risk_Group.tiff',width =7, height = 7,units ='in',res=100)
+boxplot(dispr, main = "", xlab = "")
+dev.off()
+permutest(dispr)
+
+sink(file = "ipr_table/removeBatcheffect_permutest_dispr_Risk_Group.txt")
+permutest(dispr)
+sink(file = NULL)
+
+#betadisper results are not significant, meaning we cannot reject the null hypothesis that our Risk_Groups have the same dispersions. This means we can be more confident that  adonis result is a real result, and not due to differences in Risk_Group dispersions
+#betadisper results are significant = datasets do not have the same variances. can not simply say that the communities consist of different OTUs. Among the two Risk_Groups there is a difference in the abundances between the OTUs. Or better the evenness is different between these two Risk_Groups.check alpha diversity as an indication that the evenness between our Risk_Groups is different
+
+#######references#######
+#https://academic.oup.com/bib/article/21/6/1954/5643537#218012433
+#https://evayiwenwang.github.io/Managing_batch_effects/adjust.html
+########################
+
+
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########Beta diversity - PCA with Aitchison Distance and removeBatcheffect Correction##########
+##########Including Multivariate comparisons####################
+#' script to convert the output of a metaphlan_taxonomic_table_joined.tsv object to a otu_table + tax_table object
+#' 
+#' 
+#' @param phyloseq object 
+#' @param 
+#' @export
+#' @examples
+#' mtph_tbru_phy <- metaphlanToPhyloseq(tax = mtph_tbru, split = "|")
+metaphlanToPhyloseq <- function(
+  tax,
+  metadat=NULL,
+  simplenames=TRUE,
+  roundtointeger=FALSE,
+  split="|"){
+  ## tax is a matrix or data.frame with the table of taxonomic abundances, rows are taxa, columns are samples
+  ## metadat is an optional data.frame of specimen metadata, rows are samples, columns are variables
+  ## if simplenames=TRUE, use only the most detailed level of taxa names in the final object
+  ## if roundtointeger=TRUE, values will be rounded to the nearest integer
+  xnames = rownames(tax)
+  shortnames = gsub(paste0(".+\\", split), "", xnames)
+  if(simplenames){
+    rownames(tax) = shortnames
+  }
+  if(roundtointeger){
+    tax = round(tax * 1e4)
+  }
+  x2 = strsplit(xnames, split=split, fixed=TRUE)
+  taxmat = matrix(NA, ncol=max(sapply(x2, length)), nrow=length(x2))
+  colnames(taxmat) = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")[1:ncol(taxmat)]
+  rownames(taxmat) = rownames(tax)
+  for (i in 1:nrow(taxmat)){
+    taxmat[i, 1:length(x2[[i]])] <- x2[[i]]
+  }
+  taxmat = gsub("[a-z]__", "", taxmat)
+  taxmat = phyloseq::tax_table(taxmat)
+  otutab = phyloseq::otu_table(tax, taxa_are_rows=TRUE)
+  if(is.null(metadat)){
+    res = phyloseq::phyloseq(taxmat, otutab)
+  }else{
+    res = phyloseq::phyloseq(taxmat, otutab, phyloseq::sample_data(metadat))
+  }
+  return(res)
+}
+#end of script
+
+#load mpa data and metadata tables
+mphlanin <- read.csv("ipr_table.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+phyloseqin= metaphlanToPhyloseq(mphlanin, metadat = metadata)
+
+
+#clr-transformed compositions of otu table
+(ps_clr <- microbiome::transform(phyloseqin, "clr"))
+
+ps_clr.limma <- removeBatchEffect(otu_table(ps_clr), batch = sample_data(ps_clr)$batch)
+
+#ps_clr into OTU table  
+
+ps_clr.limma.otu=otu_table(ps_clr.limma, taxa_are_rows = TRUE)
+ps_clr.tax=tax_table(ps_clr)
+mphlanin <- read.csv("ipr_table.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+sampledata = sample_data(metadata)
+ps=phyloseq(ps_clr.limma.otu, ps_clr.tax,sampledata)
+
+# Apply GLM on clr transformed data for all taxa
+results <- data.frame()
+for (i in 1:length(taxa_names(ps))){
+
+  asv <- taxa_names(ps)[i]
+ 
+  mod <- glm(as.vector(otu_table(ps)[i]) ~ sample_data(ps)$Risk_Group)
+  
+  beta <- summary(mod)$coefficients[2,1]
+  se <- summary(mod)$coefficients[2,2]
+  pval <- summary(mod)$coefficients[2,4]
+
+  results <- rbind(results, data.frame(Representative_ASV = asv,  Beta = beta, SE = se, P = pval))
+}
+
+# Perform FDR correction for pvalues
+results$FDR_BH <- p.adjust(results$P, method = 'BH')
+
+# Add taxa designations to table
+results <- inner_join(results, rownames_to_column(data.frame(tax_table(ps)), "Representative_ASV"), by = "Representative_ASV")
+
+write.table(results, "ipr_table/removeBatcheffect_GLM_CLR_bacteria_Risk_Group.txt", quote = F, sep="\t", row.names = F)
+
+#################################
+### Perform differential abundance testing using using Welch's t-test on clr transformed abundances
+#################################
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########Beta diversity - PCA with Aitchison Distance and removeBatchEffect Correction##########
+##########Including Multivariate comparisons####################
+#' script to convert the output of a metaphlan_taxonomic_table_joined.tsv object to a otu_table + tax_table object
+#' 
+#' 
+#' @param phyloseq object 
+#' @param 
+#' @export
+#' @examples
+#' mtph_tbru_phy <- metaphlanToPhyloseq(tax = mtph_tbru, split = "|")
+metaphlanToPhyloseq <- function(
+  tax,
+  metadat=NULL,
+  simplenames=TRUE,
+  roundtointeger=FALSE,
+  split="|"){
+  ## tax is a matrix or data.frame with the table of taxonomic abundances, rows are taxa, columns are samples
+  ## metadat is an optional data.frame of specimen metadata, rows are samples, columns are variables
+  ## if simplenames=TRUE, use only the most detailed level of taxa names in the final object
+  ## if roundtointeger=TRUE, values will be rounded to the nearest integer
+  xnames = rownames(tax)
+  shortnames = gsub(paste0(".+\\", split), "", xnames)
+  if(simplenames){
+    rownames(tax) = shortnames
+  }
+  if(roundtointeger){
+    tax = round(tax * 1e4)
+  }
+  x2 = strsplit(xnames, split=split, fixed=TRUE)
+  taxmat = matrix(NA, ncol=max(sapply(x2, length)), nrow=length(x2))
+  colnames(taxmat) = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")[1:ncol(taxmat)]
+  rownames(taxmat) = rownames(tax)
+  for (i in 1:nrow(taxmat)){
+    taxmat[i, 1:length(x2[[i]])] <- x2[[i]]
+  }
+  taxmat = gsub("[a-z]__", "", taxmat)
+  taxmat = phyloseq::tax_table(taxmat)
+  otutab = phyloseq::otu_table(tax, taxa_are_rows=TRUE)
+  if(is.null(metadat)){
+    res = phyloseq::phyloseq(taxmat, otutab)
+  }else{
+    res = phyloseq::phyloseq(taxmat, otutab, phyloseq::sample_data(metadat))
+  }
+  return(res)
+}
+#end of script
+
+#load mpa data and metadata tables
+mphlanin <- read.csv("ipr_table.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+phyloseqin= metaphlanToPhyloseq(mphlanin, metadat = metadata)
+
+
+#clr-transformed compositions of otu table
+(ps_clr <- microbiome::transform(phyloseqin, "clr"))
+
+ps_clr.limma <- removeBatchEffect(otu_table(ps_clr), batch = sample_data(ps_clr)$batch)
+
+#ps_clr into OTU table  
+
+ps_clr.limma.otu=otu_table(ps_clr.limma, taxa_are_rows = TRUE)
+ps_clr.tax=tax_table(ps_clr)
+mphlanin <- read.csv("ipr_table.txt", sep = "\t", strip.white = T, stringsAsFactors = F, row.names = 1)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+sampledata = sample_data(metadata)
+ps=phyloseq(ps_clr.limma.otu, ps_clr.tax,sampledata)
+
+# Loop t-test for all taxa
+results <- data.frame()
+for (i in 1:length(taxa_names(ps))){
+
+  asv <- taxa_names(ps)[i]
+  
+  case_mclr <- mean(otu_table(subset_samples(ps, Risk_Group == "High_Risk"))[i])
+  cont_mclr <- mean(otu_table(subset_samples(ps, Risk_Group == "Low_Risk"))[i])
+  mclrr <- case_mclr/cont_mclr
+ 
+  pval <- t.test(as.vector(otu_table(ps)[i]) ~ sample_data(ps)$Risk_Group)$p.value
+  
+  results <- rbind(results, data.frame(Representative_ASV = asv, 
+                                       Case_Mean_CLR = case_mclr, 
+                                       Control_Mean_CLR = cont_mclr, 
+                                       Mean_CLR_Ratio = mclrr, 
+                                       P = pval))
+}
+                                 
+# Perform FDR correction for pvalues
+results$FDR_BH <- p.adjust(results$P, method = 'BH')
+
+# Add taxa designations to table
+results <- inner_join(results, rownames_to_column(data.frame(tax_table(ps)), "Representative_ASV"), by = "Representative_ASV")
+
+# Write out results
+write.table(results, "ipr_table/removeBatcheffect_t_test_CLR_bacteria_Risk_Group.txt", quote = F, sep="\t", row.names = F)
