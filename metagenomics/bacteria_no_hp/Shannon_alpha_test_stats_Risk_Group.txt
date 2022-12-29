@@ -1,0 +1,9 @@
+
+	Pairwise comparisons using Wilcoxon rank sum exact test 
+
+data:  rich$Shannon and sample_data(phyloseqin)$Risk_Group 
+
+         High_Risk
+Low_Risk 0.19     
+
+P value adjustment method: holm 
