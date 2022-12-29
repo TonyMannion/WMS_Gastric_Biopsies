@@ -1,0 +1,14 @@
+
+reads <- read.delim("total_reads.txt", header=TRUE, sep = "\t",row.names = 1)
+
+ggplot(reads, aes(x=Location, y=Total_Reads, fill=Data_type)) + geom_bar(stat="identity", position=position_dodge())+ facet_wrap(~HP, scales='free')+xlab("Sample")+ylab("Total Reads")+ scale_y_continuous(labels = scales::comma)
+ggsave('reads_HP_groups_barplot.tiff')
+
+
+ggplot(reads, aes(x=Data_type, y=Total_Reads, fill=Data_type)) +geom_boxplot() +geom_point()+  facet_wrap(~HP, scales='free')+xlab("Sample")+ylab("Total Reads")+ scale_y_continuous(labels = scales::comma)
+ggsave('reads_HP_groups_boxplot.tiff')
+
+ggplot(reads, aes(x=Data_type, y=Total_Reads, fill=Data_type)) +geom_boxplot() +geom_point()+xlab("Sample")+ylab("Total Reads")+ scale_y_continuous(labels = scales::comma)
+ggsave('reads_boxplot.tiff') 
+
+pairwise.wilcox.test(reads$Total_Reads, reads$Data_type)

@@ -1,0 +1,34 @@
+OTU <- read.delim("OTUs.txt", header=TRUE, sep = "\t",row.names = 1)
+OTU = otu_table(OTU, taxa_are_rows = TRUE)
+phyloseqin = phyloseq(OTU)
+metadata <- read.delim("meta_OTUS.txt", header=TRUE, sep = "\t",row.names = 1)
+meta<-sample_data(metadata)
+phyloseqin =merge_phyloseq(physeq,meta)
+
+plot_richness(phyloseqin, measures=c("Observed")) + xlab('') + facet_wrap(HP~Sample, scales='free')
+
+plot_richness(phyloseqin, x="Data_type", measures=c("Observed")) + geom_boxplot() +geom_point()+ xlab('') 
+
+ggsave('alpha_diversity_observed.tiff')
+
+#statistical analysis of alpha diversity 
+rich = estimate_richness(phyloseqin)
+pairwise.wilcox.test(rich$Observed, sample_data(phyloseqin)$Data_type)
+
+
+OTU <- read.delim("observed_otu_table.txt", header=TRUE, sep = "\t",row.names = 1)
+
+ggplot(OTU, aes(x=Location, y=Observed_OTUs, fill=Data_type)) + geom_bar(stat="identity", position=position_dodge())+ facet_wrap(~HP, scales='free')+xlab("Sample")+ylab("Observed OTUs")
+ggsave('observed_HP_groups_barplot.tiff')
+
+
+ggplot(OTU, aes(x=Data_type, y=Observed_OTUs, fill=Data_type)) +geom_boxplot() +geom_point()+  facet_wrap(~HP, scales='free')+xlab("Sample")+ylab("Observed OTUs")
+ggsave('observed_HP_groups_boxplot.tiff')
+
+ggplot(OTU, aes(x=Data_type, y=Observed_OTUs, fill=Data_type)) +geom_boxplot() +geom_point()+xlab("Sample")+ylab("Observed OTUs")
+ggsave('observed_boxplot.tiff')
+
+
+pairwise.wilcox.test(OTU$Observed_OTUs, OTU$Data_type)
+
+
