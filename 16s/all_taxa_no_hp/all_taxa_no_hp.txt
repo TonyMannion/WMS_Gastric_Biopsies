@@ -1,0 +1,1 @@
+R code for plots and statistical analyses for all taxa without Helicobacter pylori 
