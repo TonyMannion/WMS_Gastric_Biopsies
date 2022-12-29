@@ -1,0 +1,9 @@
+
+	Pairwise comparisons using Wilcoxon rank sum exact test 
+
+data:  rich$Observed and sample_data(phyloseqin)$Hp_Status 
+
+            Hp_Negative
+Hp_Positive 0.00031    
+
+P value adjustment method: holm 

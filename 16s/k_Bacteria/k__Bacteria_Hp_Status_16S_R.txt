@@ -1,0 +1,552 @@
+library('BiocManager')
+library("ggpubr")
+library("limma")
+library("vegan")
+library(tidyverse)
+library(phyloseq); packageVersion("phyloseq")
+library(microbiome)
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+dir.create("k__Bacteria")
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########raw reads##########
+
+#load biom data and metadata tables
+biom <-import_biom('combined_bracken_genuses138.biom')
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+meta = sample_data(metadata)
+phyloseqin = merge_phyloseq(biom,meta)
+phyloseqin = subset_taxa(phyloseqin, Rank1 == "k__Bacteria")
+phyloseqin = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+
+
+#Bar plot raw reads at kingdom level (rank 2)
+plot_bar(phyloseqin, fill = 'Rank1', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/kingdom_level_raw_reads_bar_Hp_Status.tiff')
+
+#Bar plot raw reads at phylum levels (rank 2)
+plot_bar(phyloseqin, fill = 'Rank2', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/phylum_level_raw_reads_bar_Hp_Status.tiff')
+
+#Bar plot raw reads at top 10 kingdom
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank1", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank1', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_kingdom_raw_reads_bar_Hp_Status.tiff')
+
+#Bar plot raw reads at top 10 phylum
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank2", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank2', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_phylum_raw_reads_bar_Hp_Status.tiff')
+
+#Bar plot raw reads at top 10 class
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank3", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank3', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_class_raw_reads_bar_Hp_Status.tiff')
+
+#Bar plot raw reads at top 10 order
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank4", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank4', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_order_raw_reads_bar_Hp_Status.tiff')
+
+#Bar plot raw reads at top 10 family
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank5", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank5', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_family_raw_reads_bar_Hp_Status.tiff')
+
+#Bar plot raw reads at top 10 genus
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank6', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_genus_raw_reads_bar_Hp_Status.tiff')
+
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+#load biom data and metadata tables
+biom <-import_biom('combined_bracken_genuses138.biom')
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+meta = sample_data(metadata)
+phyloseqin = merge_phyloseq(biom,meta)
+phyloseqin = subset_taxa(phyloseqin, Rank1 == "k__Bacteria")
+phyloseqin = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+
+#convert to % abundances
+phyloseqin <- microbiome::transform(phyloseqin, "compositional")
+
+#Bar plot abudance reads at kingdom level (rank 2)
+plot_bar(phyloseqin, fill = 'Rank1', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/kingdom_level_abudance_reads_bar_Hp_Status.tiff')
+
+#Bar plot abudance reads at phylum levels (rank 2)
+plot_bar(phyloseqin, fill = 'Rank2', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/phylum_level_abudance_reads_bar_Hp_Status.tiff')
+
+#Bar plot abudance reads at top 10 kingdom
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank1", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank1', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_kingdom_abudance_reads_bar_Hp_Status.tiff')
+
+#Bar plot abudance reads at top 10 phylum
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank2", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank2', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_phylum_abudance_reads_bar_Hp_Status.tiff')
+
+#Bar plot abudance reads at top 10 class
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank3", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank3', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_class_abudance_reads_bar_Hp_Status.tiff')
+
+#Bar plot abudance reads at top 10 order
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank4", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank4', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_order_abudance_reads_bar_Hp_Status.tiff')
+
+#Bar plot abudance reads at top 10 family
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank5", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank5', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_family_abudance_reads_bar_Hp_Status.tiff')
+
+#Bar plot abudance reads at top 10 genus
+phyloseqin_merged = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+TopNOTUs <- names(sort(taxa_sums(phyloseqin_merged), TRUE)[1:10])
+Top10 <- prune_taxa(TopNOTUs, phyloseqin_merged)
+plot_bar(Top10, fill = 'Rank6', x='Location')+ facet_wrap(~Hp_Status, scales='free_x', nrow=1) + xlab('Sample') + ylab('Reads')
+ggsave('k__Bacteria/top10_genus_abudance_reads_bar_Hp_Status.tiff')
+
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+
+##########alpha diversity##########
+
+#load biom data and metadata tables
+biom <-import_biom('combined_bracken_genuses138.biom')
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+meta = sample_data(metadata)
+phyloseqin = merge_phyloseq(biom,meta)
+phyloseqin = subset_taxa(phyloseqin, Rank1 == "k__Bacteria")
+phyloseqin = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+
+
+#alpha diversity 
+plot_richness(phyloseqin, x="Hp_Status") + geom_boxplot() +geom_point() + xlab('')
+ggsave('k__Bacteria/alpha_diversity_all_metrics_Hp_Status.tiff')
+plot_richness(phyloseqin, x="Hp_Status", measures=c("Observed", "Chao1", "Shannon", "Simpson")) + geom_boxplot() +geom_point()+ xlab('')
+ggsave('k__Bacteria/alpha_diversity_observed_chao1_shannon_simpson_Hp_Status.tiff')
+
+#statistical analysis of alpha diversity 
+rich = estimate_richness(phyloseqin)
+
+sink(file = "k__Bacteria/Observed_alpha_test_stats_Hp_Status.txt")
+pairwise.wilcox.test(rich$Observed, sample_data(phyloseqin)$Hp_Status)
+sink(file = NULL)
+
+sink(file = "k__Bacteria/Chao1_alpha_test_stats_Hp_Status.txt")
+pairwise.wilcox.test(rich$Chao1, sample_data(phyloseqin)$Hp_Status)
+sink(file = NULL)
+
+sink(file = "k__Bacteria/Shannon_alpha_test_stats_Hp_Status.txt")
+pairwise.wilcox.test(rich$Shannon, sample_data(phyloseqin)$Hp_Status)
+sink(file = NULL)
+
+sink(file = "k__Bacteria/Simpson_alpha_test_stats_Hp_Status.txt")
+pairwise.wilcox.test(rich$Simpson, sample_data(phyloseqin)$Hp_Status)
+sink(file = NULL)
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+
+dir.create("k__Bacteria")
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########Beta diversity - PCA with Aitchison Distance Correction##########
+##########Including Multivariate comparisons####################
+
+#load biom data and metadata tables
+biom <-import_biom('combined_bracken_genuses138.biom')
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+meta = sample_data(metadata)
+phyloseqin = merge_phyloseq(biom,meta)
+phyloseqin = subset_taxa(phyloseqin, Rank1 == "k__Bacteria")
+phyloseqin = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+
+
+#clr-transformed compositions of otu table
+(ps_clr <- microbiome::transform(phyloseqin, "clr"))
+
+
+#Aitchison Distance ordination
+ord_clr <- phyloseq::ordinate(ps_clr, "PCoA", "euclidean")
+plot_ordination(ps_clr, ord_clr, type="Sample", color="Hp_Status")+ geom_point(size = 4)+ geom_text(mapping=aes(label=Location),size=4,vjust=1.5)+stat_chull(aes(color = Hp_Status, fill = Hp_Status), alpha = 0.1, geom = "polygon")
+ggsave('k__Bacteria/Aitchison_PCA_plot_Hp_Status_chull.tiff')
+
+#Permutational ANOVA (PERMANOVA) analysis with adonis: partitioning the sums of squares for the within- and between-cluster components using the concept of centroids
+#adonis significant p-value --> reject the null hypothesis that our Hp_Statuss have the same centroid.
+distances = phyloseq::distance(ps_clr, method="euclidean")
+adonis(distances ~ sample_data(ps_clr)$Hp_Status)
+
+sink(file = "k__Bacteria/adonis_Hp_Status.txt")
+adonis(distances ~ sample_data(ps_clr)$Hp_Status)
+sink(file = NULL)
+
+#Analysis of Similarities (ANOSIM): permutational non-parametric test of significance of the sample-Hp_Statusing against a null-hypothesis. identifies if the between Hp_Statuss difference is larger than the within Hp_Statuss difference
+Hp_Status = get_variable(ps_clr, "Hp_Status")
+anosim(distances, Hp_Status)
+
+sink(file = "k__Bacteria/anosim_Hp_Status.txt")
+anosim(distances, Hp_Status)
+sink(file = NULL)
+
+#test  multivariate test for homogeneity of Hp_Status dispersions (variances) with betadisper: ADONIS can be confounded by differences in dispersion (or spread)
+dispr <- vegan::betadisper(distances, phyloseq::sample_data(ps_clr)$Hp_Status)
+dispr
+
+sink(file = "k__Bacteria/dispr_Hp_Status.txt")
+dispr
+sink(file = NULL)
+
+tiff('k__Bacteria/Aitchison_betadisper_boxplot_Hp_Status.tiff',width =7, height = 7,units ='in',res=100)
+boxplot(dispr, main = "", xlab = "")
+dev.off()
+permutest(dispr)
+
+sink(file = "k__Bacteria/permutest_dispr_Hp_Status.txt")
+permutest(dispr)
+sink(file = NULL)
+
+#betadisper results are not significant, meaning we cannot reject the null hypothesis that our Hp_Statuss have the same dispersions. This means we can be more confident that  adonis result is a real result, and not due to differences in Hp_Status dispersions
+#betadisper results are significant = datasets do not have the same variances. can not simply say that the communities consist of different OTUs. Among the two Hp_Statuss there is a difference in the abundances between the OTUs. Or better the evenness is different between these two Hp_Statuss.check alpha diversity as an indication that the evenness between our Hp_Statuss is different
+
+#######references#######
+#https://academic.oup.com/bib/article/21/6/1954/5643537#218012433
+#https://evayiwenwang.github.io/Managing_batch_effects/adjust.html
+########################
+
+
+#################################
+### Perform differential abundance analysis using a generalized linear model on clr transformed abundances
+#################################
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########Beta diversity - PCA with Aitchison Distance##########
+##########Including Multivariate comparisons####################
+
+#load biom data and metadata tables
+biom <-import_biom('combined_bracken_genuses138.biom')
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+meta = sample_data(metadata)
+phyloseqin = merge_phyloseq(biom,meta)
+phyloseqin = subset_taxa(phyloseqin, Rank1 == "k__Bacteria")
+phyloseqin = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+
+
+#clr-transformed compositions of otu table
+(ps_clr <- microbiome::transform(phyloseqin, "clr"))
+
+# Apply GLM on clr transformed data for all taxa
+results <- data.frame()
+for (i in 1:length(taxa_names(ps_clr))){
+
+  asv <- taxa_names(ps_clr)[i]
+ 
+  mod <- glm(as.vector(otu_table(ps_clr)[i]) ~ sample_data(ps_clr)$Hp_Status)
+  
+  beta <- summary(mod)$coefficients[2,1]
+  se <- summary(mod)$coefficients[2,2]
+  pval <- summary(mod)$coefficients[2,4]
+
+  results <- rbind(results, data.frame(Representative_ASV = asv,  Beta = beta, SE = se, P = pval))
+}
+
+# Perform FDR correction for pvalues
+results$FDR_BH <- p.adjust(results$P, method = 'BH')
+
+# Add taxa designations to table
+results <- inner_join(results, rownames_to_column(data.frame(tax_table(ps_clr)), "Representative_ASV"), by = "Representative_ASV")
+
+write.table(results, "k__Bacteria/GLM_CLR_Hp_Status.txt", quote = F, sep="\t", row.names = F)
+
+#################################
+### Perform differential abundance testing using using Welch's t-test on clr transformed abundances
+#################################
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########Beta diversity - PCA with Aitchison Distance##########
+##########Including Multivariate comparisons####################
+
+#load biom data and metadata tables
+biom <-import_biom('combined_bracken_genuses138.biom')
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+meta = sample_data(metadata)
+phyloseqin = merge_phyloseq(biom,meta)
+phyloseqin = subset_taxa(phyloseqin, Rank1 == "k__Bacteria")
+phyloseqin = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+
+
+#clr-transformed compositions of otu table
+(ps_clr <- microbiome::transform(phyloseqin, "clr"))
+
+# Loop t-test for all taxa
+results <- data.frame()
+for (i in 1:length(taxa_names(ps_clr))){
+
+  asv <- taxa_names(ps_clr)[i]
+  
+  case_mclr <- mean(otu_table(subset_samples(ps_clr, Hp_Status == "Hp_Positive"))[i])
+  cont_mclr <- mean(otu_table(subset_samples(ps_clr, Hp_Status == "Hp_Negative"))[i])
+  mclrr <- case_mclr/cont_mclr
+ 
+  pval <- t.test(as.vector(otu_table(ps_clr)[i]) ~ sample_data(ps_clr)$Hp_Status)$p.value
+  
+  results <- rbind(results, data.frame(Representative_ASV = asv, 
+                                       Case_Mean_CLR = case_mclr, 
+                                       Control_Mean_CLR = cont_mclr, 
+                                       Mean_CLR_Ratio = mclrr, 
+                                       P = pval))
+}
+                                 
+# Perform FDR correction for pvalues
+results$FDR_BH <- p.adjust(results$P, method = 'BH')
+
+# Add taxa designations to table
+results <- inner_join(results, rownames_to_column(data.frame(tax_table(ps_clr)), "Representative_ASV"), by = "Representative_ASV")
+
+# Write out results
+write.table(results, "k__Bacteria/t_test_CLR_Hp_Status.txt", quote = F, sep="\t", row.names = F)
+
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########Beta diversity - PCA with Aitchison Distance and removeBatchEffect Correction##########
+##########Including Multivariate comparisons####################
+
+#load biom data and metadata tables
+biom <-import_biom('combined_bracken_genuses138.biom')
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+meta = sample_data(metadata)
+phyloseqin = merge_phyloseq(biom,meta)
+phyloseqin = subset_taxa(phyloseqin, Rank1 == "k__Bacteria")
+phyloseqin = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+
+#clr-transformed compositions of otu table
+(ps_clr <- microbiome::transform(phyloseqin, "clr"))
+
+#batch correction
+ps_clr.limma <- removeBatchEffect(otu_table(ps_clr), batch = sample_data(ps_clr)$batch)
+#remake phyloseq objects
+ps_clr.limma.otu=otu_table(ps_clr.limma, taxa_are_rows = TRUE)
+ps_clr.tax=tax_table(ps_clr)
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+sampledata = sample_data(metadata)
+ps_clr_limma=phyloseq(ps_clr.limma.otu, ps_clr.tax,sampledata)
+
+#Aitchison Distance ordination
+ord_clr_limma <- phyloseq::ordinate(ps_clr_limma, "PCoA", "euclidean")
+plot_ordination(ps_clr_limma, ord_clr_limma, type="Sample", color="Hp_Status")+ geom_point(size = 4)+ geom_text(mapping=aes(label=Location),size=4,vjust=1.5)+stat_chull(aes(color = Hp_Status, fill = Hp_Status), alpha = 0.1, geom = "polygon")
+ggsave('k__Bacteria/removeBatcheffect_Aitchison_PCA_plot_Hp_Status_chull.tiff')
+
+#Permutational ANOVA (PERMANOVA) analysis with adonis: partitioning the sums of squares for the within- and between-cluster components using the concept of centroids
+#adonis significant p-value --> reject the null hypothesis that our Hp_Statuss have the same centroid.
+distances = phyloseq::distance(ps_clr_limma, method="euclidean")
+adonis(distances ~ sample_data(ps_clr_limma)$Hp_Status)
+
+sink(file = "k__Bacteria/removeBatcheffect_adonis_Hp_Status.txt")
+adonis(distances ~ sample_data(ps_clr_limma)$Hp_Status)
+sink(file = NULL)
+
+#Analysis of Similarities (ANOSIM): permutational non-parametric test of significance of the sample-Hp_Statusing against a null-hypothesis. identifies if the between Hp_Statuss difference is larger than the within Hp_Statuss difference
+Hp_Status = get_variable(ps_clr_limma, "Hp_Status")
+anosim(distances, Hp_Status)
+
+sink(file = "k__Bacteria/removeBatcheffect_anosim_Hp_Status.txt")
+anosim(distances, Hp_Status)
+sink(file = NULL)
+
+#test  multivariate test for homogeneity of Hp_Status dispersions (variances) with betadisper: ADONIS can be confounded by differences in dispersion (or spread)
+dispr <- vegan::betadisper(distances, phyloseq::sample_data(ps_clr_limma)$Hp_Status)
+dispr
+
+sink(file = "k__Bacteria/removeBatcheffect_dispr_Hp_Status.txt")
+dispr
+sink(file = NULL)
+
+tiff('k__Bacteria/removeBatcheffect_Aitchison_betadisper_boxplot_Hp_Status.tiff',width =7, height = 7,units ='in',res=100)
+boxplot(dispr, main = "", xlab = "")
+dev.off()
+permutest(dispr)
+
+sink(file = "k__Bacteria/removeBatcheffect_permutest_dispr_Hp_Status.txt")
+permutest(dispr)
+sink(file = NULL)
+
+#betadisper results are not significant, meaning we cannot reject the null hypothesis that our Hp_Statuss have the same dispersions. This means we can be more confident that  adonis result is a real result, and not due to differences in Hp_Status dispersions
+#betadisper results are significant = datasets do not have the same variances. can not simply say that the communities consist of different OTUs. Among the two Hp_Statuss there is a difference in the abundances between the OTUs. Or better the evenness is different between these two Hp_Statuss.check alpha diversity as an indication that the evenness between our Hp_Statuss is different
+
+#######references#######
+#https://academic.oup.com/bib/article/21/6/1954/5643537#218012433
+#https://evayiwenwang.github.io/Managing_batch_effects/adjust.html
+########################
+
+
+#################################
+### Perform differential abundance analysis using a generalized linear model on clr transformed abundances
+#################################
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########Beta diversity - PCA with Aitchison Distance and removeBatcheffect Correction##########
+##########Including Multivariate comparisons####################
+
+#load biom data and metadata tables
+biom <-import_biom('combined_bracken_genuses138.biom')
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+meta = sample_data(metadata)
+phyloseqin = merge_phyloseq(biom,meta)
+phyloseqin = subset_taxa(phyloseqin, Rank1 == "k__Bacteria")
+phyloseqin = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+
+
+#clr-transformed compositions of otu table
+(ps_clr <- microbiome::transform(phyloseqin, "clr"))
+
+ps_clr.limma <- removeBatchEffect(otu_table(ps_clr), batch = sample_data(ps_clr)$batch)
+
+#ps_clr into OTU table  
+
+ps_clr.limma.otu=otu_table(ps_clr.limma, taxa_are_rows = TRUE)
+ps_clr.tax=tax_table(ps_clr)
+
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+sampledata = sample_data(metadata)
+ps=phyloseq(ps_clr.limma.otu, ps_clr.tax,sampledata)
+
+# Apply GLM on clr transformed data for all taxa
+results <- data.frame()
+for (i in 1:length(taxa_names(ps))){
+
+  asv <- taxa_names(ps)[i]
+ 
+  mod <- glm(as.vector(otu_table(ps)[i]) ~ sample_data(ps)$Hp_Status)
+  
+  beta <- summary(mod)$coefficients[2,1]
+  se <- summary(mod)$coefficients[2,2]
+  pval <- summary(mod)$coefficients[2,4]
+
+  results <- rbind(results, data.frame(Representative_ASV = asv,  Beta = beta, SE = se, P = pval))
+}
+
+# Perform FDR correction for pvalues
+results$FDR_BH <- p.adjust(results$P, method = 'BH')
+
+# Add taxa designations to table
+results <- inner_join(results, rownames_to_column(data.frame(tax_table(ps)), "Representative_ASV"), by = "Representative_ASV")
+
+write.table(results, "k__Bacteria/removeBatcheffect_GLM_CLR_Hp_Status.txt", quote = F, sep="\t", row.names = F)
+
+#################################
+### Perform differential abundance testing using using Welch's t-test on clr transformed abundances
+#################################
+
+#######delete all variables to start over######
+rm(list=ls())
+###############################################
+
+##########Beta diversity - PCA with Aitchison Distance and removeBatchEffect Correction##########
+##########Including Multivariate comparisons####################
+
+#load biom data and metadata tables
+biom <-import_biom('combined_bracken_genuses138.biom')
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+meta = sample_data(metadata)
+phyloseqin = merge_phyloseq(biom,meta)
+phyloseqin = subset_taxa(phyloseqin, Rank1 == "k__Bacteria")
+phyloseqin = tax_glom(phyloseqin, taxrank="Rank6", NArm=FALSE)
+
+#clr-transformed compositions of otu table
+(ps_clr <- microbiome::transform(phyloseqin, "clr"))
+
+ps_clr.limma <- removeBatchEffect(otu_table(ps_clr), batch = sample_data(ps_clr)$batch)
+
+#ps_clr into OTU table  
+
+ps_clr.limma.otu=otu_table(ps_clr.limma, taxa_are_rows = TRUE)
+ps_clr.tax=tax_table(ps_clr)
+
+metadata <- read.delim("meta.txt", header=TRUE, sep = "\t",row.names = 1)
+sampledata = sample_data(metadata)
+ps=phyloseq(ps_clr.limma.otu, ps_clr.tax,sampledata)
+
+# Loop t-test for all taxa
+results <- data.frame()
+for (i in 1:length(taxa_names(ps))){
+
+  asv <- taxa_names(ps)[i]
+  
+  case_mclr <- mean(otu_table(subset_samples(ps, Hp_Status == "Hp_Positive"))[i])
+  cont_mclr <- mean(otu_table(subset_samples(ps, Hp_Status == "Hp_Negative"))[i])
+  mclrr <- case_mclr/cont_mclr
+ 
+  pval <- t.test(as.vector(otu_table(ps)[i]) ~ sample_data(ps)$Hp_Status)$p.value
+  
+  results <- rbind(results, data.frame(Representative_ASV = asv, 
+                                       Case_Mean_CLR = case_mclr, 
+                                       Control_Mean_CLR = cont_mclr, 
+                                       Mean_CLR_Ratio = mclrr, 
+                                       P = pval))
+}
+                                 
+# Perform FDR correction for pvalues
+results$FDR_BH <- p.adjust(results$P, method = 'BH')
+
+# Add taxa designations to table
+results <- inner_join(results, rownames_to_column(data.frame(tax_table(ps)), "Representative_ASV"), by = "Representative_ASV")
+
+# Write out results
+write.table(results, "k__Bacteria/removeBatcheffect_t_test_CLR_Hp_Status.txt", quote = F, sep="\t", row.names = F)

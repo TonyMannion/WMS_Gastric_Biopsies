@@ -1,0 +1,15 @@
+
+Call:
+adonis(formula = distances ~ sample_data(ps_clr_limma)$Risk) 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+                               Df SumsOfSqs MeanSqs F.Model     R2 Pr(>F)  
+sample_data(ps_clr_limma)$Risk  1     931.3  931.28  1.7845 0.0902  0.031 *
+Residuals                      18    9393.7  521.87         0.9098         
+Total                          19   10325.0                 1.0000         
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
