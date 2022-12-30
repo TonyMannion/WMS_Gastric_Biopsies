@@ -8,5 +8,5 @@ ggplot(culture, aes(Sample_ID, Genus, fill = factor(category))) +
   geom_tile(colour = "black") + 
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
   scale_fill_manual(values=c("Culture (+)"="blue", "Culture (+), 16s rRNA (+)"="red", "Culture (+), Metagenomics (+)"="Green", "Culture (+), 16s rRNA (+), Metagenomics (+)"="Orange"))+
-  labs(x = "Sample", y = "Genus", fill = "")
-ggsave('culture_vs_16_vs_metagenome_heatmap.tiff')
+  labs(x = "Sample", y = "Genus", fill = "") + facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1)
+ggsave('culture_vs_16_vs_metagenome_heatmap.tiff' , width=10, height=7.5, units=c("in"))
