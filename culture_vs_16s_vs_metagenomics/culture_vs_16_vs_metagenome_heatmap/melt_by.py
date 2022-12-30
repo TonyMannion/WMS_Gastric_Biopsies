@@ -4,7 +4,7 @@ import numpy as np
 
 
 df1 = pd.read_csv('combined_OTUs_binary_table.txt', sep='\t') # change if deliminter is "\t" for non-csv files 
-print df1
+
 df2 =df1.melt(id_vars=['Key'])
 
 df2['Sample_ID']=df2['Key'].str.split('_').str[0]
@@ -49,7 +49,11 @@ df3['category'] = np.select(conditions2, choices2, default='drop_row')
 df3['Sample_ID_Genus']=df3.index
 df3[['Sample_ID','Genus']] = df3['Sample_ID_Genus'].str.split('_',expand=True)
 
-
 df4=df3[df3['category'].str.contains('drop')==False]
 
-df4.to_csv('melted_combined_OTUs_binary_table.txt', sep='\t',columns = ['Sample_ID','Genus','category'])
+df5 = pd.read_csv('meta.txt', sep='\t') # change if deliminter is "\t" for non-csv files 
+
+df6 = df4.merge(df5, left_on='Sample_ID', right_on='Location')
+
+
+df6.to_csv('melted_combined_OTUs_binary_table.txt', sep='\t',columns = ['Sample_ID','Genus','category','Hp_Status','Risk_Group'])
