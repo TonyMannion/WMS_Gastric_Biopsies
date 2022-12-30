@@ -1,0 +1,58 @@
+	Sample_ID	Genus	category	Hp_Status	Risk_Group
+0	A4	Aerococcus	Culture (+)	Hp_Negative	High_Risk
+1	A4	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	High_Risk
+2	A4	Gordonia	Culture (+), 16s rRNA (+)	Hp_Negative	High_Risk
+3	A4	Staphylococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	High_Risk
+4	A4	Streptococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	High_Risk
+5	A5	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	Low_Risk
+6	A5	Streptococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	Low_Risk
+7	A5	Veillonella	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	Low_Risk
+8	B4	Helicobacter	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+9	B5	Enterococcus	Culture (+), Metagenomics (+)	Hp_Positive	Low_Risk
+10	B5	Helicobacter	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+11	C2	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+12	C2	Helicobacter	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+13	C2	Streptococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+14	C4	Actinomyces	Culture (+), Metagenomics (+)	Hp_Positive	High_Risk
+15	C4	Arthrobacter	Culture (+), Metagenomics (+)	Hp_Positive	High_Risk
+16	C4	Atopobium	Culture (+)	Hp_Positive	High_Risk
+17	C4	Neisseria	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+18	C4	Prevotella	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+19	C4	Rothia	Culture (+), Metagenomics (+)	Hp_Positive	High_Risk
+20	C4	Staphylococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+21	C4	Streptococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+22	C4	Veillonella	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+23	C5	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+24	D3	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+25	D3	Helicobacter	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+26	D3	Moraxella	Culture (+), Metagenomics (+)	Hp_Positive	High_Risk
+27	D3	Staphylococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+28	D4	Campylobacter	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+29	D4	Helicobacter	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+30	D4	Streptococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+31	D5	Bacillus	Culture (+), Metagenomics (+)	Hp_Positive	Low_Risk
+32	D5	Cutibacterium/Propionibacterium	Culture (+), Metagenomics (+)	Hp_Positive	Low_Risk
+33	D5	Helicobacter	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+34	E2	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+35	E4	Actinomyces	Culture (+), Metagenomics (+)	Hp_Positive	High_Risk
+36	E4	Atopobium	Culture (+)	Hp_Positive	High_Risk
+37	E4	Gemella	Culture (+), 16s rRNA (+)	Hp_Positive	High_Risk
+38	E4	Mogibacterium	Culture (+), 16s rRNA (+)	Hp_Positive	High_Risk
+39	E4	Streptococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+40	E4	Veillonella	Culture (+), 16s rRNA (+)	Hp_Positive	High_Risk
+41	E5	Streptococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	High_Risk
+42	F2	Helicobacter	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+43	F3	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	Low_Risk
+44	F3	Lactobacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	Low_Risk
+45	F3	Staphylococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	Low_Risk
+46	F3	Streptococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	Low_Risk
+47	G2	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	High_Risk
+48	G2	Cutibacterium/Propionibacterium	Culture (+), Metagenomics (+)	Hp_Negative	High_Risk
+49	H2	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	High_Risk
+50	H2	Paenibacillus	Culture (+), Metagenomics (+)	Hp_Negative	High_Risk
+51	H2	Staphylococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	High_Risk
+52	H2	Streptococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Negative	High_Risk
+53	H4	Bacillus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+54	H4	Gordonia	Culture (+)	Hp_Positive	Low_Risk
+55	H4	Helicobacter	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
+56	H4	Staphylococcus	Culture (+), 16s rRNA (+), Metagenomics (+)	Hp_Positive	Low_Risk
