@@ -1,12 +1,21 @@
 install.packages("tidyverse")
 library("tidyverse")
+install.packages("remotes")
+remotes::install_github("coolbutuseless/ggpattern")
+library(ggpattern)
+
 
 #load dataframe
 culture <- read.delim("melted_combined_OTUs_binary_table.txt", header=TRUE, sep = "\t",row.names = 1)
 
-ggplot(culture, aes(Sample_ID, Genus, fill = factor(category))) + 
-  geom_tile(colour = "black") + 
+  ggplot(culture, aes(Sample_ID, Genus,fill = factor(category))) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
-  scale_fill_manual(values=c("Culture (+)"="blue", "Culture (+), 16s rRNA (+)"="red", "Culture (+), Metagenomics (+)"="Green", "Culture (+), 16s rRNA (+), Metagenomics (+)"="Orange"))+
-  labs(x = "Sample", y = "Genus", fill = "") + facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1)
-ggsave('culture_vs_16_vs_metagenome_heatmap.tiff' , width=10, height=7.5, units=c("in"))
+  geom_tile_pattern(aes(pattern = culture),pattern_color = NA,pattern_fill = "black",colour = "black")+
+  scale_fill_manual(values=c("16s rRNA (+)" = "#619CFF","WMS (+)" = "#00BA38","16s rRNA (+), WMS (+)"="#F8766D","Culture (+)"="white"),breaks = c("16s rRNA (+)","WMS (+)","16s rRNA (+), WMS (+)"))+ 
+  scale_pattern_manual(values = c(Yes="stripe", No="none"),breaks = c('Yes','No')) + 
+  facet_wrap(Hp_Status~Risk_Group, scales='free_x', nrow=1)+ 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  labs(x = "Sample", y = "Genus", fill = "Detected by 16S rRNA or WMS",pattern = "Detected by Culture")+
+  guides(pattern = guide_legend(override.aes = list(fill = "white"),order=2),fill = guide_legend(override.aes = list(pattern =  "none"),order=1))+
+  theme(legend.key.size = unit(1, 'cm'))
+  ggsave('culture_vs_16_vs_metagenome_heatmap.tiff' , width=10, height=7.5, units=c("in"))
