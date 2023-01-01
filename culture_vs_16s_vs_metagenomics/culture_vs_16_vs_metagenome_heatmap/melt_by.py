@@ -34,7 +34,10 @@ conditions2 = [
     df3['scores'].eq(1),
     df3['scores'].eq(11),
     df3['scores'].eq(21),
-	df3['scores'].eq(31)
+	df3['scores'].eq(31),
+	df3['scores'].eq(10),
+	df3['scores'].eq(20),
+	df3['scores'].eq(30),
 ]
 
 #codes
@@ -42,12 +45,70 @@ conditions2 = [
 #11 = Culture (+), 16s rRNA (+)
 #21 = Culture (+), Metagenomics (+)
 #31 = Culture (+), 16s rRNA (+), Metagenomics (+)
+#10 = 16s rRNA (+)
+#20 = Metagenomics (+)
+#30 = 16s rRNA (+), Metagenomics (+)
 
-choices2 = ['Culture (+)','Culture (+), 16s rRNA (+)','Culture (+), Metagenomics (+)','Culture (+), 16s rRNA (+), Metagenomics (+)']
+choices2 = ['Culture (+)','Culture (+), 16s rRNA (+)','Culture (+), Metagenomics (+)','Culture (+), 16s rRNA (+), Metagenomics (+)','16s rRNA (+)','Metagenomics (+)','16s rRNA (+), Metagenomics (+)']
 
-df3['category'] = np.select(conditions2, choices2, default='drop_row')
+df3['detection_results'] = np.select(conditions2, choices2, default='drop_row')
+
+conditions3 = [
+    df3['scores'].eq(1),
+    df3['scores'].eq(11),
+    df3['scores'].eq(21),
+	df3['scores'].eq(31),
+	df3['scores'].eq(10),
+	df3['scores'].eq(20),
+	df3['scores'].eq(30),
+]
+
+#codes
+#1= Culture (+)
+#11 = Culture (+), 16s rRNA (+)
+#21 = Culture (+), Metagenomics (+)
+#31 = Culture (+), 16s rRNA (+), Metagenomics (+)
+#10 = 16s rRNA (+)
+#20 = Metagenomics (+)
+#30 = 16s rRNA (+), Metagenomics (+)
+
+choices3 = ['Culture (+)','16s rRNA (+)','WMS (+)','16s rRNA (+), WMS (+)','16s rRNA (+)','WMS (+)','16s rRNA (+), WMS (+)']
+
+df3['category'] = np.select(conditions3, choices3, default='drop_row')
+
+
+conditions4 = [
+    df3['scores'].eq(1),
+    df3['scores'].eq(11),
+    df3['scores'].eq(21),
+	df3['scores'].eq(31),
+	df3['scores'].eq(10),
+	df3['scores'].eq(20),
+	df3['scores'].eq(30),
+]
+
+#codes
+#1= Culture (+)
+#11 = Culture (+), 16s rRNA (+)
+#21 = Culture (+), Metagenomics (+)
+#31 = Culture (+), 16s rRNA (+), Metagenomics (+)
+#10 = 16s rRNA (+)
+#20 = Metagenomics (+)
+#30 = 16s rRNA (+), Metagenomics (+)
+
+choices4 = ['Yes','Yes','Yes','Yes','No','No','No']
+
+
+df3['culture'] = np.select(conditions4, choices4, default='drop_row')
+
+
+
 df3['Sample_ID_Genus']=df3.index
 df3[['Sample_ID','Genus']] = df3['Sample_ID_Genus'].str.split('_',expand=True)
+
+
+
+
 
 df4=df3[df3['category'].str.contains('drop')==False]
 
@@ -56,4 +117,4 @@ df5 = pd.read_csv('meta.txt', sep='\t') # change if deliminter is "\t" for non-c
 df6 = df4.merge(df5, left_on='Sample_ID', right_on='Location')
 
 
-df6.to_csv('melted_combined_OTUs_binary_table.txt', sep='\t',columns = ['Sample_ID','Genus','category','Hp_Status','Risk_Group'])
+df6.to_csv('melted_combined_OTUs_binary_table.txt', sep='\t',columns = ['Sample_ID','Genus','category','Hp_Status','Risk_Group','culture','detection_results'])
