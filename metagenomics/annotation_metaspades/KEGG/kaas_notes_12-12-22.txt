@@ -1,29 +1,3 @@
-
-
-
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2140/Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2140.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2141/Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2141.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2142/Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2142.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2143/Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2143.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2144/Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2144.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2145/Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2145.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2146/Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2146.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2147/Bacteria metaspades_Bacteria_Archaea_210222Fox_D21-2147.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-
-
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6682/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6682.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6683/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6683.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6684/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6684.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6685/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6685.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6686/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6686.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6687/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6687.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6688/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6688.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6689/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6689.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6690/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6690.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6691/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6691.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6692/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6692.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-p3-cp "ws:/anthonymannion@patricbrc.org/home/Colombian_WMS/metaspades/.Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6693/Bacteria metaspades_Bacteria_Archaea_210713Fox_D21-6693.feature_protein.fasta" "C:\Users\AMannion\OneDrive - Evelo Biosciences\Desktop\annotations"
-
 copy *fasta merged_protein.fasta \b
 
 kaas input on merged_protein.fasta
