@@ -1,21 +1,21 @@
-Genus	A4_culture	A5_culture	B4_culture	B5_culture	C2_culture	C4_culture	C5_culture	D3_culture	D4_culture	D5_culture	E1_culture	E2_culture	E4_culture	E5_culture	F2_culture	F3_culture	G1_culture	G2_culture	H2_culture	H4_culture
-Actinomyces	0	0	0	0	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0
-Aerococcus	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Arthrobacter	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Atopobium	0	0	0	0	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0
-Bacillus	1	4	0	0	1	0	2	2	0	1	0	1	0	0	0	2	0	1	1	1
-Campylobacter	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
-Enterococcus	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Gemella	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
-Gordonia	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
-Lactobacillus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
-Mogibacterium	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
-Moraxella	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
-Neisseria	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Paenibacillus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
-Prevotella	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Propionibacterium	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
-Rothia	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Staphylococcus	2	0	0	0	0	1	0	7	0	0	0	0	0	0	0	2	0	0	8	4
-Streptococcus	1	15	0	0	1	10	0	0	1	0	0	0	8	1	0	5	0	0	2	0
-Veillonella	0	1	0	0	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+Genus	G1_culture	D4_culture	E4_culture	D3_culture	E1_culture	A5_culture	H4_culture	C5_culture	F2_culture	G2_culture	A4_culture	H2_culture	C4_culture	E2_culture	E5_culture	F3_culture	B4_culture	C2_culture	D5_culture	B5_culture
+Actinomyces (Ae, An)	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Aerococcus (An)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Arthrobacter (Ae)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Atopobium (An)	0	0	3	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacillus (Ae, An, M)	0	0	0	2	0	4	1	2	0	1	1	1	0	1	0	2	0	1	1	0
+Campylobacter (M)	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Enterococcus (An)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Gemella (An)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Gordonia (Ae, M)	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0
+Lactobacillus (An, M)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+Mogibacterium (An)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Moraxella (M)	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Neisseria (Ae)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Paenibacillus (An)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+Prevotella (An)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Cutibacterium/Propionibacterium (An)	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0
+Rothia (Ae, M)	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0
+Staphylococcus (Ae, An, M)	0	0	0	7	0	0	4	0	0	0	2	8	1	0	0	2	0	0	0	0
+Streptococcus (Ae, An, M)	0	1	8	0	0	15	0	0	0	0	1	2	10	0	1	5	0	1	0	0
+Veillonella (An)	0	0	2	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0
